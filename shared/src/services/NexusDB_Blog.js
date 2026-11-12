@@ -1,4 +1,4 @@
-import { NexusPingEngine } from "@settings/utils/NexusPingEngine.js";
+import { NexusPingEngine } from "@shared/utils/NexusPingEngine.js";
 import { supabase } from "@shared//services/NexusDB_Supabase.js";
 import { APP_ID, dbCore } from "@shared/data/nexusConfig.js";
 import fallbackData from "@shared/data/nexusFallback.json";
@@ -9,6 +9,7 @@ export const NexusDB_Blog = {
   // ==========================================================================
   // 📡 POSTS (HLAVNÝ FEED BLOGU)
   // ==========================================================================
+  
   subscribeToPosts(onData) {
     if (EXODUS_CONFIG.ACTIVE_PROVIDER === "LOCAL" || !dbCore) {
       onData(fallbackData?.posts || []);
@@ -675,6 +676,8 @@ export const NexusDB_Blog = {
       else onData(null);
     });
   },
+
+  
 
   // ==========================================================================
   // 🎬 NODE VIDEOS UPDATE (EXODUS PROTOCOL)

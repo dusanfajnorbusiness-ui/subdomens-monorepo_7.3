@@ -32,7 +32,7 @@ import { GlobalComponents } from "@shared/components/GlobalComponents.jsx";
 import { GlobalHamburgerMenu } from "@shared/components/GlobalHamburgerMenu.jsx";
 import GlobalFooter from "@shared/components/GlobalFooter.jsx";
 import { SoundFX } from "@shared/utils/SoundEngine.js";
-
+import { SystemLogModal } from "@shared/components/SystemLogModal.jsx";
 import { GlobalNexusDropdown } from "@shared/components/GlobalNexusDropdown.jsx";
 import { NexusThemePropsProvider } from "@shared/components/NexusThemePropsContext.jsx";
 export const CORE_VERSION = "SUBDOMAINS-APP V20.95_STABLE";
@@ -40,45 +40,28 @@ import PrivacyPage from "@shared/pages/PrivacyPage.jsx";
 import VopPage from "@shared/pages/VopPage.jsx";
 import { useLocation, useNavigate, Routes, Route } from "react-router-dom";
 
-
 // 🛡️ DETEKTOR VÝCHODZIEHO ID Z HOSTNAME / PORTU
 const getInitialSubId = () => {
   if (typeof window === "undefined" || !window.location) return "SUB 00";
   const host = String(window.location.hostname || "").toLowerCase();
   const port = String(window.location.port || "");
 
-  if (port === "51800") return "SUB 00";
-  if (port === "51801") return "SUB 01";
-  if (port === "51802") return "SUB 02";
-  if (port === "51803") return "SUB 03";
-  if (port === "51804") return "SUB 04";
-  if (port === "51805") return "SUB 05";
-  if (port === "51806") return "SUB 06";
-  if (port === "51807") return "SUB 07";
-  if (port === "51808") return "SUB 08";
-  if (port === "51809") return "SUB 09";
-  if (port === "51810") return "SUB 10";
-  if (port === "51811") return "SUB 11";
-  if (port === "51812") return "SUB 12";
-  if (port === "51813") return "SUB 13";
-  if (port === "51814") return "SUB 14";
-  if (port === "51815") return "SUB 15";
-
-  if (host.includes("personal")) return "SUB 01";
-  if (host.includes("work")) return "SUB 02";
-  if (host.includes("finance")) return "SUB 03";
-  if (host.includes("business")) return "SUB 04";
-  if (host.includes("investments")) return "SUB 05";
-  if (host.includes("study")) return "SUB 06";
-  if (host.includes("professional")) return "SUB 07";
-  if (host.includes("reader")) return "SUB 08";
-  if (host.includes("player")) return "SUB 09";
-  if (host.includes("home")) return "SUB 10";
-  if (host.includes("recovery")) return "SUB 11";
-  if (host.includes("codex")) return "SUB 12";
-  if (host.includes("habits")) return "SUB 13";
-  if (host.includes("blog")) return "SUB 14";
-  if (host.includes("death")) return "SUB 15";
+  if (port === "51800" || host.startsWith("mentor.")) return "SUB 00";
+  if (port === "51801" || host.includes("personal")) return "SUB 01";
+  if (port === "51802" || host.includes("work")) return "SUB 02";
+  if (port === "51803" || host.includes("finance")) return "SUB 03";
+  if (port === "51804" || host.includes("business")) return "SUB 04";
+  if (port === "51805" || host.includes("investments")) return "SUB 05";
+  if (port === "51806" || host.includes("study")) return "SUB 06";
+  if (port === "51807" || host.includes("professional")) return "SUB 07";
+  if (port === "51808" || host.includes("reader")) return "SUB 08";
+  if (port === "51809" || host.includes("player")) return "SUB 09";
+  if (port === "51810" || host.includes("home")) return "SUB 10";
+  if (port === "51811" || host.includes("recovery")) return "SUB 11";
+  if (port === "51812" || host.includes("codex")) return "SUB 12";
+  if (port === "51813" || host.includes("habits")) return "SUB 13";
+  if (port === "51814" || host.includes("blog")) return "SUB 14";
+  if (port === "51815" || host.includes("death")) return "SUB 15";
 
   return "SUB 00";
 };
@@ -87,25 +70,42 @@ export const App = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  // 🧭 Kontrola, či sme na priamej subdoméne mentora
+  const currentHost =
+    typeof window !== "undefined"
+      ? String(window.location.hostname || "").toLowerCase()
+      : "";
+  const isDirectMentor = currentHost.startsWith("mentor.");
+  const HUB_URL = String(
+    import.meta.env.VITE_APP_URL || "https://subdomens.projekt-nexus.sk",
+  );
+
   // 🧭 1. DETEKCIA POČIATOČNÉHO STAVU Z URL
   const getInitialRouteState = () => {
     if (typeof window === "undefined") {
-      return { id: "SUB00", isHome: true };
+      return { id: "SUB 00", isHome: !isDirectMentor };
     }
-    const path = String(window.location.pathname || "").toLowerCase().trim();
+    const path = String(window.location.pathname || "")
+      .toLowerCase()
+      .trim();
 
-    // Podpora koreňa aj aliasu /home
+    // Ak sme na doméne mentor.projekt-nexus.sk, isHome je VŽDY FALSE (je to samostatná subdoména)
+    if (isDirectMentor) {
+      return { id: "SUB 00", isHome: false };
+    }
+
+    // Podpora koreňa aj aliasu /home pre centrálu subdomén
     if (path === "/" || path === "" || path === "/home") {
-      return { id: "SUB00", isHome: true };
+      return { id: "SUB 00", isHome: true };
     }
 
     const match = path.match(/\/sub(\d{1,2})/);
     if (match && match.at(1)) {
       const num = String(match.at(1)).padStart(2, "0");
-      return { id: `SUB${num}`, isHome: false };
+      return { id: `SUB ${num}`, isHome: false };
     }
 
-    return { id: "SUB00", isHome: true };
+    return { id: "SUB 00", isHome: true };
   };
 
   const [routeState, setRouteState] = useState(getInitialRouteState);
@@ -114,7 +114,9 @@ export const App = () => {
 
   // 🧭 2. REAKTÍVNA SYNCHRONIZÁCIA PRI ZMENE LOCATION.PATHNAME
   useEffect(() => {
-    const rawPath = String(location.pathname || "/").toLowerCase().trim();
+    const rawPath = String(location.pathname || "/")
+      .toLowerCase()
+      .trim();
 
     // 1. Ak sme na koreňovej nástenke alebo na /home:
     if (rawPath === "/" || rawPath === "" || rawPath === "/home") {
@@ -164,7 +166,7 @@ export const App = () => {
       window.removeEventListener("nexus_select_subdomain", handleSubSelect);
     };
   }, [navigate]);
-  
+
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
   const cleanSubNum = String(activeSubId).replace(/\D/g, "").padStart(2, "0");
 
@@ -220,7 +222,6 @@ export const App = () => {
     return () => window.removeEventListener("popstate", handlePopState);
   }, []);
 
-// ⚡⚡⚡ ZAČIATOK OPRAVA: ZJEDNOTENÝ REACT ROUTER DISPEČING PRE SUBDOMÉNY AJ HOME ⚡⚡⚡
   // 🔄 CENTRÁLNY HANDLER PREPÍNANIA SUBDOMÉN (VOLANÝ Z DROPDOWNU AJ MRIEŽKY)
   const handleSelectSub = (newSubId) => {
     if (SoundFX?.click) SoundFX.click();
@@ -230,7 +231,8 @@ export const App = () => {
       ? newSubId.join("")
       : String(newSubId || "");
     const match = rawStr.match(/\d{1,2}/);
-    const cleanNum = match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
+    const cleanNum =
+      match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
 
     const targetId = `SUB ${cleanNum}`;
     const targetPath = cleanNum === "00" ? "/home" : `/sub${cleanNum}`;
@@ -243,13 +245,40 @@ export const App = () => {
     navigate(targetPath);
   };
 
-  // 🏠 NÁVRAT NA DEFAULT HOME (RESET)
   const handleHomeClick = () => {
     if (SoundFX?.click) SoundFX.click();
+
+    // Ak sme na mentor.projekt-nexus.sk, fyzicky vynulujeme adresu a ideme na centrálu
+    if (isDirectMentor) {
+      console.log(
+        "🔄 [NEXUS RESET] Opúšťam mentor. doménu -> smerujem na centrálu:",
+        HUB_URL,
+      );
+      window.location.href = `${HUB_URL}/home`;
+      return;
+    }
+
+    // Ak sme už na centrále subdomens., stačí reaktívny reset
     setRouteState({ id: "SUB 00", isHome: true });
     navigate("/home");
     setBootTrigger((prev) => prev + 1);
   };
+
+  // 1. Defenzívny stav pre System Log Modal
+  const [isSystemLogOpen, setIsSystemLogOpen] = useState(true);
+
+  // 2. Jednotný listener na globálny signál + voliteľný auto-trigger po boote
+  useEffect(() => {
+    const handleOpenLog = () => {
+      console.log("🚨 [SYSTEM LOG] Prijatý signál -> Otváram SystemLogModal");
+      setIsSystemLogOpen(true);
+    };
+
+    window.addEventListener("nexus_open_system_log", handleOpenLog);
+    return () => {
+      window.removeEventListener("nexus_open_system_log", handleOpenLog);
+    };
+  }, []);
 
   // 2. NEXUS ROUTING: PREDĹŽENÉ DOBY & TELEMETRIA BOOTU
   const [bootTrigger, setBootTrigger] = useState(0);
@@ -294,44 +323,59 @@ export const App = () => {
     };
   }, [activeSubId, bootTrigger]);
 
-   useEffect(() => {
+  useEffect(() => {
     // 1. Príjem signálu z Hamburger Menu (nexus_select_subdomain)
     const handleSubSelect = (e) => {
       const targetId = e.detail;
       if (targetId === "HOME") {
+        if (isDirectMentor) {
+          window.location.href = `${HUB_URL}/home`;
+          return;
+        }
         setRouteState((prev) => ({
           ...prev,
-          id: "SUB00",
+          id: "SUB 00",
           isHome: true,
         }));
+        navigate("/home");
       } else if (targetId) {
+        const rawStr = String(targetId);
+        const match = rawStr.match(/\d{1,2}/);
+        const cleanNum =
+          match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
+
         setRouteState((prev) => ({
           ...prev,
-          id: targetId,
-          isHome: false,
+          id: `SUB ${cleanNum}`,
+          isHome: cleanNum === "00" && !isDirectMentor ? true : false,
         }));
+        if (!isDirectMentor) {
+          navigate(cleanNum === "00" ? "/home" : `/sub${cleanNum}`);
+        }
       }
     };
     window.addEventListener("nexus_select_subdomain", handleSubSelect);
 
     const path = String(location.pathname || "").toLowerCase();
-    if (path === "/" || path === "") {
-      setRouteState((prev) => ({ ...prev, isHome: true }));
-    } else {
-      const match = path.match(/\/sub(\d{2})/);
-      if (match && match.at(1)) {
-        setRouteState((prev) => ({
-          ...prev,
-          id: `SUB${match.at(1)}`,
-          isHome: false,
-        }));
+    if (!isDirectMentor) {
+      if (path === "/" || path === "" || path === "/home") {
+        setRouteState((prev) => ({ ...prev, id: "SUB 00", isHome: true }));
+      } else {
+        const match = path.match(/\/sub(\d{2})/);
+        if (match && match.at(1)) {
+          setRouteState((prev) => ({
+            ...prev,
+            id: `SUB ${match.at(1)}`,
+            isHome: false,
+          }));
+        }
       }
     }
 
     return () => {
       window.removeEventListener("nexus_select_subdomain", handleSubSelect);
     };
-  }, [location.pathname]);
+  }, [location.pathname, isDirectMentor, HUB_URL, navigate]);
 
   // 3. IDENTITA OPERÁTORA (IZOLOVANÝ KONTRAKT)
   const [userState] = useState({
@@ -622,12 +666,21 @@ export const App = () => {
       {/* ==================================================================== */}
       <div className="w-full">
         {/* 🍔 GLOBÁLNE HAMBURGER MENU */}
-         <GlobalHamburgerMenu
-          activeTab={isDefaultHome ? "home" : (activeSubId || "home")}
+        <GlobalHamburgerMenu
+          activeTab={isDefaultHome ? "home" : activeSubId || "home"}
           themeColor={themeColor}
           activeSubId={activeSubId}
           currentSector={currentSector}
         />
+
+        {/* 🚨 GLOBÁLNY MODAL PRE SYSTÉMOVÝ LOG */}
+        {isSystemLogOpen && (
+          <SystemLogModal
+            isOpen={isSystemLogOpen}
+            onClose={() => setIsSystemLogOpen(false)}
+            themeColor={themeColor}
+          />
+        )}
 
         {/* 4. GLOBÁLNY FOOTER REAKTÍVNE PREPOJENÝ NA AKTÍVNU SUBDOMÉNU */}
         <GlobalFooter

@@ -164,10 +164,19 @@ export const GlobalFooter = ({
             <button
               type="button"
               onClick={() => {
+                if (typeof SoundFX?.click === "function") SoundFX.click();
+                console.log("🚨 [SYSTEM LOG] Odosielam globálny event nexus_open_system_log");
+                
+                // 1. Ak existuje prop, zavoláme ho
                 if (typeof onOpenSystemLog === "function") {
                   onOpenSystemLog();
                 } else if (typeof onNavigate === "function") {
                   onNavigate("system-log");
+                }
+                
+                // 2. V20 DEFENSIVE: Globálny odpal do celého okna pre App.jsx
+                if (typeof window !== "undefined") {
+                  window.dispatchEvent(new CustomEvent("nexus_open_system_log"));
                 }
               }}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border transition-all text-[9px] font-black uppercase tracking-widest hover:scale-[1.03]"
