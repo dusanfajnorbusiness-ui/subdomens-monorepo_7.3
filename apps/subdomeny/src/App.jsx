@@ -98,7 +98,7 @@ export const App = () => {
 
   // Zistíme, či bežíme na niektorej z autonómnych subdomén
   const matchedSubEntry = Object.entries(SUBDOMAIN_HOST_MAP).find(([prefix]) =>
-    currentHost.startsWith(prefix)
+    currentHost.startsWith(prefix),
   );
   const detectedSubId = matchedSubEntry ? matchedSubEntry.at(1) : null;
   const isDirectAutonomousSub = Boolean(detectedSubId);
@@ -234,7 +234,8 @@ export const App = () => {
       currentSub?.title ||
       (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
     name:
-      currentSub?.name || (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
+      currentSub?.name ||
+      (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
     themeColor: themeColor,
     color: themeColor,
     tier: currentSub?.tier || operatorTier,
@@ -278,7 +279,10 @@ export const App = () => {
 
     // Ak sme na akejkoľvek autonómnej subdoméne (personal., mentor., atď.), fyzicky skočíme na centrálu
     if (isDirectAutonomousSub) {
-      console.log("🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:", HUB_URL);
+      console.log(
+        "🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:",
+        HUB_URL,
+      );
       window.location.href = `${HUB_URL}/home`;
       return;
     }
@@ -289,7 +293,7 @@ export const App = () => {
     setBootTrigger((prev) => prev + 1);
   };
 
-   // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
+  // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
   const NEXUS_GIT_PUSH_ID = "nexus_build_push_2026_11_12_v7_3_02";
 
   // 1. Zistíme, či bol tento konkrétny Git Push už zobrazený
