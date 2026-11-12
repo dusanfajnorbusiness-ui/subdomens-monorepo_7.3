@@ -272,52 +272,56 @@ export const App = () => {
     navigate(targetPath);
   };
 
+  // NÁVRAT NA CENTRÁLU ZO VŠETKÝCH AUTONÓMNYCH SUBDOMÉN
   const handleHomeClick = () => {
     if (SoundFX?.click) SoundFX.click();
 
-    // Ak sme na mentor.projekt-nexus.sk, fyzicky vynulujeme adresu a ideme na centrálu
-    if (isDirectMentor) {
-      console.log(
-        "🔄 [NEXUS RESET] Opúšťam mentor. doménu -> smerujem na centrálu:",
-        HUB_URL,
-      );
+    // Ak sme na akejkoľvek autonómnej subdoméne (personal., mentor., atď.), fyzicky skočíme na centrálu
+    if (isDirectAutonomousSub) {
+      console.log("🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:", HUB_URL);
       window.location.href = `${HUB_URL}/home`;
       return;
     }
 
-    // Ak sme už na centrále subdomens., stačí reaktívny reset
+    // Ak sme už fyzicky na centrále (subdomens.), stačí reaktívny reset bez reloadu
     setRouteState({ id: "SUB 00", isHome: true });
     navigate("/home");
     setBootTrigger((prev) => prev + 1);
   };
 
-   // Unikátny kľúč buildu (pri novom git push stačí zmeniť verziu, napr. v7.3.1, alebo nechať per-session)
-  const SYSTEM_LOG_DEPLOY_KEY = "nexus_system_log_deploy_v7.3_pushed";
+   // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
+  const NEXUS_GIT_PUSH_ID = "nexus_build_push_2026_11_12_v7_3_02";
 
-  // 1. Zistíme, či už bol v tejto relácii/po git pushi zobrazený
+  // 1. Zistíme, či bol tento konkrétny Git Push už zobrazený
   const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
     if (typeof window === "undefined") return false;
-    const isAlreadySeen = sessionStorage.getItem(SYSTEM_LOG_DEPLOY_KEY);
-    return !isAlreadySeen; // Otvorí sa LEN pri prvom načítaní po pushi
+    try {
+      const lastSeenPush = localStorage.getItem("nexus_last_seen_deploy_push");
+      return lastSeenPush !== NEXUS_GIT_PUSH_ID; // true len pri prvom štarte nového pushu
+    } catch {
+      return false;
+    }
   });
 
-  // 2. Obsluha manuálneho zatvorenia + uloženie pečiatky do pamäte
-  const handleCloseSystemLog = () => {
+  // 2. Po prvom zobrazení zapíšeme pečiatku, aby už pri zmenách URL nevyskakoval
+  useEffect(() => {
     if (typeof window !== "undefined") {
-      sessionStorage.setItem(SYSTEM_LOG_DEPLOY_KEY, "true");
+      try {
+        localStorage.setItem("nexus_last_seen_deploy_push", NEXUS_GIT_PUSH_ID);
+      } catch (err) {
+        console.warn("Storage write error", err);
+      }
     }
+  }, [NEXUS_GIT_PUSH_ID]);
+
+  // 3. Obsluha zatvorenia
+  const handleCloseSystemLog = () => {
     setIsSystemLogOpen(false);
   };
 
-  // 3. Listener pre manuálne vyvolanie (tlačidlo vo footeri ho VŽDY vie otvoriť znova)
+  // 4. Manuálne vyvolanie z Footera kedykoľvek
   useEffect(() => {
-    // Ak sa otvoril automaticky pri prvom štarte, zapíšeme pečiatku hneď
-    if (typeof window !== "undefined" && isSystemLogOpen) {
-      sessionStorage.setItem(SYSTEM_LOG_DEPLOY_KEY, "true");
-    }
-
     const handleOpenSignal = () => {
-      console.log("🚨 [SYSTEM LOG] Manuálne vyvolanie z Footera");
       setIsSystemLogOpen(true);
     };
 
