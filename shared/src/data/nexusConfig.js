@@ -15,9 +15,9 @@ import { supabase } from "@shared/services/NexusDB_Supabase.js";
  * ============================================================================
  */
 
-// import { getApp, getApps, initializeApp } from "firebase/app";
-// import { getAuth } from "firebase/auth";
-// import { getFirestore } from "firebase/firestore";
+import { getApp, getApps, initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const isLocalhost =
   typeof window !== "undefined" && window.location.hostname === "localhost";
