@@ -1,0 +1,44 @@
+﻿{
+  "_SYSTEM_COMMENTARY": {
+    "protocol": "NEXUS_MASTER_DATA_V4",
+    "encoding": "CyberPunk_ZEN_ZENIT",
+    "description": "Centrálny register konfiguračných metadát, finančných cieľov a identity Architekta."
+  },
+  "nexus_configuration": {
+    "owner": "Dušan Fajnor",
+    "genesis": "Summer 2018",
+    "version": "4.0.2",
+    "theme": "Neon-Glass-Dark",
+    "revenue_target": {
+      "mrr_goal": 150,
+      "annual_goal": 14976,
+      "currency": "EUR"
+    },
+    "user_profile": {
+      "rank": "CyberArchitect (LVL 50)",
+      "status": "ONLINE (FIREBASE LINKED)",
+      "bio_quote": "Nikto a Nič. Len Ticho a Kód.",
+      "stats": [
+        {
+          "label": "AI Fusion",
+          "value": "100%",
+          "color": "purple",
+          "note": "Plná neurálna integrácia s Gemini AI Core."
+        },
+        {
+          "label": "Debt Cleared",
+          "value": "33%",
+          "color": "emerald",
+          "note": "Protokol defragmentácie dlhu je v prvej fáze."
+        },
+        {
+          "label": "System Load",
+          "value": "OPTIMIZED",
+          "color": "green",
+          "note": "Všetky subdomény sú v stave stabilnej dekompresie."
+        }
+      ]
+    }
+  },
+  "status": "STANDALONE_READY"
+}

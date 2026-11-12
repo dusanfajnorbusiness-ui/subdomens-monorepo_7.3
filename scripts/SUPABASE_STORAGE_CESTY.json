@@ -1,0 +1,3549 @@
+{
+  "image-media": [
+    {
+      "bucket": "image-media",
+      "path": "kt-01/budha-32b18-9-16.jpg",
+      "name": "budha-32b18-9-16.jpg",
+      "size_mb": 0.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/budha-32b18-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/budha-32b18.jpg",
+      "name": "budha-32b18.jpg",
+      "size_mb": 1.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/budha-32b18.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/carnegie-32b13-9-16.jpg",
+      "name": "carnegie-32b13-9-16.jpg",
+      "size_mb": 0.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/carnegie-32b13-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/carnegie-32b13.jpg",
+      "name": "carnegie-32b13.jpg",
+      "size_mb": 0.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/carnegie-32b13.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/chia-32b5-9-16.jpg",
+      "name": "chia-32b5-9-16.jpg",
+      "size_mb": 0.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/chia-32b5-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/chia-32b5.jpg",
+      "name": "chia-32b5.jpg",
+      "size_mb": 0.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/chia-32b5.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/clason-32b14-9-16.jpg",
+      "name": "clason-32b14-9-16.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/clason-32b14-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/clason-32b14.jpg",
+      "name": "clason-32b14.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/clason-32b14.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/dead-books-archive-32b-9-16.jpg",
+      "name": "dead-books-archive-32b-9-16.jpg",
+      "size_mb": 0.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/dead-books-archive-32b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/dead-books-archive-32b.jpg",
+      "name": "dead-books-archive-32b.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/dead-books-archive-32b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/frankl-32b9-9-16.jpg",
+      "name": "frankl-32b9-9-16.jpg",
+      "size_mb": 0.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/frankl-32b9-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/frankl-32b9.jpg",
+      "name": "frankl-32b9.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/frankl-32b9.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/freud-32b10-9-16.jpg",
+      "name": "freud-32b10-9-16.jpg",
+      "size_mb": 0.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/freud-32b10-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/freud-32b10.jpg",
+      "name": "freud-32b10.jpg",
+      "size_mb": 0.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/freud-32b10.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/hill-32b15-9-16.jpg",
+      "name": "hill-32b15-9-16.jpg",
+      "size_mb": 0.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/hill-32b15-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/hill-32b15.jpg",
+      "name": "hill-32b15.jpg",
+      "size_mb": 0.92,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/hill-32b15.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/jung-32b4.jpg",
+      "name": "jung-32b4.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/jung-32b4.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/jung-32b49-16.jpg",
+      "name": "jung-32b49-16.jpg",
+      "size_mb": 0.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/jung-32b49-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/kahneman-32b11-9-16.jpg",
+      "name": "kahneman-32b11-9-16.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/kahneman-32b11-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/kahneman-32b11.jpg",
+      "name": "kahneman-32b11.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/kahneman-32b11.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/kiyosaki-32b17-9-16.jpg",
+      "name": "kiyosaki-32b17-9-16.jpg",
+      "size_mb": 0.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/kiyosaki-32b17-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/kiyosaki-32b17.jpg",
+      "name": "kiyosaki-32b17.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/kiyosaki-32b17.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/murphy-32b6-9-16.jpg",
+      "name": "murphy-32b6-9-16.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/murphy-32b6-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/murphy-32b6.jpg",
+      "name": "murphy-32b6.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/murphy-32b6.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/newton-32b8-9-16.jpg",
+      "name": "newton-32b8-9-16.jpg",
+      "size_mb": 0.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/newton-32b8-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/newton-32b8.jpg",
+      "name": "newton-32b8.jpg",
+      "size_mb": 0.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/newton-32b8.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/nexus-master-codex-32a-9-16.jpg",
+      "name": "nexus-master-codex-32a-9-16.jpg",
+      "size_mb": 0.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/nexus-master-codex-32a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/nexus-master-codex-32a.jpg",
+      "name": "nexus-master-codex-32a.jpg",
+      "size_mb": 0.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/nexus-master-codex-32a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/osho-32b2-9-16.jpg",
+      "name": "osho-32b2-9-16.jpg",
+      "size_mb": 0.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/osho-32b2-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/osho-32b2.jpg",
+      "name": "osho-32b2.jpg",
+      "size_mb": 0.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/osho-32b2.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/ruiz-32b3-9-16.jpg",
+      "name": "ruiz-32b3-9-16.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/ruiz-32b3-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/ruiz-32b3.jpg",
+      "name": "ruiz-32b3.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/ruiz-32b3.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/sujiva-32b12-9-16.jpg",
+      "name": "sujiva-32b12-9-16.jpg",
+      "size_mb": 0.96,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/sujiva-32b12-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/sujiva-32b12.jpg",
+      "name": "sujiva-32b12.jpg",
+      "size_mb": 0.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/sujiva-32b12.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/tepperwein-32b7-9-16.jpg",
+      "name": "tepperwein-32b7-9-16.jpg",
+      "size_mb": 0.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/tepperwein-32b7-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/tepperwein-32b7.jpg",
+      "name": "tepperwein-32b7.jpg",
+      "size_mb": 0.91,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/tepperwein-32b7.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/tolle-32b1-9-16.jpg",
+      "name": "tolle-32b1-9-16.jpg",
+      "size_mb": 0.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/tolle-32b1-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/tolle-32b1.jpg",
+      "name": "tolle-32b1.jpg",
+      "size_mb": 0.71,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/tolle-32b1.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/walsch-32b16-9-16.jpg",
+      "name": "walsch-32b16-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/walsch-32b16-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-01/walsch-32b16.jpg",
+      "name": "walsch-32b16.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-01/walsch-32b16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/assets-matrix-32i-9-16.jpg",
+      "name": "assets-matrix-32i-9-16.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/assets-matrix-32i-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/assets-matrix-32i.jpg",
+      "name": "assets-matrix-32i.jpg",
+      "size_mb": 0.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/assets-matrix-32i.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/cash-engine-32d-9-16.jpg",
+      "name": "cash-engine-32d-9-16.jpg",
+      "size_mb": 0.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/cash-engine-32d-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/cash-engine-32d.jpg",
+      "name": "cash-engine-32d.jpg",
+      "size_mb": 1.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/cash-engine-32d.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/data-absorber-32f-9-16.jpg",
+      "name": "data-absorber-32f-9-16.jpg",
+      "size_mb": 0.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/data-absorber-32f-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/data-absorber-32f.jpg",
+      "name": "data-absorber-32f.jpg",
+      "size_mb": 1.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/data-absorber-32f.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/insomnia-shutdown-32h-9-16.jpg",
+      "name": "insomnia-shutdown-32h-9-16.jpg",
+      "size_mb": 0.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/insomnia-shutdown-32h-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/insomnia-shutdown-32h.jpg",
+      "name": "insomnia-shutdown-32h.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/insomnia-shutdown-32h.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/semantic-broadcasting-32m-9-16.jpg",
+      "name": "semantic-broadcasting-32m-9-16.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/semantic-broadcasting-32m-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/semantic-broadcasting-32m.jpg",
+      "name": "semantic-broadcasting-32m.jpg",
+      "size_mb": 0.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/semantic-broadcasting-32m.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/sergeant-core-32g-9-16.jpg",
+      "name": "sergeant-core-32g-9-16.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/sergeant-core-32g-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/sergeant-core-32g.jpg",
+      "name": "sergeant-core-32g.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/sergeant-core-32g.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/skills-tree-32j-9-16.jpg",
+      "name": "skills-tree-32j-9-16.jpg",
+      "size_mb": 0.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/skills-tree-32j-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/skills-tree-32j.jpg",
+      "name": "skills-tree-32j.jpg",
+      "size_mb": 0.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/skills-tree-32j.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/stop-parazitovi-32l-9-16.jpg",
+      "name": "stop-parazitovi-32l-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/stop-parazitovi-32l-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/stop-parazitovi-32l.jpg",
+      "name": "stop-parazitovi-32l.jpg",
+      "size_mb": 0.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/stop-parazitovi-32l.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/system-reboot-32c-9-16.jpg",
+      "name": "system-reboot-32c-9-16.jpg",
+      "size_mb": 0.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/system-reboot-32c-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/system-reboot-32c.jpg",
+      "name": "system-reboot-32c.jpg",
+      "size_mb": 0.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/system-reboot-32c.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/time-architect-32k-9-16.jpg",
+      "name": "time-architect-32k-9-16.jpg",
+      "size_mb": 0.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/time-architect-32k-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/time-architect-32k.jpg",
+      "name": "time-architect-32k.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/time-architect-32k.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/trojan-horse-32e-9-16.jpg",
+      "name": "trojan-horse-32e-9-16.jpg",
+      "size_mb": 0.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/trojan-horse-32e-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-02/trojan-horse-32e.jpg",
+      "name": "trojan-horse-32e.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-02/trojan-horse-32e.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/dekonstrukcia-ega-32n-9-16.jpg",
+      "name": "dekonstrukcia-ega-32n-9-16.jpg",
+      "size_mb": 0.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/dekonstrukcia-ega-32n-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/dekonstrukcia-ega-32n.jpg",
+      "name": "dekonstrukcia-ega-32n.jpg",
+      "size_mb": 0.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/dekonstrukcia-ega-32n.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/habit-stacking-32r-9-16.jpg",
+      "name": "habit-stacking-32r-9-16.jpg",
+      "size_mb": 0.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/habit-stacking-32r-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/habit-stacking-32r.jpg",
+      "name": "habit-stacking-32r.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/habit-stacking-32r.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/investicny-firewall-32o-9-16.jpg",
+      "name": "investicny-firewall-32o-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/investicny-firewall-32o-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/investicny-firewall-32o.jpg",
+      "name": "investicny-firewall-32o.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/investicny-firewall-32o.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/prompt-engineering-32p-9-16.jpg",
+      "name": "prompt-engineering-32p-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/prompt-engineering-32p-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/prompt-engineering-32p.jpg",
+      "name": "prompt-engineering-32p.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/prompt-engineering-32p.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/semanticke-vysielanie-32s-9-16.jpg",
+      "name": "semanticke-vysielanie-32s-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/semanticke-vysielanie-32s-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-03/semanticke-vysielanie-32s.jpg",
+      "name": "semanticke-vysielanie-32s.jpg",
+      "size_mb": 0.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-03/semanticke-vysielanie-32s.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-master-35c-9-16.jpg",
+      "name": "nexus-desk-app-master-35c-9-16.jpg",
+      "size_mb": 0.71,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-master-35c-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-master-35c.jpg",
+      "name": "nexus-desk-app-master-35c.jpg",
+      "size_mb": 0.73,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-master-35c.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-omega-35b-9-16.jpg",
+      "name": "nexus-desk-app-omega-35b-9-16.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-omega-35b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-omega-35b.jpg",
+      "name": "nexus-desk-app-omega-35b.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-omega-35b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-pro-35a-9-16.jpg",
+      "name": "nexus-desk-app-pro-35a-9-16.jpg",
+      "size_mb": 0.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-pro-35a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-desk-app-pro-35a.jpg",
+      "name": "nexus-desk-app-pro-35a.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-desk-app-pro-35a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-master-34c-9-16.jpg",
+      "name": "nexus-mob-app-master-34c-9-16.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-master-34c-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-master-34c.jpg",
+      "name": "nexus-mob-app-master-34c.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-master-34c.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-omega-34b-9-16.jpg",
+      "name": "nexus-mob-app-omega-34b-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-omega-34b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-omega-34b.jpg",
+      "name": "nexus-mob-app-omega-34b.jpg",
+      "size_mb": 0.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-omega-34b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-pro-34a-9-16.jpg",
+      "name": "nexus-mob-app-pro-34a-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-pro-34a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-mob-app-pro-34a.jpg",
+      "name": "nexus-mob-app-pro-34a.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-mob-app-pro-34a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-master-33c.jpg",
+      "name": "nexus-web-app-master-33c.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-master-33c.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-master-33c9-16.jpg",
+      "name": "nexus-web-app-master-33c9-16.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-master-33c9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-omega-33b-9-16.jpg",
+      "name": "nexus-web-app-omega-33b-9-16.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-omega-33b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-omega-33b.jpg",
+      "name": "nexus-web-app-omega-33b.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-omega-33b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-pro-33a-9-16.jpg",
+      "name": "nexus-web-app-pro-33a-9-16.jpg",
+      "size_mb": 0.71,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-pro-33a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-04/nexus-web-app-pro-33a.jpg",
+      "name": "nexus-web-app-pro-33a.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-04/nexus-web-app-pro-33a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-05/b2b-fransizove-poradenstvo-36b-9-16.jpg",
+      "name": "b2b-fransizove-poradenstvo-36b-9-16.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-05/b2b-fransizove-poradenstvo-36b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-05/b2b-fransizove-poradenstvo-36b.jpg",
+      "name": "b2b-fransizove-poradenstvo-36b.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-05/b2b-fransizove-poradenstvo-36b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-05/osobny-mentoring-36a-9-16.jpg",
+      "name": "osobny-mentoring-36a-9-16.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-05/osobny-mentoring-36a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-05/osobny-mentoring-36a.jpg",
+      "name": "osobny-mentoring-36a.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-05/osobny-mentoring-36a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/cybertech-architect-37d-9-16.jpg",
+      "name": "cybertech-architect-37d-9-16.jpg",
+      "size_mb": 0.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/cybertech-architect-37d-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/cybertech-architect-37d.jpg",
+      "name": "cybertech-architect-37d.jpg",
+      "size_mb": 0.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/cybertech-architect-37d.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/nexus-agency-37b-9-16.jpg",
+      "name": "nexus-agency-37b-9-16.jpg",
+      "size_mb": 0.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/nexus-agency-37b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/nexus-agency-37b.jpg",
+      "name": "nexus-agency-37b.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/nexus-agency-37b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/projekt-nexus-os-37a-9-16.jpg",
+      "name": "projekt-nexus-os-37a-9-16.jpg",
+      "size_mb": 0.92,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/projekt-nexus-os-37a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/projekt-nexus-os-37a.jpg",
+      "name": "projekt-nexus-os-37a.jpg",
+      "size_mb": 0.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/projekt-nexus-os-37a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/unifikovana-struktura-37c-9-16.jpg",
+      "name": "unifikovana-struktura-37c-9-16.jpg",
+      "size_mb": 0.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/unifikovana-struktura-37c-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-06/unifikovana-struktura-37c.jpg",
+      "name": "unifikovana-struktura-37c.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-06/unifikovana-struktura-37c.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-07/nexus-lexikon-38a-9-16.jpg",
+      "name": "nexus-lexikon-38a-9-16.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-07/nexus-lexikon-38a-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-07/nexus-lexikon-38a.jpg",
+      "name": "nexus-lexikon-38a.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-07/nexus-lexikon-38a.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-07/operating-manual-38b-9-16.jpg",
+      "name": "operating-manual-38b-9-16.jpg",
+      "size_mb": 0.72,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-07/operating-manual-38b-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-07/operating-manual-38b.jpg",
+      "name": "operating-manual-38b.jpg",
+      "size_mb": 0.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-07/operating-manual-38b.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/assets-matrix-id05-9-16.jpg",
+      "name": "assets-matrix-id05-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/assets-matrix-id05-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/assets-matrix-id05.jpg",
+      "name": "assets-matrix-id05.jpg",
+      "size_mb": 0.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/assets-matrix-id05.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/cash-engine-id03-9-16.jpg",
+      "name": "cash-engine-id03-9-16.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/cash-engine-id03-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/cash-engine-id03.jpg",
+      "name": "cash-engine-id03.jpg",
+      "size_mb": 0.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/cash-engine-id03.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/data-absorber-id06-9-16.jpg",
+      "name": "data-absorber-id06-9-16.jpg",
+      "size_mb": 0.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/data-absorber-id06-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/data-absorber-id06.jpg",
+      "name": "data-absorber-id06.jpg",
+      "size_mb": 0.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/data-absorber-id06.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/death-core-id15-9-16.jpg",
+      "name": "death-core-id15-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/death-core-id15-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/death-core-id15.jpg",
+      "name": "death-core-id15.jpg",
+      "size_mb": 0.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/death-core-id15.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/empty-book-id08-9-16.jpg",
+      "name": "empty-book-id08-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/empty-book-id08-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/empty-book-id08.jpg",
+      "name": "empty-book-id08.jpg",
+      "size_mb": 0.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/empty-book-id08.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/identity-core-id01-9-16.jpg",
+      "name": "identity-core-id01-9-16.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/identity-core-id01-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/identity-core-id01.jpg",
+      "name": "identity-core-id01.jpg",
+      "size_mb": 0.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/identity-core-id01.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/mentor-hub-id00-9-16.jpg",
+      "name": "mentor-hub-id00-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/mentor-hub-id00-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/mentor-hub-id00.jpg",
+      "name": "mentor-hub-id00.jpg",
+      "size_mb": 1.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/mentor-hub-id00.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-blog-id14-9-16.jpg",
+      "name": "nexus-blog-id14-9-16.jpg",
+      "size_mb": 0.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-blog-id14-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-blog-id14.jpg",
+      "name": "nexus-blog-id14.jpg",
+      "size_mb": 0.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-blog-id14.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-codex-id12-9-16.jpg",
+      "name": "nexus-codex-id12-9-16.jpg",
+      "size_mb": 0.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-codex-id12-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-codex-id12.jpg",
+      "name": "nexus-codex-id12.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-codex-id12.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-habits-id13-9-16.jpg",
+      "name": "nexus-habits-id13-9-16.jpg",
+      "size_mb": 0.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-habits-id13-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nexus-habits-id13.jpg",
+      "name": "nexus-habits-id13.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nexus-habits-id13.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nonidentity-core-id10-9-16.jpg",
+      "name": "nonidentity-core-id10-9-16.jpg",
+      "size_mb": 0.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nonidentity-core-id10-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/nonidentity-core-id10.jpg",
+      "name": "nonidentity-core-id10.jpg",
+      "size_mb": 0.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/nonidentity-core-id10.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/revenue-architect-id04-9-16.jpg",
+      "name": "revenue-architect-id04-9-16.jpg",
+      "size_mb": 0.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/revenue-architect-id04-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/revenue-architect-id04.jpg",
+      "name": "revenue-architect-id04.jpg",
+      "size_mb": 0.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/revenue-architect-id04.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/sergeant-core-id09-9-16.jpg",
+      "name": "sergeant-core-id09-9-16.jpg",
+      "size_mb": 0.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/sergeant-core-id09-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/sergeant-core-id09.jpg",
+      "name": "sergeant-core-id09.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/sergeant-core-id09.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/skills-tree-id07-9-16.jpg",
+      "name": "skills-tree-id07-9-16.jpg",
+      "size_mb": 0.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/skills-tree-id07-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/skills-tree-id07.jpg",
+      "name": "skills-tree-id07.jpg",
+      "size_mb": 0.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/skills-tree-id07.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/the-recovery-id11-9-16.jpg",
+      "name": "the-recovery-id11-9-16.jpg",
+      "size_mb": 0.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/the-recovery-id11-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/the-recovery-id11.jpg",
+      "name": "the-recovery-id11.jpg",
+      "size_mb": 0.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/the-recovery-id11.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/the-workflow-id02-9-16.jpg",
+      "name": "the-workflow-id02-9-16.jpg",
+      "size_mb": 0.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/the-workflow-id02-9-16.jpg"
+    },
+    {
+      "bucket": "image-media",
+      "path": "kt-08/the-workflow-id02.jpg",
+      "name": "the-workflow-id02.jpg",
+      "size_mb": 0.66,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/image-media/kt-08/the-workflow-id02.jpg"
+    }
+  ],
+  "system-standby": [
+    {
+      "bucket": "system-standby",
+      "path": "supabase_manifest_system_standby_v2.json",
+      "name": "supabase_manifest_system_standby_v2.json",
+      "size_mb": 0.0,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/system-standby/supabase_manifest_system_standby_v2.json"
+    },
+    {
+      "bucket": "system-standby",
+      "path": "system-standby-1-1.jpg",
+      "name": "system-standby-1-1.jpg",
+      "size_mb": 0.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/system-standby/system-standby-1-1.jpg"
+    },
+    {
+      "bucket": "system-standby",
+      "path": "system-standby-16-9.jpg",
+      "name": "system-standby-16-9.jpg",
+      "size_mb": 0.49,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/system-standby/system-standby-16-9.jpg"
+    },
+    {
+      "bucket": "system-standby",
+      "path": "system-standby-9-16.jpg",
+      "name": "system-standby-9-16.jpg",
+      "size_mb": 0.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/system-standby/system-standby-9-16.jpg"
+    }
+  ],
+  "bot-avatars": [
+    {
+      "bucket": "bot-avatars",
+      "path": "audit_sha256_bot_avatars.json",
+      "name": "audit_sha256_bot_avatars.json",
+      "size_mb": 0.02,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/audit_sha256_bot_avatars.json"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "audit_sha256_bot_avatars.md",
+      "name": "audit_sha256_bot_avatars.md",
+      "size_mb": 0.02,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/audit_sha256_bot_avatars.md"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID00_MENTOR-BOT.png",
+      "name": "ID00_MENTOR-BOT.png",
+      "size_mb": 1.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID00_MENTOR-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID01_IDENTITY-BOT.png",
+      "name": "ID01_IDENTITY-BOT.png",
+      "size_mb": 1.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID01_IDENTITY-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID02_WORK-BOT.png",
+      "name": "ID02_WORK-BOT.png",
+      "size_mb": 2.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID02_WORK-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID03_CASH-BOT.png",
+      "name": "ID03_CASH-BOT.png",
+      "size_mb": 2.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID03_CASH-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID04_REVENUE-BOT.png",
+      "name": "ID04_REVENUE-BOT.png",
+      "size_mb": 1.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID04_REVENUE-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID05_ASSETS-BOT.png",
+      "name": "ID05_ASSETS-BOT.png",
+      "size_mb": 2.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID05_ASSETS-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID06_ABSORBER-BOT.png",
+      "name": "ID06_ABSORBER-BOT.png",
+      "size_mb": 1.92,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID06_ABSORBER-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID07_SKILLS-BOT.png",
+      "name": "ID07_SKILLS-BOT.png",
+      "size_mb": 2.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID07_SKILLS-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID08_EMPTY-BOT.png",
+      "name": "ID08_EMPTY-BOT.png",
+      "size_mb": 1.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID08_EMPTY-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID09_SERGEANT-BOT.png",
+      "name": "ID09_SERGEANT-BOT.png",
+      "size_mb": 2.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID09_SERGEANT-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID10_SILENT-BOT.png",
+      "name": "ID10_SILENT-BOT.png",
+      "size_mb": 1.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID10_SILENT-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID11_RECOVERY-BOT.png",
+      "name": "ID11_RECOVERY-BOT.png",
+      "size_mb": 2.25,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID11_RECOVERY-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID12_CODEX-BOT.png",
+      "name": "ID12_CODEX-BOT.png",
+      "size_mb": 2.35,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID12_CODEX-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID13_HABITS-BOT.png",
+      "name": "ID13_HABITS-BOT.png",
+      "size_mb": 2.38,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID13_HABITS-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID14_BLOG-BOT.png",
+      "name": "ID14_BLOG-BOT.png",
+      "size_mb": 2.42,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID14_BLOG-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID15_DEATH-BOT.png",
+      "name": "ID15_DEATH-BOT.png",
+      "size_mb": 2.94,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID15_DEATH-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID16_UPLINK-BOT.png",
+      "name": "ID16_UPLINK-BOT.png",
+      "size_mb": 3.04,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID16_UPLINK-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID17_HOME-BOT.png",
+      "name": "ID17_HOME-BOT.png",
+      "size_mb": 3.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID17_HOME-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID18_OPERATOR-BOT.png",
+      "name": "ID18_OPERATOR-BOT.png",
+      "size_mb": 3.4,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID18_OPERATOR-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID19_SHOP-BOT.png",
+      "name": "ID19_SHOP-BOT.png",
+      "size_mb": 4.02,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID19_SHOP-BOT.png"
+    },
+    {
+      "bucket": "bot-avatars",
+      "path": "ID20_SETTINGS-BOT.png",
+      "name": "ID20_SETTINGS-BOT.png",
+      "size_mb": 4.04,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/bot-avatars/ID20_SETTINGS-BOT.png"
+    }
+  ],
+  "zip-assets": [
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.zip",
+      "name": "32B10_EGO_OVERRIDE.zip",
+      "size_mb": 23.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.zip",
+      "name": "32B11_KAHNEMAN_PATCH_32B11.zip",
+      "size_mb": 30.42,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.zip",
+      "name": "32B12_Cyber_Zen_Defragmentation.zip",
+      "size_mb": 40.44,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.zip",
+      "name": "32B13_Carnegie_P2P_Protocol.zip",
+      "size_mb": 51.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.zip",
+      "name": "32B14_OS_Genesis_Root_Protocol.zip",
+      "size_mb": 45.49,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.zip",
+      "name": "32B15_OBSESSION_CODE.zip",
+      "size_mb": 60.2,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.zip",
+      "name": "32B16_The_Walsch_Protocol.zip",
+      "size_mb": 44.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.zip",
+      "name": "32B1_CYBERNETIC_ZEN_OVERRIDE.zip",
+      "size_mb": 61.67,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.zip",
+      "name": "32B2_OSHO_SYSTEM_OVERRIDE.zip",
+      "size_mb": 38.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.zip",
+      "name": "32B3_Toltec_Security_Patch.zip",
+      "size_mb": 26.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.zip",
+      "name": "32B4_SHADOW_KERNEL_PATCH.zip",
+      "size_mb": 37.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.zip",
+      "name": "32B5_NEXUS_PROTOCOL_ID08.zip",
+      "size_mb": 35.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.zip",
+      "name": "32B6_SEMANTIC_ELEVATOR_32B6.zip",
+      "size_mb": 41.5,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.zip",
+      "name": "32B7_TEPPERWEIN_BIOS_CALIBRATION.zip",
+      "size_mb": 43.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.zip",
+      "name": "32B8_SEMANTIC_LIFT_32B8.zip",
+      "size_mb": 28.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.zip",
+      "name": "32B9_Logotherapy_System_Patch.zip",
+      "size_mb": 36.18,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.zip",
+      "name": "32B_ID08_DEAD_BOOKS_ARCHIVE.zip",
+      "size_mb": 45.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.zip",
+      "name": "32A_Nexus_Master_Codex.zip",
+      "size_mb": 50.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.zip",
+      "name": "32B17_Semantic_Elevator_32B17.zip",
+      "size_mb": 43.5,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.zip",
+      "name": "32B18_OS_Genesis_Buddha_Protocol.zip",
+      "size_mb": 42.38,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.zip",
+      "name": "32G_ID09_Sergeant-Core_Blueprint.zip",
+      "size_mb": 29.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.zip",
+      "name": "32I_ID05_Assets_Matrix.zip",
+      "size_mb": 55.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.zip",
+      "name": "32K_NEXUS_HABITS_DATA_BOOK.zip",
+      "size_mb": 39.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.zip",
+      "name": "32D_CASH_ENGINE_ID_03.zip",
+      "size_mb": 52.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.zip",
+      "name": "32E_The_Trojan_Horse_Protocol.zip",
+      "size_mb": 58.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.zip",
+      "name": "32F_ID06_DATA_ABSORBER.zip",
+      "size_mb": 43.63,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.zip",
+      "name": "32H_ID11_SHUTDOWN_PROTOCOL.zip",
+      "size_mb": 37.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.zip",
+      "name": "32J_ID07_TECH_BLUEPRINT.zip",
+      "size_mb": 25.25,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.zip",
+      "name": "32C_ID02_WORKFLOW_ENGINE.zip",
+      "size_mb": 45.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.zip",
+      "name": "32M_Semantic_Broadcasting_Protocol.zip",
+      "size_mb": 29.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.zip",
+      "name": "32N_ID01_IDENTITY_CORE.zip",
+      "size_mb": 37.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.zip",
+      "name": "32O_ASSETS_MATRIX_PROTOCOL.zip",
+      "size_mb": 53.39,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.zip",
+      "name": "32R_NEXUS_HABIT_PROTOCOLS.zip",
+      "size_mb": 70.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.zip",
+      "name": "32S_OS_Genesis_ID14_Protocol.zip",
+      "size_mb": 16.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-promium-kt-03/32P_ID07_AI_Protocol.zip",
+      "name": "32P_ID07_AI_Protocol.zip",
+      "size_mb": 35.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-promium-kt-03/32P_ID07_AI_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.zip",
+      "name": "32L_IDENTITY_CORE_ID01.zip",
+      "size_mb": 30.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.zip",
+      "name": "33C_NEXUS_MASTER_PROTOCOL.zip",
+      "size_mb": 39.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.zip",
+      "name": "34C_Nexus_Mobile_Protocol.zip",
+      "size_mb": 20.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.zip",
+      "name": "35C_NEXUS_MASTER_PROTOCOL.zip",
+      "size_mb": 34.28,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.zip",
+      "name": "33B_NEXUS_OMEGA_PROTOCOL.zip",
+      "size_mb": 45.3,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.zip",
+      "name": "34B_Nexus_Omega_Protocol.zip",
+      "size_mb": 32.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.zip",
+      "name": "35B_NEXUS_OMEGA_DEPLOYMENT.zip",
+      "size_mb": 38.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.zip",
+      "name": "33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.zip",
+      "size_mb": 23.34,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.zip",
+      "name": "34A_Nexus_Pro_Deployment.zip",
+      "size_mb": 29.41,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.zip",
+      "name": "35A_NEXUS_PRO_TERMINAL.zip",
+      "size_mb": 35.57,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.zip",
+      "name": "36A_ROOT_ACCESS_36A.zip",
+      "size_mb": 25.44,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.zip",
+      "name": "36B_NEXUS_OS_GENESIS.zip",
+      "size_mb": 27.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.zip",
+      "name": "37B_NEXUS_SURGICAL_PROTOCOL.zip",
+      "size_mb": 34.63,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.zip",
+      "name": "37C_Nexus_5_Card_Matrix.zip",
+      "size_mb": 45.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-06/documents-omegamium-kt-06/37D_Nexus_Genesis.zip",
+      "name": "37D_Nexus_Genesis.zip",
+      "size_mb": 51.89,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-06/documents-omegamium-kt-06/37D_Nexus_Genesis.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.zip",
+      "name": "37A_Nexus_OS_Genesis.zip",
+      "size_mb": 44.0,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.zip",
+      "name": "38A_Nexus_Lexikon.zip",
+      "size_mb": 31.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.zip",
+      "name": "38B_NEXUS_LEXICON_38B.zip",
+      "size_mb": 19.61,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.zip",
+      "name": "ID05_ASSETS_MATRIX.zip",
+      "size_mb": 44.67,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.zip",
+      "name": "ID08_EMPTY_BOOK_PROTOCOL.zip",
+      "size_mb": 18.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.zip",
+      "name": "ID09_Sergeant-Core_Tactical_Protocol.zip",
+      "size_mb": 54.34,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-freemium-kt-08/ID10_Nonidentity_Core.zip",
+      "name": "ID10_Nonidentity_Core.zip",
+      "size_mb": 39.72,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-freemium-kt-08/ID10_Nonidentity_Core.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.zip",
+      "name": "ID14_NEXUS_TRANSMISSION.zip",
+      "size_mb": 19.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.zip",
+      "name": "ID12_NEXUS_CODEX.zip",
+      "size_mb": 38.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.zip",
+      "name": "ID13_NEXUS_HABITS_UPGRADE.zip",
+      "size_mb": 38.36,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-omegamium-kt-08/ID15_Death_Core.zip",
+      "name": "ID15_Death_Core.zip",
+      "size_mb": 31.42,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-omegamium-kt-08/ID15_Death_Core.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-promium-kt-08/ID03_CASH_ENGINE.zip",
+      "name": "ID03_CASH_ENGINE.zip",
+      "size_mb": 62.32,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-promium-kt-08/ID03_CASH_ENGINE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.zip",
+      "name": "ID04_REVENUE_ARCHITECT.zip",
+      "size_mb": 38.28,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.zip",
+      "name": "ID06_NEXUS_DATA_ABSORBER.zip",
+      "size_mb": 46.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-promium-kt-08/ID07_SKILLS_TREE.zip",
+      "name": "ID07_SKILLS_TREE.zip",
+      "size_mb": 39.04,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-promium-kt-08/ID07_SKILLS_TREE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.zip",
+      "name": "ID11_SYSTEM_RECOVERY.zip",
+      "size_mb": 55.0,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.zip",
+      "name": "ID00_MENTOR_HUB.zip",
+      "size_mb": 44.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.zip",
+      "name": "ID01_IDENTITY_CORE.zip",
+      "size_mb": 24.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "kt-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.zip",
+      "name": "ID02_EXECUTION_ENGINE.zip",
+      "size_mb": 28.45,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/kt-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-01_documents-freemium-kt-01_all_pack.zip",
+      "name": "kt-01_documents-freemium-kt-01_all_pack.zip",
+      "size_mb": 705.45,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-01_documents-freemium-kt-01_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-01_documents-omegamium-kt-01_all_pack.zip",
+      "name": "kt-01_documents-omegamium-kt-01_all_pack.zip",
+      "size_mb": 50.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-01_documents-omegamium-kt-01_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-01_documents-zdarma-kt-01_all_pack.zip",
+      "name": "kt-01_documents-zdarma-kt-01_all_pack.zip",
+      "size_mb": 85.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-01_documents-zdarma-kt-01_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-02_documents-freemium-kt-02_all_pack.zip",
+      "name": "kt-02_documents-freemium-kt-02_all_pack.zip",
+      "size_mb": 29.69,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-02_documents-freemium-kt-02_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-02_documents-omegamium-kt-02_all_pack.zip",
+      "name": "kt-02_documents-omegamium-kt-02_all_pack.zip",
+      "size_mb": 95.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-02_documents-omegamium-kt-02_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-02_documents-promium-kt-02_all_pack.zip",
+      "name": "kt-02_documents-promium-kt-02_all_pack.zip",
+      "size_mb": 216.91,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-02_documents-promium-kt-02_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-02_documents-zdarma-kt-02_all_pack.zip",
+      "name": "kt-02_documents-zdarma-kt-02_all_pack.zip",
+      "size_mb": 45.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-02_documents-zdarma-kt-02_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-03_documents-freemium-kt-03_all_pack.zip",
+      "name": "kt-03_documents-freemium-kt-03_all_pack.zip",
+      "size_mb": 29.04,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-03_documents-freemium-kt-03_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-03_documents-omegamium-kt-03_all_pack.zip",
+      "name": "kt-03_documents-omegamium-kt-03_all_pack.zip",
+      "size_mb": 177.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-03_documents-omegamium-kt-03_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-03_documents-promium-kt-03_all_pack.zip",
+      "name": "kt-03_documents-promium-kt-03_all_pack.zip",
+      "size_mb": 35.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-03_documents-promium-kt-03_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-03_documents-zdarma-kt-03_all_pack.zip",
+      "name": "kt-03_documents-zdarma-kt-03_all_pack.zip",
+      "size_mb": 30.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-03_documents-zdarma-kt-03_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-04_documents-mastermium-kt-04_all_pack.zip",
+      "name": "kt-04_documents-mastermium-kt-04_all_pack.zip",
+      "size_mb": 94.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-04_documents-mastermium-kt-04_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-04_documents-omegamium-kt-04_all_pack.zip",
+      "name": "kt-04_documents-omegamium-kt-04_all_pack.zip",
+      "size_mb": 116.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-04_documents-omegamium-kt-04_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-04_documents-promium-kt-04_all_pack.zip",
+      "name": "kt-04_documents-promium-kt-04_all_pack.zip",
+      "size_mb": 88.34,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-04_documents-promium-kt-04_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-05_documents-mastermium-kt-05_all_pack.zip",
+      "name": "kt-05_documents-mastermium-kt-05_all_pack.zip",
+      "size_mb": 53.34,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-05_documents-mastermium-kt-05_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-06_documents-freemium-kt-06_all_pack.zip",
+      "name": "kt-06_documents-freemium-kt-06_all_pack.zip",
+      "size_mb": 34.64,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-06_documents-freemium-kt-06_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-06_documents-omegamium-kt-06_all_pack.zip",
+      "name": "kt-06_documents-omegamium-kt-06_all_pack.zip",
+      "size_mb": 97.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-06_documents-omegamium-kt-06_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-06_documents-zdarma-kt-06_all_pack.zip",
+      "name": "kt-06_documents-zdarma-kt-06_all_pack.zip",
+      "size_mb": 44.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-06_documents-zdarma-kt-06_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-07_documents-omegamium-kt-07_all_pack.zip",
+      "name": "kt-07_documents-omegamium-kt-07_all_pack.zip",
+      "size_mb": 50.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-07_documents-omegamium-kt-07_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-08_documents-freemium-kt-08_all_pack.zip",
+      "name": "kt-08_documents-freemium-kt-08_all_pack.zip",
+      "size_mb": 177.36,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-08_documents-freemium-kt-08_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-08_documents-omegamium-kt-08_all_pack.zip",
+      "name": "kt-08_documents-omegamium-kt-08_all_pack.zip",
+      "size_mb": 107.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-08_documents-omegamium-kt-08_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-08_documents-promium-kt-08_all_pack.zip",
+      "name": "kt-08_documents-promium-kt-08_all_pack.zip",
+      "size_mb": 241.62,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-08_documents-promium-kt-08_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/kt-08_documents-zdarma-kt-08_all_pack.zip",
+      "name": "kt-08_documents-zdarma-kt-08_all_pack.zip",
+      "size_mb": 96.88,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/kt-08_documents-zdarma-kt-08_all_pack.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/zip-assets_free-all-packs_kt-01-08.zip",
+      "name": "zip-assets_free-all-packs_kt-01-08.zip",
+      "size_mb": 301.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/zip-assets_free-all-packs_kt-01-08.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/zip-assets_freemium-all-packs_kt-01-08.zip",
+      "name": "zip-assets_freemium-all-packs_kt-01-08.zip",
+      "size_mb": 1277.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/zip-assets_freemium-all-packs_kt-01-08.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/zip-assets_mastermium-all-packs_kt-01-08.zip",
+      "name": "zip-assets_mastermium-all-packs_kt-01-08.zip",
+      "size_mb": 2705.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/zip-assets_mastermium-all-packs_kt-01-08.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/zip-assets_omegamium-all-packs_kt-01-08.zip",
+      "name": "zip-assets_omegamium-all-packs_kt-01-08.zip",
+      "size_mb": 2557.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/zip-assets_omegamium-all-packs_kt-01-08.zip"
+    },
+    {
+      "bucket": "zip-assets",
+      "path": "packs/zip-assets_promium-all-packs_kt-01-08.zip",
+      "name": "zip-assets_promium-all-packs_kt-01-08.zip",
+      "size_mb": 1860.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/zip-assets/packs/zip-assets_promium-all-packs_kt-01-08.zip"
+    }
+  ],
+  "pdf-assets": [
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.pdf",
+      "name": "32B10_EGO_OVERRIDE.pdf",
+      "size_mb": 17.59,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.pptx",
+      "name": "32B10_EGO_OVERRIDE.pptx",
+      "size_mb": 19.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B10_EGO_OVERRIDE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.pdf",
+      "name": "32B11_KAHNEMAN_PATCH_32B11.pdf",
+      "size_mb": 14.66,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.pptx",
+      "name": "32B11_KAHNEMAN_PATCH_32B11.pptx",
+      "size_mb": 15.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B11_KAHNEMAN_PATCH_32B11.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.pdf",
+      "name": "32B12_Cyber_Zen_Defragmentation.pdf",
+      "size_mb": 19.32,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.pptx",
+      "name": "32B12_Cyber_Zen_Defragmentation.pptx",
+      "size_mb": 21.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B12_Cyber_Zen_Defragmentation.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.pdf",
+      "name": "32B13_Carnegie_P2P_Protocol.pdf",
+      "size_mb": 25.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.pptx",
+      "name": "32B13_Carnegie_P2P_Protocol.pptx",
+      "size_mb": 26.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B13_Carnegie_P2P_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.pdf",
+      "name": "32B14_OS_Genesis_Root_Protocol.pdf",
+      "size_mb": 21.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.pptx",
+      "name": "32B14_OS_Genesis_Root_Protocol.pptx",
+      "size_mb": 23.73,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B14_OS_Genesis_Root_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.pdf",
+      "name": "32B15_OBSESSION_CODE.pdf",
+      "size_mb": 28.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.pptx",
+      "name": "32B15_OBSESSION_CODE.pptx",
+      "size_mb": 31.27,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B15_OBSESSION_CODE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.pdf",
+      "name": "32B16_The_Walsch_Protocol.pdf",
+      "size_mb": 21.45,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.pptx",
+      "name": "32B16_The_Walsch_Protocol.pptx",
+      "size_mb": 23.43,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B16_The_Walsch_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.pdf",
+      "name": "32B1_CYBERNETIC_ZEN_OVERRIDE.pdf",
+      "size_mb": 29.44,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.pptx",
+      "name": "32B1_CYBERNETIC_ZEN_OVERRIDE.pptx",
+      "size_mb": 32.23,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B1_CYBERNETIC_ZEN_OVERRIDE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.pdf",
+      "name": "32B2_OSHO_SYSTEM_OVERRIDE.pdf",
+      "size_mb": 18.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.pptx",
+      "name": "32B2_OSHO_SYSTEM_OVERRIDE.pptx",
+      "size_mb": 20.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B2_OSHO_SYSTEM_OVERRIDE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.pdf",
+      "name": "32B3_Toltec_Security_Patch.pdf",
+      "size_mb": 12.56,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.pptx",
+      "name": "32B3_Toltec_Security_Patch.pptx",
+      "size_mb": 13.56,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B3_Toltec_Security_Patch.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.pdf",
+      "name": "32B4_SHADOW_KERNEL_PATCH.pdf",
+      "size_mb": 17.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.pptx",
+      "name": "32B4_SHADOW_KERNEL_PATCH.pptx",
+      "size_mb": 19.25,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B4_SHADOW_KERNEL_PATCH.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.pdf",
+      "name": "32B5_NEXUS_PROTOCOL_ID08.pdf",
+      "size_mb": 17.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.pptx",
+      "name": "32B5_NEXUS_PROTOCOL_ID08.pptx",
+      "size_mb": 18.71,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B5_NEXUS_PROTOCOL_ID08.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.pdf",
+      "name": "32B6_SEMANTIC_ELEVATOR_32B6.pdf",
+      "size_mb": 19.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.pptx",
+      "name": "32B6_SEMANTIC_ELEVATOR_32B6.pptx",
+      "size_mb": 21.63,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B6_SEMANTIC_ELEVATOR_32B6.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.pdf",
+      "name": "32B7_TEPPERWEIN_BIOS_CALIBRATION.pdf",
+      "size_mb": 21.26,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.pptx",
+      "name": "32B7_TEPPERWEIN_BIOS_CALIBRATION.pptx",
+      "size_mb": 22.44,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B7_TEPPERWEIN_BIOS_CALIBRATION.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.pdf",
+      "name": "32B8_SEMANTIC_LIFT_32B8.pdf",
+      "size_mb": 13.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.pptx",
+      "name": "32B8_SEMANTIC_LIFT_32B8.pptx",
+      "size_mb": 15.14,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B8_SEMANTIC_LIFT_32B8.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.pdf",
+      "name": "32B9_Logotherapy_System_Patch.pdf",
+      "size_mb": 17.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.pptx",
+      "name": "32B9_Logotherapy_System_Patch.pptx",
+      "size_mb": 18.85,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B9_Logotherapy_System_Patch.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.pdf",
+      "name": "32B_ID08_DEAD_BOOKS_ARCHIVE.pdf",
+      "size_mb": 21.66,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.pptx",
+      "name": "32B_ID08_DEAD_BOOKS_ARCHIVE.pptx",
+      "size_mb": 23.67,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-freemium-kt-01/32B_ID08_DEAD_BOOKS_ARCHIVE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.pdf",
+      "name": "32A_Nexus_Master_Codex.pdf",
+      "size_mb": 24.3,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.pptx",
+      "name": "32A_Nexus_Master_Codex.pptx",
+      "size_mb": 26.54,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-omegamium-kt-01/32A_Nexus_Master_Codex.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.pdf",
+      "name": "32B17_Semantic_Elevator_32B17.pdf",
+      "size_mb": 20.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.pptx",
+      "name": "32B17_Semantic_Elevator_32B17.pptx",
+      "size_mb": 22.64,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B17_Semantic_Elevator_32B17.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.pdf",
+      "name": "32B18_OS_Genesis_Buddha_Protocol.pdf",
+      "size_mb": 20.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.pptx",
+      "name": "32B18_OS_Genesis_Buddha_Protocol.pptx",
+      "size_mb": 22.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-01/documents-zdarma-kt-01/32B18_OS_Genesis_Buddha_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.pdf",
+      "name": "32G_ID09_Sergeant-Core_Blueprint.pdf",
+      "size_mb": 14.36,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.pptx",
+      "name": "32G_ID09_Sergeant-Core_Blueprint.pptx",
+      "size_mb": 15.32,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-freemium-kt-02/32G_ID09_Sergeant-Core_Blueprint.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.pdf",
+      "name": "32I_ID05_Assets_Matrix.pdf",
+      "size_mb": 26.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.pptx",
+      "name": "32I_ID05_Assets_Matrix.pptx",
+      "size_mb": 29.14,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-omegamium-kt-02/32I_ID05_Assets_Matrix.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.pdf",
+      "name": "32K_NEXUS_HABITS_DATA_BOOK.pdf",
+      "size_mb": 19.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.pptx",
+      "name": "32K_NEXUS_HABITS_DATA_BOOK.pptx",
+      "size_mb": 20.72,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-omegamium-kt-02/32K_NEXUS_HABITS_DATA_BOOK.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.pdf",
+      "name": "32D_CASH_ENGINE_ID_03.pdf",
+      "size_mb": 24.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.pptx",
+      "name": "32D_CASH_ENGINE_ID_03.pptx",
+      "size_mb": 27.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32D_CASH_ENGINE_ID_03.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.pdf",
+      "name": "32E_The_Trojan_Horse_Protocol.pdf",
+      "size_mb": 27.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.pptx",
+      "name": "32E_The_Trojan_Horse_Protocol.pptx",
+      "size_mb": 30.31,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32E_The_Trojan_Horse_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.pdf",
+      "name": "32F_ID06_DATA_ABSORBER.pdf",
+      "size_mb": 20.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.pptx",
+      "name": "32F_ID06_DATA_ABSORBER.pptx",
+      "size_mb": 22.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32F_ID06_DATA_ABSORBER.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.pdf",
+      "name": "32H_ID11_SHUTDOWN_PROTOCOL.pdf",
+      "size_mb": 18.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.pptx",
+      "name": "32H_ID11_SHUTDOWN_PROTOCOL.pptx",
+      "size_mb": 19.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32H_ID11_SHUTDOWN_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.pdf",
+      "name": "32J_ID07_TECH_BLUEPRINT.pdf",
+      "size_mb": 12.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.pptx",
+      "name": "32J_ID07_TECH_BLUEPRINT.pptx",
+      "size_mb": 13.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-promium-kt-02/32J_ID07_TECH_BLUEPRINT.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.pdf",
+      "name": "32C_ID02_WORKFLOW_ENGINE.pdf",
+      "size_mb": 21.65,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.pptx",
+      "name": "32C_ID02_WORKFLOW_ENGINE.pptx",
+      "size_mb": 23.47,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-02/documents-zdarma-kt-02/32C_ID02_WORKFLOW_ENGINE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.pdf",
+      "name": "32M_Semantic_Broadcasting_Protocol.pdf",
+      "size_mb": 13.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.pptx",
+      "name": "32M_Semantic_Broadcasting_Protocol.pptx",
+      "size_mb": 15.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-freemium-kt-03/32M_Semantic_Broadcasting_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.pdf",
+      "name": "32N_ID01_IDENTITY_CORE.pdf",
+      "size_mb": 18.34,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.pptx",
+      "name": "32N_ID01_IDENTITY_CORE.pptx",
+      "size_mb": 19.62,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32N_ID01_IDENTITY_CORE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.pdf",
+      "name": "32O_ASSETS_MATRIX_PROTOCOL.pdf",
+      "size_mb": 25.56,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.pptx",
+      "name": "32O_ASSETS_MATRIX_PROTOCOL.pptx",
+      "size_mb": 27.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32O_ASSETS_MATRIX_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.pdf",
+      "name": "32R_NEXUS_HABIT_PROTOCOLS.pdf",
+      "size_mb": 33.46,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.pptx",
+      "name": "32R_NEXUS_HABIT_PROTOCOLS.pptx",
+      "size_mb": 36.63,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32R_NEXUS_HABIT_PROTOCOLS.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.pdf",
+      "name": "32S_OS_Genesis_ID14_Protocol.pdf",
+      "size_mb": 7.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.pptx",
+      "name": "32S_OS_Genesis_ID14_Protocol.pptx",
+      "size_mb": 8.21,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-omegamium-kt-03/32S_OS_Genesis_ID14_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-promium-kt-03/32P_ID07_AI_Protocol.pdf",
+      "name": "32P_ID07_AI_Protocol.pdf",
+      "size_mb": 17.2,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-promium-kt-03/32P_ID07_AI_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-promium-kt-03/32P_ID07_AI_Protocol.pptx",
+      "name": "32P_ID07_AI_Protocol.pptx",
+      "size_mb": 18.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-promium-kt-03/32P_ID07_AI_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.pdf",
+      "name": "32L_IDENTITY_CORE_ID01.pdf",
+      "size_mb": 14.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.pptx",
+      "name": "32L_IDENTITY_CORE_ID01.pptx",
+      "size_mb": 15.31,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-03/documents-zdarma-kt-03/32L_IDENTITY_CORE_ID01.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.pdf",
+      "name": "33C_NEXUS_MASTER_PROTOCOL.pdf",
+      "size_mb": 19.02,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.pptx",
+      "name": "33C_NEXUS_MASTER_PROTOCOL.pptx",
+      "size_mb": 20.72,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/33C_NEXUS_MASTER_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.pdf",
+      "name": "34C_Nexus_Mobile_Protocol.pdf",
+      "size_mb": 10.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.pptx",
+      "name": "34C_Nexus_Mobile_Protocol.pptx",
+      "size_mb": 10.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/34C_Nexus_Mobile_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.pdf",
+      "name": "35C_NEXUS_MASTER_PROTOCOL.pdf",
+      "size_mb": 16.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.pptx",
+      "name": "35C_NEXUS_MASTER_PROTOCOL.pptx",
+      "size_mb": 17.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-mastermium-kt-04/35C_NEXUS_MASTER_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.pdf",
+      "name": "33B_NEXUS_OMEGA_PROTOCOL.pdf",
+      "size_mb": 21.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.pptx",
+      "name": "33B_NEXUS_OMEGA_PROTOCOL.pptx",
+      "size_mb": 23.53,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/33B_NEXUS_OMEGA_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.pdf",
+      "name": "34B_Nexus_Omega_Protocol.pdf",
+      "size_mb": 15.32,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.pptx",
+      "name": "34B_Nexus_Omega_Protocol.pptx",
+      "size_mb": 16.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/34B_Nexus_Omega_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.pdf",
+      "name": "35B_NEXUS_OMEGA_DEPLOYMENT.pdf",
+      "size_mb": 18.57,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.pptx",
+      "name": "35B_NEXUS_OMEGA_DEPLOYMENT.pptx",
+      "size_mb": 20.18,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-omegamium-kt-04/35B_NEXUS_OMEGA_DEPLOYMENT.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pdf",
+      "name": "33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pdf",
+      "size_mb": 11.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pptx",
+      "name": "33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pptx",
+      "size_mb": 12.02,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/33A_NEXUS_PRO_SYSTEM_DEPLOYMENT.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.pdf",
+      "name": "34A_Nexus_Pro_Deployment.pdf",
+      "size_mb": 14.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.pptx",
+      "name": "34A_Nexus_Pro_Deployment.pptx",
+      "size_mb": 15.28,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/34A_Nexus_Pro_Deployment.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.pdf",
+      "name": "35A_NEXUS_PRO_TERMINAL.pdf",
+      "size_mb": 17.21,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.pptx",
+      "name": "35A_NEXUS_PRO_TERMINAL.pptx",
+      "size_mb": 18.35,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-04/documents-promium-kt-04/35A_NEXUS_PRO_TERMINAL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.pdf",
+      "name": "36A_ROOT_ACCESS_36A.pdf",
+      "size_mb": 12.39,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.pptx",
+      "name": "36A_ROOT_ACCESS_36A.pptx",
+      "size_mb": 13.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-05/documents-mastermium-kt-05/36A_ROOT_ACCESS_36A.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.pdf",
+      "name": "36B_NEXUS_OS_GENESIS.pdf",
+      "size_mb": 13.46,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.pptx",
+      "name": "36B_NEXUS_OS_GENESIS.pptx",
+      "size_mb": 14.42,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-05/documents-mastermium-kt-05/36B_NEXUS_OS_GENESIS.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.pdf",
+      "name": "37B_NEXUS_SURGICAL_PROTOCOL.pdf",
+      "size_mb": 16.54,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.pptx",
+      "name": "37B_NEXUS_SURGICAL_PROTOCOL.pptx",
+      "size_mb": 18.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-freemium-kt-06/37B_NEXUS_SURGICAL_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.pdf",
+      "name": "37C_Nexus_5_Card_Matrix.pdf",
+      "size_mb": 21.92,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.pptx",
+      "name": "37C_Nexus_5_Card_Matrix.pptx",
+      "size_mb": 23.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-omegamium-kt-06/37C_Nexus_5_Card_Matrix.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-omegamium-kt-06/37D_Nexus_Genesis.pdf",
+      "name": "37D_Nexus_Genesis.pdf",
+      "size_mb": 25.18,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-omegamium-kt-06/37D_Nexus_Genesis.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-omegamium-kt-06/37D_Nexus_Genesis.pptx",
+      "name": "37D_Nexus_Genesis.pptx",
+      "size_mb": 26.71,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-omegamium-kt-06/37D_Nexus_Genesis.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.pdf",
+      "name": "37A_Nexus_OS_Genesis.pdf",
+      "size_mb": 21.47,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.pptx",
+      "name": "37A_Nexus_OS_Genesis.pptx",
+      "size_mb": 22.53,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-06/documents-zdarma-kt-06/37A_Nexus_OS_Genesis.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.pdf",
+      "name": "38A_Nexus_Lexikon.pdf",
+      "size_mb": 15.05,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.pptx",
+      "name": "38A_Nexus_Lexikon.pptx",
+      "size_mb": 16.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-07/documents-omegamium-kt-07/38A_Nexus_Lexikon.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.pdf",
+      "name": "38B_NEXUS_LEXICON_38B.pdf",
+      "size_mb": 9.47,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.pptx",
+      "name": "38B_NEXUS_LEXICON_38B.pptx",
+      "size_mb": 10.15,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-07/documents-omegamium-kt-07/38B_NEXUS_LEXICON_38B.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.pdf",
+      "name": "ID05_ASSETS_MATRIX.pdf",
+      "size_mb": 21.4,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.pptx",
+      "name": "ID05_ASSETS_MATRIX.pptx",
+      "size_mb": 23.27,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID05_ASSETS_MATRIX.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.pdf",
+      "name": "ID08_EMPTY_BOOK_PROTOCOL.pdf",
+      "size_mb": 9.05,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.pptx",
+      "name": "ID08_EMPTY_BOOK_PROTOCOL.pptx",
+      "size_mb": 9.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID08_EMPTY_BOOK_PROTOCOL.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.pdf",
+      "name": "ID09_Sergeant-Core_Tactical_Protocol.pdf",
+      "size_mb": 26.28,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.pptx",
+      "name": "ID09_Sergeant-Core_Tactical_Protocol.pptx",
+      "size_mb": 28.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID09_Sergeant-Core_Tactical_Protocol.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID10_Nonidentity_Core.pdf",
+      "name": "ID10_Nonidentity_Core.pdf",
+      "size_mb": 19.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID10_Nonidentity_Core.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID10_Nonidentity_Core.pptx",
+      "name": "ID10_Nonidentity_Core.pptx",
+      "size_mb": 20.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID10_Nonidentity_Core.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.pdf",
+      "name": "ID14_NEXUS_TRANSMISSION.pdf",
+      "size_mb": 9.66,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.pptx",
+      "name": "ID14_NEXUS_TRANSMISSION.pptx",
+      "size_mb": 10.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-freemium-kt-08/ID14_NEXUS_TRANSMISSION.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.pdf",
+      "name": "ID12_NEXUS_CODEX.pdf",
+      "size_mb": 18.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.pptx",
+      "name": "ID12_NEXUS_CODEX.pptx",
+      "size_mb": 19.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID12_NEXUS_CODEX.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.pdf",
+      "name": "ID13_NEXUS_HABITS_UPGRADE.pdf",
+      "size_mb": 18.39,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.pptx",
+      "name": "ID13_NEXUS_HABITS_UPGRADE.pptx",
+      "size_mb": 19.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID13_NEXUS_HABITS_UPGRADE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID15_Death_Core.pdf",
+      "name": "ID15_Death_Core.pdf",
+      "size_mb": 15.2,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID15_Death_Core.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID15_Death_Core.pptx",
+      "name": "ID15_Death_Core.pptx",
+      "size_mb": 16.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-omegamium-kt-08/ID15_Death_Core.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID03_CASH_ENGINE.pdf",
+      "name": "ID03_CASH_ENGINE.pdf",
+      "size_mb": 29.83,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID03_CASH_ENGINE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID03_CASH_ENGINE.pptx",
+      "name": "ID03_CASH_ENGINE.pptx",
+      "size_mb": 32.49,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID03_CASH_ENGINE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.pdf",
+      "name": "ID04_REVENUE_ARCHITECT.pdf",
+      "size_mb": 18.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.pptx",
+      "name": "ID04_REVENUE_ARCHITECT.pptx",
+      "size_mb": 19.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID04_REVENUE_ARCHITECT.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.pdf",
+      "name": "ID06_NEXUS_DATA_ABSORBER.pdf",
+      "size_mb": 22.47,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.pptx",
+      "name": "ID06_NEXUS_DATA_ABSORBER.pptx",
+      "size_mb": 24.43,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID06_NEXUS_DATA_ABSORBER.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID07_SKILLS_TREE.pdf",
+      "name": "ID07_SKILLS_TREE.pdf",
+      "size_mb": 18.78,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID07_SKILLS_TREE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID07_SKILLS_TREE.pptx",
+      "name": "ID07_SKILLS_TREE.pptx",
+      "size_mb": 20.26,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID07_SKILLS_TREE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.pdf",
+      "name": "ID11_SYSTEM_RECOVERY.pdf",
+      "size_mb": 26.28,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.pptx",
+      "name": "ID11_SYSTEM_RECOVERY.pptx",
+      "size_mb": 28.72,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-promium-kt-08/ID11_SYSTEM_RECOVERY.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.pdf",
+      "name": "ID00_MENTOR_HUB.pdf",
+      "size_mb": 21.6,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.pptx",
+      "name": "ID00_MENTOR_HUB.pptx",
+      "size_mb": 22.74,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID00_MENTOR_HUB.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.pdf",
+      "name": "ID01_IDENTITY_CORE.pdf",
+      "size_mb": 11.77,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.pptx",
+      "name": "ID01_IDENTITY_CORE.pptx",
+      "size_mb": 12.3,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID01_IDENTITY_CORE.pptx"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.pdf",
+      "name": "ID02_EXECUTION_ENGINE.pdf",
+      "size_mb": 13.69,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.pdf"
+    },
+    {
+      "bucket": "pdf-assets",
+      "path": "documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.pptx",
+      "name": "ID02_EXECUTION_ENGINE.pptx",
+      "size_mb": 14.76,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/pdf-assets/documents-pdf-pptx-k-08/documents-zdarma-kt-08/ID02_EXECUTION_ENGINE.pptx"
+    }
+  ],
+  "codm-zombies-are-back": [
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_all-pack-zip/codmZ_free_all_pack.zip",
+      "name": "codmZ_free_all_pack.zip",
+      "size_mb": 62.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_all-pack-zip/codmZ_free_all_pack.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_all-pack-zip/codmZ_master_all_pack.zip",
+      "name": "codmZ_master_all_pack.zip",
+      "size_mb": 65.12,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_all-pack-zip/codmZ_master_all_pack.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_all-pack-zip/codmZ_omega_all_pack.zip",
+      "name": "codmZ_omega_all_pack.zip",
+      "size_mb": 196.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_all-pack-zip/codmZ_omega_all_pack.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_all-pack-zip/codmZ_pro_all_pack.zip",
+      "name": "codmZ_pro_all_pack.zip",
+      "size_mb": 196.31,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_all-pack-zip/codmZ_pro_all_pack.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp4",
+      "name": "LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp4",
+      "size_mb": 10.45,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp4",
+      "name": "LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp4",
+      "size_mb": 13.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp4",
+      "name": "LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp4",
+      "size_mb": 10.39,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp4",
+      "name": "LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp4",
+      "size_mb": 13.75,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp4",
+      "name": "LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp4",
+      "size_mb": 12.22,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp4",
+      "name": "LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp4",
+      "size_mb": 12.59,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp4",
+      "name": "LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp4",
+      "size_mb": 12.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp4",
+      "name": "LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp4",
+      "size_mb": 11.99,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp4",
+      "name": "LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp4",
+      "size_mb": 13.64,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp4",
+      "name": "LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp4",
+      "size_mb": 13.13,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp4",
+      "name": "LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp4",
+      "size_mb": 12.23,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp4",
+      "name": "LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp4",
+      "size_mb": 13.93,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp4",
+      "name": "LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp4",
+      "size_mb": 10.97,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.mp4",
+      "name": "LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.mp4",
+      "size_mb": 13.98,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp4",
+      "name": "LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp4",
+      "size_mb": 11.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.mp4",
+      "name": "LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.mp4",
+      "size_mb": 12.0,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp4",
+      "name": "LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp4",
+      "size_mb": 12.67,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp4",
+      "name": "LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp4",
+      "size_mb": 12.35,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp4",
+      "name": "LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp4",
+      "size_mb": 11.39,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp4",
+      "name": "LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp4",
+      "size_mb": 12.82,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp4",
+      "name": "LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp4",
+      "size_mb": 12.47,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp4",
+      "name": "LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp4",
+      "size_mb": 12.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp4",
+      "name": "LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp4",
+      "size_mb": 12.8,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp4",
+      "name": "LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp4",
+      "size_mb": 12.68,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp4",
+      "name": "LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp4",
+      "size_mb": 13.31,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp4",
+      "name": "LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp4",
+      "size_mb": 12.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp4",
+      "name": "LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp4",
+      "size_mb": 13.42,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp4",
+      "name": "LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp4",
+      "size_mb": 12.86,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp4",
+      "name": "LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp4",
+      "size_mb": 12.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp4",
+      "name": "LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp4",
+      "size_mb": 12.79,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.mp4",
+      "name": "LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.mp4",
+      "size_mb": 11.99,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_mp4/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp4",
+      "name": "LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp4",
+      "size_mb": 12.9,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_mp4/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp4"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/audit_sha256_zombie_are_back.json",
+      "name": "audit_sha256_zombie_are_back.json",
+      "size_mb": 0.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/audit_sha256_zombie_are_back.json"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/audit_sha256_zombie_are_back.md",
+      "name": "audit_sha256_zombie_are_back.md",
+      "size_mb": 0.01,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/audit_sha256_zombie_are_back.md"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp3",
+      "name": "LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp3",
+      "size_mb": 4.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.zip",
+      "name": "LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.zip",
+      "size_mb": 10.15,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01A_CLASIC_NORMAL_SHI_NO_NUMA_ROCK-Bazina_ticho_dycha.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp3",
+      "name": "LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.zip",
+      "name": "LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.zip",
+      "size_mb": 12.81,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01B_CLASIC_NORMAL_SHI_NO_NUMA_METAL-Bazina_Mrtveho_Masa.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp3",
+      "name": "LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.zip",
+      "name": "LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.zip",
+      "size_mb": 10.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01C_CLASIC_NORMAL_SHI_NO_NUMA_TECHNO-TRANCE-Prebit_vlnu.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp3",
+      "name": "LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.zip",
+      "name": "LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.zip",
+      "size_mb": 13.45,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-01D_CLASIC_NORMAL_SHI_NO_NUMA_HARD-TECHNO-Tvoj_herny_cas_zmerany.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp3",
+      "name": "LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp3",
+      "size_mb": 4.05,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.zip",
+      "name": "LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.zip",
+      "size_mb": 11.91,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02A_HARDCORE_BOSS_ABOMINATION_ROCK-Tri_Besne_Hlavy.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp3",
+      "name": "LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp3",
+      "size_mb": 4.04,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.zip",
+      "name": "LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.zip",
+      "size_mb": 12.3,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02B_HARDCORE_BOSS_ABOMINATION_METAL-Three_Mouths_Open.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp3",
+      "name": "LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp3",
+      "size_mb": 4.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.zip",
+      "name": "LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.zip",
+      "size_mb": 12.48,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02C_HARDCORE_BOSS_ABOMINATION_TECHNO-TRANCE-Posledny_Strach.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp3",
+      "name": "LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.zip",
+      "name": "LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.zip",
+      "size_mb": 11.69,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-02D_HARDCORE_BOSS_ABOMINATION_HARD-TECHNO-Tri_Hlavy_Prebite.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp3",
+      "name": "LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.zip",
+      "name": "LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.zip",
+      "size_mb": 13.33,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03A_HARDCORE_BOSS_JUBOKKO_ROCK-The_Wooden_Hands.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp3",
+      "name": "LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp3",
+      "size_mb": 4.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.zip",
+      "name": "LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.zip",
+      "size_mb": 12.84,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03B_HARDCORE_BOSS_JUBOKKO_METAL-Krvava_miazga.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp3",
+      "name": "LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp3",
+      "size_mb": 4.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.zip",
+      "name": "LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.zip",
+      "size_mb": 11.95,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03C_HARDCORE_BOSS_JUBOKKO_TECHNO-TRANCE-Jubokko_ziari_na_fialovo.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp3",
+      "name": "LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.zip",
+      "name": "LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.zip",
+      "size_mb": 13.63,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-03D_HARDCORE_BOSS_JUBOKKO_HARD-TECHNO-Red_Sap_Pressure.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp3",
+      "name": "LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.zip",
+      "name": "LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.zip",
+      "size_mb": 10.65,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04A_ENDLESS_EXFIL_SHI_NO_NUMA_ROCK-Zeleny_Dym.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.mp3",
+      "name": "LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.zip",
+      "name": "LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.zip",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni-Odlet_alebo_padni.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.zip",
+      "name": "LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.zip",
+      "size_mb": 13.69,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04B_ENDLESS_EXFIL_SHI_NO_NUMA_METAL-Odlet_alebo_padni.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp3",
+      "name": "LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp3",
+      "size_mb": 4.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.zip",
+      "name": "LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.zip",
+      "size_mb": 11.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04C_ENDLESS_EXFIL_SHI_NO_NUMA_TECHNO-TRANCE-Helicopter_On_The_Way.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.mp3",
+      "name": "LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.zip",
+      "name": "LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.zip",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter-Swamp_Perimeter.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.zip",
+      "name": "LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.zip",
+      "size_mb": 11.7,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp3",
+      "name": "LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.zip",
+      "name": "LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.zip",
+      "size_mb": 12.36,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05A_ENDLESS_MAX_ROUNDS_ROCK-Chrbat_k_chrbtu.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp3",
+      "name": "LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp3",
+      "size_mb": 4.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.zip",
+      "name": "LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.zip",
+      "size_mb": 12.06,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05B_ENDLESS_MAX_ROUNDS_METAL-Painted_Red.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp3",
+      "name": "LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.zip",
+      "name": "LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.zip",
+      "size_mb": 11.11,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05C_ENDLESS_MAX_ROUNDS_TECHNO-TRANCE-The_Hundredth_Round.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp3",
+      "name": "LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp3",
+      "size_mb": 4.09,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.zip",
+      "name": "LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.zip",
+      "size_mb": 12.5,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-05D_ENDLESS_MAX_ROUNDS_HARD-TECHNO-Ste_kolo_krviprelievania.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp3",
+      "name": "LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.zip",
+      "name": "LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.zip",
+      "size_mb": 12.17,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06A_UNDEAD_SIEGE_CASUAL_ROCK-Obrana_Modreho_Jadra.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp3",
+      "name": "LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.zip",
+      "name": "LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.zip",
+      "size_mb": 11.87,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06B_UNDEAD_SIEGE_CASUAL_METAL-Olovo_Lieta.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp3",
+      "name": "LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.zip",
+      "name": "LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.zip",
+      "size_mb": 12.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06C_UNDEAD_SIEGE_CASUAL_TECHNO-TRANCE-Perimeter_Obrana.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp3",
+      "name": "LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.zip",
+      "name": "LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.zip",
+      "size_mb": 12.37,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-06D_UNDEAD_SIEGE_CASUAL_HARD-TECHNO-Empty_Bullet_Shells.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp3",
+      "name": "LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.zip",
+      "name": "LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.zip",
+      "size_mb": 13.16,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07A_UNDEAD_SIEGE_HARD_ROCK-Hard_Siege_Active.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp3",
+      "name": "LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.zip",
+      "name": "LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.zip",
+      "size_mb": 12.4,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07B_UNDEAD_SIEGE_HARD_METAL-Warden_s_Final_Siege.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp3",
+      "name": "LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.zip",
+      "name": "LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.zip",
+      "size_mb": 13.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07C_UNDEAD_SIEGE_HARD_TECHNO-TRANCE-Warden_v_hmlistom_lese.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp3",
+      "name": "LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp3",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.zip",
+      "name": "LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.zip",
+      "size_mb": 12.55,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-07D_UNDEAD_SIEGE_HARD_HARD-TECHNO-Warden_Hammer_Strike.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp3",
+      "name": "LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.zip",
+      "name": "LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.zip",
+      "size_mb": 12.03,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08A_UNDEAD_SIEGE_NIGHTMARE_ROCK-Protect_The_Cracking_Core.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp3",
+      "name": "LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.zip",
+      "name": "LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.zip",
+      "size_mb": 12.51,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08B_UNDEAD_SIEGE_NIGHTMARE_METAL-Nocna_mora_na_heliporte.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.mp3",
+      "name": "LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.mp3",
+      "size_mb": 4.1,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.zip",
+      "name": "LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.zip",
+      "size_mb": 4.08,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte-Nekromant_na_Heliporte.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.zip",
+      "name": "LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.zip",
+      "size_mb": 11.69,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08C_UNDEAD_SIEGE_NIGHTMARE_TECHNO-TRANCE-Nekromant_na_Heliporte.zip"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp3",
+      "name": "LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp3",
+      "size_mb": 4.07,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.mp3"
+    },
+    {
+      "bucket": "codm-zombies-are-back",
+      "path": "codmZ_single-zip/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.zip",
+      "name": "LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.zip",
+      "size_mb": 12.6,
+      "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/codm-zombies-are-back/codmZ_single-zip/LV-08D_UNDEAD_SIEGE_NIGHTMARE_HARD-TECHNO-Posledna_Minuta_Zla.zip"
+    }
+  ]
+}

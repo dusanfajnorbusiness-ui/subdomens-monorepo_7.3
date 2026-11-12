@@ -1,0 +1,25 @@
+# Logs & Runtimes
+node_modules
+dist
+dist-ssr
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Secrets (KRITICKÉ - NIKDY NEPUSHOVAŤ)
+.env
+.env.local
+.env.*.local
+
+# Vercel Deployment Cache
+.vercel
+
+# Editor & OS Metadata
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

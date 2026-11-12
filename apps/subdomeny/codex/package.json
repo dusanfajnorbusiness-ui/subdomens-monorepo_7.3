@@ -1,0 +1,6 @@
+{
+  "name": "@nexus/codex",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module"
+}

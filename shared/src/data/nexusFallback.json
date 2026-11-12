@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": "emergency-001",
+      "title": "PROTOKOL EXODUS AKTIVOVANÝ",
+      "content": "Systém beží v núdzovom režime z lokálnej zálohy. Spojenie s Firebase bolo dočasne prerušené. Zápis do databázy je zablokovaný.",
+      "authorName": "ARCHITEKT",
+      "authorTier": "ARCHITECT",
+      "category": "system",
+      "timestamp": { "seconds": 1715414400 }
+    }
+  ],
+  "users": {
+    "architekt@nexus.sk": {
+      "displayName": "ARCHITEKT_CORE",
+      "tier": "ARCHITECT",
+      "credits": 999999
+    }
+  },
+  "nodes": {
+    "ID10-10": {
+      "title": "Záložný Uzol",
+      "content": "Tento obsah sa načíta, ak padne cloud databáza pre konkrétne uzly."
+    }
+  }
+}

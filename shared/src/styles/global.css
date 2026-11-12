@@ -1,0 +1,40 @@
+/* ============================================================================
+   👑 PROJECT NEXUS — OS GENESIS EDITION (GLOBAL CSS STYLES V20.95)
+   Súbor: shared/styles/global.css
+   ============================================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #00f3ff;
+  --color-gold: #ffd700;
+  --color-accent: #ff0055;
+  --bg-dark: #020406;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-dark);
+  color: #ffffff;
+  font-family: "JetBrains Mono", monospace;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar pre Cyber-Brutalism UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #03070a;
+}
+::-webkit-scrollbar-thumb {
+  background: #00f3ff40;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f3ff;
+}
