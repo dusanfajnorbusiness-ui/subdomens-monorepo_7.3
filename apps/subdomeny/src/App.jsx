@@ -75,7 +75,35 @@ export const App = () => {
     typeof window !== "undefined"
       ? String(window.location.hostname || "").toLowerCase()
       : "";
+
+  // 🗺️ MASTER REGISTER SUBDOMÉNOVÝCH PREFIXOV (SUB 00 AŽ SUB 15)
+  const SUBDOMAIN_HOST_MAP = {
+    "mentor.": "SUB 00",
+    "personal.": "SUB 01",
+    "work.": "SUB 02",
+    "finance.": "SUB 03",
+    "business.": "SUB 04",
+    "health.": "SUB 05",
+    "relationships.": "SUB 06",
+    "spirituality.": "SUB 07",
+    "creativity.": "SUB 08",
+    "technology.": "SUB 09",
+    "nature.": "SUB 10",
+    "travel.": "SUB 11",
+    "education.": "SUB 12",
+    "entertainment.": "SUB 13",
+    "community.": "SUB 14",
+    "death.": "SUB 15",
+  };
+
+  // Zistíme, či bežíme na niektorej z autonómnych subdomén
+  const matchedSubEntry = Object.entries(SUBDOMAIN_HOST_MAP).find(([prefix]) =>
+    currentHost.startsWith(prefix)
+  );
+  const detectedSubId = matchedSubEntry ? matchedSubEntry.at(1) : null;
+  const isDirectAutonomousSub = Boolean(detectedSubId);
   const isDirectMentor = currentHost.startsWith("mentor.");
+
   const HUB_URL = String(
     import.meta.env.VITE_APP_URL || "https://subdomens.projekt-nexus.sk",
   );
@@ -83,15 +111,15 @@ export const App = () => {
   // 🧭 1. DETEKCIA POČIATOČNÉHO STAVU Z URL
   const getInitialRouteState = () => {
     if (typeof window === "undefined") {
-      return { id: "SUB 00", isHome: !isDirectMentor };
+      return { id: "SUB 00", isHome: !isDirectAutonomousSub };
     }
     const path = String(window.location.pathname || "")
       .toLowerCase()
       .trim();
 
-    // Ak sme na doméne mentor.projekt-nexus.sk, isHome je VŽDY FALSE (je to samostatná subdoména)
-    if (isDirectMentor) {
-      return { id: "SUB 00", isHome: false };
+    // Ak sme na akejkoľvek samostatnej subdoméne (mentor, personal, work...), isHome je VŽDY false
+    if (isDirectAutonomousSub && detectedSubId) {
+      return { id: detectedSubId, isHome: false };
     }
 
     // Podpora koreňa aj aliasu /home pre centrálu subdomén
@@ -206,7 +234,7 @@ export const App = () => {
       currentSub?.title ||
       (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
     name:
-      currentSub?.name || (cleanNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
+      currentSub?.name || (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
     themeColor: themeColor,
     color: themeColor,
     tier: currentSub?.tier || operatorTier,
@@ -226,16 +254,15 @@ export const App = () => {
   const handleSelectSub = (newSubId) => {
     if (SoundFX?.click) SoundFX.click();
 
-    // 🛡️ V20 OCHRANA: Vytiahneme len PRVÝ výskyt 1 až 2 číslic
-    const rawStr = Array.isArray(newSubId)
-      ? newSubId.join("")
-      : String(newSubId || "");
-    const match = rawStr.match(/\d{1,2}/);
-    const cleanNum =
-      match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
-
-    const targetId = `SUB ${cleanNum}`;
-    const targetPath = cleanNum === "00" ? "/home" : `/sub${cleanNum}`;
+    // Ak sme na akejkoľvek autonómnej subdoméne (mentor, personal, atď.), opúšťame ju na centrálu
+    if (isDirectAutonomousSub) {
+      console.log(
+        "🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:",
+        HUB_URL,
+      );
+      window.location.href = `${HUB_URL}/home`;
+      return;
+    }
 
     setRouteState({
       id: targetId,
@@ -264,19 +291,39 @@ export const App = () => {
     setBootTrigger((prev) => prev + 1);
   };
 
-  // 1. Defenzívny stav pre System Log Modal
-  const [isSystemLogOpen, setIsSystemLogOpen] = useState(true);
+   // Unikátny kľúč buildu (pri novom git push stačí zmeniť verziu, napr. v7.3.1, alebo nechať per-session)
+  const SYSTEM_LOG_DEPLOY_KEY = "nexus_system_log_deploy_v7.3_pushed";
 
-  // 2. Jednotný listener na globálny signál + voliteľný auto-trigger po boote
+  // 1. Zistíme, či už bol v tejto relácii/po git pushi zobrazený
+  const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
+    if (typeof window === "undefined") return false;
+    const isAlreadySeen = sessionStorage.getItem(SYSTEM_LOG_DEPLOY_KEY);
+    return !isAlreadySeen; // Otvorí sa LEN pri prvom načítaní po pushi
+  });
+
+  // 2. Obsluha manuálneho zatvorenia + uloženie pečiatky do pamäte
+  const handleCloseSystemLog = () => {
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem(SYSTEM_LOG_DEPLOY_KEY, "true");
+    }
+    setIsSystemLogOpen(false);
+  };
+
+  // 3. Listener pre manuálne vyvolanie (tlačidlo vo footeri ho VŽDY vie otvoriť znova)
   useEffect(() => {
-    const handleOpenLog = () => {
-      console.log("🚨 [SYSTEM LOG] Prijatý signál -> Otváram SystemLogModal");
+    // Ak sa otvoril automaticky pri prvom štarte, zapíšeme pečiatku hneď
+    if (typeof window !== "undefined" && isSystemLogOpen) {
+      sessionStorage.setItem(SYSTEM_LOG_DEPLOY_KEY, "true");
+    }
+
+    const handleOpenSignal = () => {
+      console.log("🚨 [SYSTEM LOG] Manuálne vyvolanie z Footera");
       setIsSystemLogOpen(true);
     };
 
-    window.addEventListener("nexus_open_system_log", handleOpenLog);
+    window.addEventListener("nexus_open_system_log", handleOpenSignal);
     return () => {
-      window.removeEventListener("nexus_open_system_log", handleOpenLog);
+      window.removeEventListener("nexus_open_system_log", handleOpenSignal);
     };
   }, []);
 
