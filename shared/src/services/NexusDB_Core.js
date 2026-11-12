@@ -154,7 +154,10 @@ export const NexusDB = {
 
    getSystemLogs: async (limit = 15) => {
     try {
-      const repo = import.meta.env.VITE_GITHUB_REPO || "dusanfajnorbusiness-ui/projekt-nexus-monorepo_7.0";
+      const repo =
+        import.meta.env.VITE_GITHUB_REPO ||
+        "dusanfajnorbusiness-ui/subdomens-monorepo_7.3";
+
       const token =
         import.meta.env.VITE_GITHUB_TOKEN ||
         import.meta.env.VITE_GH_TOKEN ||
@@ -167,19 +170,29 @@ export const NexusDB = {
         ...(token ? { Authorization: `Bearer ${token}` } : {}),
       };
 
-      const res = await fetch(`https://api.github.com/repos/${repo}/commits?per_page=${limit}`, { headers });
+      const res = await fetch(
+        `https://api.github.com/repos/${repo}/commits?per_page=${limit}`,
+        { headers }
+      );
+
       if (!res.ok) throw new Error(`GitHub API HTTP ${res.status}`);
 
       const data = await res.json();
       if (!Array.isArray(data)) return null;
 
       return data.map((item, idx) => {
-        const rawMsg = item.commit?.message || "";
-        const msgLines = String(rawMsg).split("\n").filter((l) => l.trim() !== "");
+        const rawMsg = item?.commit?.message || "";
+        const msgLines = String(rawMsg)
+          .split("\n")
+          .map((l) => l.trim())
+          .filter(Boolean);
 
-        const commitTitle = String(msgLines[0] || "Git Update").trim();
-        const commitBody = msgLines.slice(1).join("\n").trim() || "Commit evidovaný vo zbernici GitHub.";
-        const commitDate = item.commit?.author?.date
+        const commitTitle = String(msgLines.at(0) || "Git Update").trim();
+        const commitBody =
+          msgLines.slice(1).join("\n").trim() ||
+          "Commit evidovaný vo zbernici GitHub.";
+
+        const commitDate = item?.commit?.author?.date
           ? new Date(item.commit.author.date).toLocaleDateString("sk-SK", {
               day: "2-digit",
               month: "2-digit",
@@ -187,12 +200,14 @@ export const NexusDB = {
             })
           : "DNEŠNÝ PUSH";
 
+        const shortSha = item?.sha ? String(item.sha).substring(0, 7) : `LOG-${idx}`;
+
         return {
-          id: item.sha ? item.sha.substring(0, 7) : `LOG-${idx}`,
+          id: shortSha,
           tag: idx === 0 ? "LATEST_PUSH" : "GIT_COMMIT",
           title: commitTitle,
           summary: commitBody,
-          desc: `Commit SHA: ${item.sha} | Autor: ${item.commit?.author?.name || "Architekt"}`,
+          desc: `Commit SHA: ${shortSha} | Autor: ${item?.commit?.author?.name || "Architekt"}`,
           date: commitDate,
           color: idx === 0 ? "#39FF14" : "#00f3ff",
         };

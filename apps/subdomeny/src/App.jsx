@@ -377,26 +377,26 @@ export const App = () => {
         className="fixed top-0 left-0 w-full border-b border-cyan-500/30 bg-[#030609]/95 backdrop-blur-xl px-3 py-2 flex justify-between items-center shadow-[0_4px_25px_rgba(0,180,216,0.15)] text-left"
       >
         {/* LOGO MATERSKEJ LODE (VIZUÁLNY DOCK) */}
-        <div className="flex items-center gap-2 min-w-0">
-          <div className="flex items-center gap-2 shrink-0 px-2 py-1 rounded-xl bg-[#080E14] border border-cyan-500/40 shadow-[0_0_12px_rgba(0,180,216,0.2)]">
+        <div className="flex items-center gap-1.5 sm:gap-2 min-w-0 shrink">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0 px-2 py-1 rounded-xl bg-[#080E14] border border-cyan-500/40 shadow-[0_0_12px_rgba(0,180,216,0.2)]">
             <div
-              className="p-1.5 rounded-lg text-black transition-colors"
+              className="p-1 sm:p-1.5 rounded-lg text-black transition-colors shrink-0"
               style={{ backgroundColor: themeColor }}
             >
-              <Shield size={14} className="font-black" />
+              <Shield size={13} className="font-black" />
             </div>
-            <span className="text-white font-black tracking-widest uppercase italic text-xs hidden md:inline-block">
+            <span className="text-white font-black tracking-widest uppercase italic text-[11px] sm:text-xs hidden md:inline-block">
               NEXUS <span style={{ color: themeColor }}>SUB</span>
             </span>
           </div>
 
-          {/* VŠETKY TLAČIDLÁ V LIŠTE SÚ HLUCHÉ (LEN VIZUÁL PODĽA ZADANIA) */}
-          <div className="flex items-center gap-1 overflow-x-auto hide-scroll py-0.5">
-            {/* 🟢 DYNAMICKÉ TLAČIDLO HOME ZLADENÉ S FARBOU AKTÍVNEHO UZLA */}
+          {/* NAVIGAČNÉ TLAČIDLÁ (NA MOBILE LEN HOME, OSTATNÉ OD MD+) */}
+          <div className="flex items-center gap-1 py-0.5">
+            {/* 🟢 DYNAMICKÉ TLAČIDLO HOME (VIDITEĽNÉ VŽDY) */}
             <button
               type="button"
               onClick={handleHomeClick}
-              className="px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-1.5 cursor-pointer active:scale-95"
+              className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-lg text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-1 sm:gap-1.5 cursor-pointer active:scale-95 shrink-0"
               style={{
                 color: isDefaultHome ? "#FFFFFF" : themeColor,
                 borderColor: `${themeColor}60`,
@@ -407,17 +407,17 @@ export const App = () => {
               }}
               title="[ 🏠 RESET NA DOMOVSKÝ UZOL // SUB 00 ]"
             >
-              <Grid size={13} style={{ color: themeColor }} />
+              <Grid size={12} style={{ color: themeColor }} />
               <span>Home</span>
             </button>
 
-            {/* 🛑 HLUCHÉ TLAČIDLÁ SO ZÁKAZOM A V20 TOOLTIPOM */}
+            {/* 🛑 HLUCHÉ TLAČIDLÁ (SKRYTÉ NA MOBILE, VIDITEĽNÉ OD MD VYŠŠIE) */}
             <button
               type="button"
               disabled
               aria-disabled="true"
               title="[ ⚠️ BLOG // MODUL VO VÝVOJI // V20 PROTOKOL ]"
-              className="px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 flex items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity"
+              className="hidden md:flex px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity shrink-0"
             >
               <Terminal size={13} />
               <span>Blog</span>
@@ -428,7 +428,7 @@ export const App = () => {
               disabled
               aria-disabled="true"
               title="[ ⚠️ OPERÁTORI // SYSTÉMOVÁ MATRIX VO VÝVOJI ]"
-              className="px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 flex items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity"
+              className="hidden lg:flex px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity shrink-0"
             >
               <Users size={13} />
               <span>Operators</span>
@@ -439,7 +439,7 @@ export const App = () => {
               disabled
               aria-disabled="true"
               title="[ ⚠️ NASTAVENIA // KONFIGURAČNÁ BRÁNA VO VÝVOJI ]"
-              className="px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 flex items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity"
+              className="hidden xl:flex px-2.5 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wider text-zinc-600 opacity-40 hover:opacity-50 items-center gap-1 cursor-not-allowed border border-white/5 bg-white/[0.02] select-none transition-opacity shrink-0"
             >
               <Settings size={13} />
               <span>Settings</span>
@@ -447,34 +447,37 @@ export const App = () => {
           </div>
         </div>
 
-        {/* PRAVÝ BLOK (DROPDOWN + STATICKÝ PROFIL A INBOX) */}
-        <div className="flex items-center gap-2 shrink-0">
-          {/* ODDELOVAČ */}
-          <div className="h-4 w-[1px] bg-white/10 mx-1" />
+        {/* PRAVÝ BLOK (DROPDOWN + STATUS OPERÁTORA) */}
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0 ml-2">
+          {/* ODDELOVAČ (SKRYTÝ NA NAJMENŠÍCH DISPLEJOCH) */}
+          <div className="hidden sm:block h-4 w-[1px] bg-white/10 mx-0.5 sm:mx-1" />
 
-          {/* DROPDOWN SUBDOMÉN S DYNAMICKOU FARBOU */}
-          {/* DROPDOWN SUBDOMÉN S DYNAMICKOU FARBOU */}
-          <GlobalNexusDropdown
-            currentSubId={activeSubId}
-            subId={activeSubId}
-            activeColor={themeColor}
-            themeColor={themeColor}
-            color={themeColor}
-            onSelectSub={handleSelectSub}
-          />
+          {/* DROPDOWN SUBDOMÉN */}
+          <div className="shrink-0 max-w-[150px] xs:max-w-[180px] sm:max-w-none">
+            <GlobalNexusDropdown
+              currentSubId={activeSubId}
+              subId={activeSubId}
+              activeColor={themeColor}
+              themeColor={themeColor}
+              color={themeColor}
+              onSelectSub={handleSelectSub}
+            />
+          </div>
 
-          {/* VPRAVO: OPERÁTOR STATUS BADGE SO ZÁKAZOM A TOOLTIPMI */}
-          <div className="flex items-center gap-2">
+          {/* OPERÁTOR STATUS BADGE */}
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
+            {/* INBOX (SKRYTÝ NA MOBILE) */}
             <button
               type="button"
               disabled
               aria-disabled="true"
               title="[ ⚠️ INBOX // KOMUNIKAČNÝ UZOL VO VÝVOJI ]"
-              className="p-1.5 sm:p-2 rounded-lg bg-blue-500/5 text-blue-400/40 border border-blue-500/10 cursor-not-allowed select-none transition-all"
+              className="hidden sm:flex p-1.5 sm:p-2 rounded-lg bg-blue-500/5 text-blue-400/40 border border-blue-500/10 cursor-not-allowed select-none transition-all shrink-0"
             >
-              <Mail size={15} />
+              <Mail size={14} />
             </button>
 
+            {/* AVATAR OPERÁTORA (VŽDY VIDITEĽNÝ) */}
             <div
               title="[ 👤 OPERÁTOR PROFIL // AUTORIZOVANÝ PRÍSTUP ]"
               className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 flex items-center justify-center bg-black shrink-0 cursor-help transition-all duration-300"
@@ -483,17 +486,18 @@ export const App = () => {
                 boxShadow: `0 0 10px ${themeColor}20`,
               }}
             >
-              <User size={14} style={{ color: themeColor }} />
+              <User size={13} style={{ color: themeColor }} />
             </div>
 
+            {/* LOGOUT (SKRYTÝ NA MOBILE A TABLETE) */}
             <button
               type="button"
               disabled
               aria-disabled="true"
               title="[ ⚠️ LOGOUT // ODHLÁSENIE RELÁCIE VO VÝVOJI ]"
-              className="px-2 py-1.5 rounded-lg bg-red-500/5 text-red-400/40 border border-red-500/10 shrink-0 flex items-center gap-1 text-[9px] font-black uppercase tracking-wider cursor-not-allowed select-none transition-all"
+              className="hidden md:flex px-2 py-1.5 rounded-lg bg-red-500/5 text-red-400/40 border border-red-500/10 shrink-0 items-center gap-1 text-[9px] font-black uppercase tracking-wider cursor-not-allowed select-none transition-all"
             >
-              <LogOut size={13} />
+              <LogOut size={12} />
               <span className="hidden xl:inline">LOGOUT</span>
             </button>
           </div>
