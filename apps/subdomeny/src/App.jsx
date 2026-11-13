@@ -52,6 +52,46 @@ if (typeof window !== "undefined") {
   }
 }
 
+const NEXUS_GIT_PUSH_ID = "PUSH-V20.95-STABLE";
+
+// 🛡️ MODAL SYSTÉMOVÉHO LOGU: Otvorí sa IBA vtedy, ak tento push ešte nebol potvrdený
+const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
+  if (typeof window === "undefined") return false;
+  try {
+    const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
+    // Ak sa rovná aktuálnemu pushu, modal je natrvalo ZATVORENÝ!
+    return lastAck !== NEXUS_GIT_PUSH_ID;
+  } catch {
+    return false;
+  }
+});
+
+// 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PRESNÝ KĽÚČ DO LOCALSTORAGE)
+const handleAcknowledgeSystemLog = () => {
+  try {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("nexus_last_acknowledged_push", NEXUS_GIT_PUSH_ID);
+      sessionStorage.setItem("nexus_session_log_dismissed", "true");
+    }
+    if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
+    else if (window.SoundFX?.click) window.SoundFX.click();
+  } catch {
+    // quiet fallback
+  }
+  setIsSystemLogOpen(false);
+};
+
+// 4. Manuálne vyvolanie z Footera/Menu kedykoľvek
+const handleOpenSignal = () => {
+  try {
+    if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
+    else if (window.SoundFX?.click) window.SoundFX.click();
+  } catch {
+    // quiet fallback
+  }
+  setIsSystemLogOpen(true);
+};
+
 // 🛡️ DETEKTOR VÝCHODZIEHO ID Z HOSTNAME / PORTU
 const getInitialSubId = () => {
   if (typeof window === "undefined" || !window.location) return "SUB 00";
@@ -793,10 +833,10 @@ export const App = () => {
         {isSystemLogOpen && (
           <SystemLogModal
             isOpen={isSystemLogOpen}
-            onClose={handleCloseSystemLog}
-            onAcknowledge={handleCloseSystemLog}
+            onClose={handleAcknowledgeSystemLog}
+            onAcknowledge={handleAcknowledgeSystemLog}
             themeColor={themeColor}
-            buildPushId="PUSH-V20.95-STABLE"
+            buildPushId={NEXUS_GIT_PUSH_ID}
           />
         )}
 
