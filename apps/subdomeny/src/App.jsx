@@ -40,6 +40,18 @@ import PrivacyPage from "@shared/pages/PrivacyPage.jsx";
 import VopPage from "@shared/pages/VopPage.jsx";
 import { useLocation, useNavigate, Routes, Route } from "react-router-dom";
 
+// 🛡️ PROTOKOL V20: Zaručí, že akýkoľvek onClick volajúci SoundFX nikdy nespadne
+if (typeof window !== "undefined") {
+  if (!window.SoundFX) {
+    window.SoundFX = {
+      click: () => {},
+      hover: () => {},
+      play: () => {},
+      playClick: () => {},
+    };
+  }
+}
+
 // 🛡️ DETEKTOR VÝCHODZIEHO ID Z HOSTNAME / PORTU
 const getInitialSubId = () => {
   if (typeof window === "undefined" || !window.location) return "SUB 00";
@@ -204,35 +216,40 @@ export const App = () => {
     },
   };
 
-  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: Otvorí sa automaticky 1x za reláciu okna
+  // 🛡️ STRIKTNÝ ZÁMOK: Zistí, či už v tomto okne/tabe niekedy prebehol štart
+  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: Otvorí sa presne 1x na začiatku okna a IHNEĎ sa zamkne
   const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
     if (typeof window === "undefined") return false;
     try {
-      const alreadyShown = sessionStorage.getItem(
-        "nexus_system_log_session_shown",
+      const alreadyLocked = sessionStorage.getItem(
+        "nexus_system_log_session_locked",
       );
-      return !alreadyShown; // Ak ešte nebol v tomto okne zobrazený -> true
+      if (alreadyLocked === "true") {
+        return false; // V tomto okne už bol spustený -> nevyskakovať!
+      }
+      // PRVÝ ŠTART V TOMTO OKNE: Okamžite zamkneme do pamäte!
+      sessionStorage.setItem("nexus_system_log_session_locked", "true");
+      return true;
     } catch {
       return false;
     }
   });
 
-  // Zatvorenie modalu + označenie relácie ako vybavenej
+  // Manuálne zatvorenie modalu
   const handleCloseSystemLog = () => {
-    safeSound.click();
-    setIsSystemLogOpen(false);
     try {
-      if (typeof window !== "undefined") {
-        sessionStorage.setItem("nexus_system_log_session_shown", "true");
-      }
-    } catch {
-      // quiet fallback
-    }
+      if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
+      else if (window.SoundFX?.click) window.SoundFX.click();
+    } catch {}
+    setIsSystemLogOpen(false);
   };
 
   // Manuálne otvorenie z tlačidla (v hlavičke alebo vo footeri)
   const handleOpenSystemLog = () => {
-    safeSound.click();
+    try {
+      if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
+      else if (window.SoundFX?.click) window.SoundFX.click();
+    } catch {}
     setIsSystemLogOpen(true);
   };
 
