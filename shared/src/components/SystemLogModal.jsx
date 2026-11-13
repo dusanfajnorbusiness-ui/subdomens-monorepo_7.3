@@ -130,9 +130,10 @@ const defaultChangelog = [
 export const SystemLogModal = ({
   isOpen,
   onClose,
-  onAcknowledge, // ⚡ Prijímame z App.jsx
+  onAcknowledge,
   themeColor = "#00F3FF",
   buildPushId,
+  customLogs = [], // 🛡️ DEFENZÍVNY V20 FALLBACK (ZABRÁNI REFERENCEERROR)
 }) => {
   const currentGitHash =
     (typeof import.meta !== "undefined" &&
@@ -162,8 +163,15 @@ export const SystemLogModal = ({
   }, [isOpen]);
 
   // 🎯 PRIORITY MATRIX: ŽIVÉ GITHUB LOGY > CUSTOMLOGS > DEFAULT
+  const safeCustomLogs = Array.isArray(customLogs) ? customLogs : [];
   const displayLogs =
-    gitLogs && gitLogs.length > 0 ? gitLogs : customLogs || defaultChangelog;
+    Array.isArray(gitLogs) && gitLogs.length > 0
+      ? gitLogs
+      : safeCustomLogs.length > 0
+        ? safeCustomLogs
+        : Array.isArray(defaultChangelog)
+          ? defaultChangelog
+          : [];
 
   useEffect(() => {
     if (isOpen) {
