@@ -84,6 +84,47 @@ export const App = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  // 1. Stav sa vyhodnotí IBA RAZ pri prvom štarte aplikácie
+  const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
+    try {
+      if (typeof window === "undefined") return false;
+      // Ak už v tejto relácii zatvoril, alebo už potvrdil tento git push, NEOTVÁRAŤ
+      const sessionDismissed = sessionStorage.getItem("nexus_session_log_dismissed");
+      if (sessionDismissed === "true") return false;
+
+      const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
+      return lastAck !== NEXUS_GIT_PUSH_ID;
+    } catch {
+      return false;
+    }
+  });
+
+  // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PUSH AJ RELÁCIU)
+  const handleAcknowledgeSystemLog = () => {
+    if (SoundFX?.click) SoundFX.click();
+    try {
+      if (typeof window !== "undefined") {
+        localStorage.setItem("nexus_last_acknowledged_push", NEXUS_GIT_PUSH_ID);
+        sessionStorage.setItem("nexus_session_log_dismissed", "true");
+      }
+    } catch (err) {
+      console.warn("Storage sync error", err);
+    }
+    setIsSystemLogOpen(false);
+  };
+
+  // 4. Manuálne vyvolanie z Footera kedykoľvek (reaguje len na kliknutie)
+  useEffect(() => {
+    const handleOpenSignal = () => {
+      setIsSystemLogOpen(true);
+    };
+
+    window.addEventListener("nexus_open_system_log", handleOpenSignal);
+    return () => {
+      window.removeEventListener("nexus_open_system_log", handleOpenSignal);
+    };
+  }, []);
+
   // 🧭 Kontrola, či sme na priamej subdoméne mentora
   const currentHost =
     typeof window !== "undefined"
@@ -218,28 +259,7 @@ export const App = () => {
     },
   };
 
-  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: Otvorí sa IBA vtedy, ak tento push ešte nebol potvrdený
-  const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
-    if (typeof window === "undefined") return false;
-    try {
-      const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
-      // Ak sa rovná aktuálnemu pushu, modal je natrvalo ZATVORENÝ!
-      return lastAck !== NEXUS_GIT_PUSH_ID;
-    } catch {
-      return false;
-    }
-  });
-
-  // 4. Manuálne vyvolanie z Footera/Menu kedykoľvek
-  const handleOpenSignal = () => {
-    try {
-      if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
-      else if (window.SoundFX?.click) window.SoundFX.click();
-    } catch {
-      // quiet fallback
-    }
-    setIsSystemLogOpen(true);
-  };
+  
 
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
   const cleanSubNum = String(activeSubId).replace(/\D/g, "").padStart(2, "0");
@@ -366,35 +386,6 @@ export const App = () => {
     navigate("/home");
     setBootTrigger((prev) => prev + 1);
   };
-
-  // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
-  const NEXUS_GIT_PUSH_ID = "nexus_build_push_2026_11_12_v7_3_02";
-
-  // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PUSH AJ RELÁCIU)
-  const handleAcknowledgeSystemLog = () => {
-    if (SoundFX?.click) SoundFX.click();
-    try {
-      if (typeof window !== "undefined") {
-        localStorage.setItem("nexus_last_acknowledged_push", NEXUS_GIT_PUSH_ID);
-        sessionStorage.setItem("nexus_session_log_dismissed", "true");
-      }
-    } catch (err) {
-      console.warn("Storage sync error", err);
-    }
-    setIsSystemLogOpen(false);
-  };
-
-  // 4. Manuálne vyvolanie z Footera kedykoľvek
-  useEffect(() => {
-    const handleOpenSignal = () => {
-      setIsSystemLogOpen(true);
-    };
-
-    window.addEventListener("nexus_open_system_log", handleOpenSignal);
-    return () => {
-      window.removeEventListener("nexus_open_system_log", handleOpenSignal);
-    };
-  }, []);
 
   // 2. NEXUS ROUTING: PREDĹŽENÉ DOBY & TELEMETRIA BOOTU
   const [bootTrigger, setBootTrigger] = useState(0);
