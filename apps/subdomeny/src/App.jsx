@@ -269,32 +269,30 @@ export const App = () => {
   }, []);
 
   // 🔄 CENTRÁLNY HANDLER PREPÍNANIA SUBDOMÉN (VOLANÝ Z DROPDOWNU AJ MRIEŽKY)
-  const handleSelectSub = (newSubId) => {
-    if (SoundFX?.click) SoundFX.click();
+  const handleSelectSub = (targetId) => {
+    try {
+      SoundFX?.playClick?.();
+    } catch (e) {
+      // quiet fallback
+    }
 
-    const rawStr = String(newSubId || "SUB 00");
-    const match = rawStr.match(/\d{1,2}/);
-    const cleanNum =
-      match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
-    const targetId = `SUB ${cleanNum}`;
-    const targetPath = cleanNum === "00" ? "/home" : `/sub${cleanNum}`;
-
-    // Ak sme na akejkoľvek autonómnej subdoméne (mentor, personal, atď.), opúšťame ju na centrálu
-    if (isDirectAutonomousSub) {
-      console.log(
-        "🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:",
-        HUB_URL,
-      );
-      window.location.href = `${HUB_URL}${targetPath}`;
+    if (!targetId || targetId === "HOME" || targetId === "SUB 00") {
+      setRouteState({ id: "SUB 00", isHome: true });
+      navigate("/home");
       return;
     }
 
-    setRouteState({
-      id: targetId,
-      isHome: cleanNum === "00" ? true : false,
-    });
+    const rawStr = String(targetId);
+    const match = rawStr.match(/\d{1,2}/);
+    const cleanNum =
+      match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
 
-    navigate(targetPath);
+    // 🛡️ V20 PRAVIDLO: ZÁKAZ WINDOW.LOCATION.HREF — ČISTÝ SPA ROUTING
+    setRouteState({
+      id: `SUB ${cleanNum}`,
+      isHome: cleanNum === "00",
+    });
+    navigate(cleanNum === "00" ? "/home" : `/sub${cleanNum}`);
   };
 
   // NÁVRAT NA CENTRÁLU ZO VŠETKÝCH AUTONÓMNYCH SUBDOMÉN
@@ -421,22 +419,6 @@ export const App = () => {
       }
     };
     window.addEventListener("nexus_select_subdomain", handleSubSelect);
-
-    const path = String(location.pathname || "").toLowerCase();
-    if (!isDirectMentor) {
-      if (path === "/" || path === "" || path === "/home") {
-        setRouteState((prev) => ({ ...prev, id: "SUB 00", isHome: true }));
-      } else {
-        const match = path.match(/\/sub(\d{2})/);
-        if (match && match.at(1)) {
-          setRouteState((prev) => ({
-            ...prev,
-            id: `SUB ${match.at(1)}`,
-            isHome: false,
-          }));
-        }
-      }
-    }
 
     return () => {
       window.removeEventListener("nexus_select_subdomain", handleSubSelect);
