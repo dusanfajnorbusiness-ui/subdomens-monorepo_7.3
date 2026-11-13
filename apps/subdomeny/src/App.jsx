@@ -182,11 +182,58 @@ export const App = () => {
     }
   }, [location.pathname, isDirectAutonomousSub, detectedSubId]);
 
-  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: ZÁSADNE ZAČÍNA ZATVORENÝ (ŽIADNE SKÁKANIE)
-  const [isSystemLogOpen, setIsSystemLogOpen] = useState(false);
+  // 🛡️ PROTOKOL V20: Ochrana pred ReferenceError pri chýbajúcom audio engine
+  const safeSound = {
+    click: () => {
+      try {
+        if (typeof SoundFX !== "undefined" && SoundFX?.click) SoundFX.click();
+        else if (typeof window !== "undefined" && window?.SoundFX?.click)
+          window.SoundFX.click();
+      } catch {
+        // quiet fallback
+      }
+    },
+    hover: () => {
+      try {
+        if (typeof SoundFX !== "undefined" && SoundFX?.hover) SoundFX.hover();
+        else if (typeof window !== "undefined" && window?.SoundFX?.hover)
+          window.SoundFX.hover();
+      } catch {
+        // quiet fallback
+      }
+    },
+  };
 
+  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: Otvorí sa automaticky 1x za reláciu okna
+  const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
+    if (typeof window === "undefined") return false;
+    try {
+      const alreadyShown = sessionStorage.getItem(
+        "nexus_system_log_session_shown",
+      );
+      return !alreadyShown; // Ak ešte nebol v tomto okne zobrazený -> true
+    } catch {
+      return false;
+    }
+  });
+
+  // Zatvorenie modalu + označenie relácie ako vybavenej
   const handleCloseSystemLog = () => {
+    safeSound.click();
     setIsSystemLogOpen(false);
+    try {
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("nexus_system_log_session_shown", "true");
+      }
+    } catch {
+      // quiet fallback
+    }
+  };
+
+  // Manuálne otvorenie z tlačidla (v hlavičke alebo vo footeri)
+  const handleOpenSystemLog = () => {
+    safeSound.click();
+    setIsSystemLogOpen(true);
   };
 
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
@@ -729,10 +776,10 @@ export const App = () => {
         {isSystemLogOpen && (
           <SystemLogModal
             isOpen={isSystemLogOpen}
-            onClose={() => setIsSystemLogOpen(false)}
-            onAcknowledge={handleAcknowledgeSystemLog}
+            onClose={handleCloseSystemLog}
+            onAcknowledge={handleCloseSystemLog}
             themeColor={themeColor}
-            buildPushId={NEXUS_GIT_PUSH_ID}
+            buildPushId="PUSH-V20.95-STABLE"
           />
         )}
 
