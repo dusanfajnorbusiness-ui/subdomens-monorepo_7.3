@@ -111,6 +111,7 @@ export const App = () => {
       console.warn("Storage sync error", err);
     }
     setIsSystemLogOpen(false);
+    console.log("⚡ [NEXUS SYSTEM LOG] ZATVÁRAM A ZAPISUJEM PUSH:", NEXUS_GIT_PUSH_ID);
   };
 
   // 4. Manuálne vyvolanie z Footera kedykoľvek (reaguje len na kliknutie)
