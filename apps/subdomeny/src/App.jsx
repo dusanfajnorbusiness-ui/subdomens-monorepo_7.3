@@ -84,28 +84,41 @@ export const App = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // 1. Stav sa vyhodnotí IBA RAZ pri prvom štarte aplikácie
+  // 1. ZÁRUKA V20: V rámci jedného okna vyskočí iba raz pri štarte ak je nový push
   const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
     try {
       if (typeof window === "undefined") return false;
-      // Ak už v tejto relácii zatvoril, alebo už potvrdil tento git push, NEOTVÁRAŤ
-      const sessionDismissed = sessionStorage.getItem("nexus_session_log_dismissed");
-      if (sessionDismissed === "true") return false;
 
+      // A) Kontrola okna: Ak už toto konkrétne okno potvrdilo daný push, NIKDY neotvárať
+      if (window.__NEXUS_MODAL_SHOWN__ === NEXUS_GIT_PUSH_ID) return false;
+      if (sessionStorage.getItem("nexus_win_push_seen") === NEXUS_GIT_PUSH_ID) return false;
+
+      // B) Kontrola trvalého úložiska: Bol už tento push vôbec niekedy potvrdený?
       const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
-      return lastAck !== NEXUS_GIT_PUSH_ID;
+      const isNewPush = lastAck !== NEXUS_GIT_PUSH_ID;
+
+      // Ak je to nový push a v tomto okne ešte nebol, označíme okno a otvoríme ho
+      if (isNewPush) {
+        window.__NEXUS_MODAL_SHOWN__ = NEXUS_GIT_PUSH_ID;
+        return true;
+      }
+
+      return false;
     } catch {
       return false;
     }
   });
 
-  // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PUSH AJ RELÁCIU)
+  // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAMKNE OKNO AJ PERMANENTNÝ STORAGE)
   const handleAcknowledgeSystemLog = () => {
     if (SoundFX?.click) SoundFX.click();
     try {
       if (typeof window !== "undefined") {
+        // Natrvalo zapíše, že tento push bol potvrdený
         localStorage.setItem("nexus_last_acknowledged_push", NEXUS_GIT_PUSH_ID);
-        sessionStorage.setItem("nexus_session_log_dismissed", "true");
+        // Uzamkne aktuálne okno pre daný push
+        sessionStorage.setItem("nexus_win_push_seen", NEXUS_GIT_PUSH_ID);
+        window.__NEXUS_MODAL_SHOWN__ = NEXUS_GIT_PUSH_ID;
       }
     } catch (err) {
       console.warn("Storage sync error", err);
