@@ -144,60 +144,50 @@ export const App = () => {
   const activeSubId = routeState.id;
   const isDefaultHome = routeState.isHome;
 
-  // 🧭 2. REAKTÍVNA SYNCHRONIZÁCIA PRI ZMENE LOCATION.PATHNAME
+  // 🧭 1. JEDINÝ, KANONICKÝ EFFECT PRE SYNCHRONIZÁCIU URL S OBSAHOM SUBDOMÉNY
   useEffect(() => {
     const rawPath = String(location.pathname || "/")
       .toLowerCase()
       .trim();
 
-    // 1. Ak sme na koreňovej nástenke alebo na /home:
-    if (rawPath === "/" || rawPath === "" || rawPath === "/home") {
-      setRouteState((prev) => ({
-        ...prev,
-        id: "SUB00",
-        isHome: true,
-      }));
-      return;
-    }
-
-    // 2. Ak sme na VOP alebo PRIVACY:
+    // Ak sme na VOP alebo PRIVACY, neriešime prepínanie subdomén
     if (rawPath === "/vop" || rawPath === "/privacy") {
-      setRouteState((prev) => ({
-        ...prev,
-        isHome: false,
-      }));
+      setRouteState((prev) => ({ ...prev, isHome: false }));
       return;
     }
 
-    // 3. Ak sme na subdoméne /sub00 až /sub15:
+    // Ak sme na autonómnej subdoméne (napr. personal., mentor.)
+    if (isDirectAutonomousSub && detectedSubId) {
+      setRouteState({ id: detectedSubId, isHome: false });
+      return;
+    }
+
+    // Ak sme na koreni alebo /home
+    if (rawPath === "/" || rawPath === "" || rawPath === "/home") {
+      setRouteState({ id: "SUB 00", isHome: true });
+      return;
+    }
+
+    // Robustné zachytenie /sub01 až /sub15 (aj jedno- aj dvojciferné)
     const match = rawPath.match(/\/sub(\d{1,2})/);
     if (match && match.at(1)) {
       const num = String(match.at(1)).padStart(2, "0");
-      setRouteState((prev) => ({
-        ...prev,
-        id: `SUB${num}`,
-        isHome: num === "00" ? true : false,
-      }));
+      const isZero = num === "00";
+      setRouteState({
+        id: `SUB ${num}`,
+        isHome: isZero,
+      });
+    } else {
+      setRouteState({ id: "SUB 00", isHome: true });
     }
-  }, [location.pathname]);
+  }, [location.pathname, isDirectAutonomousSub, detectedSubId]);
 
-  // 🧭 3. POČÚVANIE NA SIGNÁL Z HAMBURGER MENU
-  useEffect(() => {
-    const handleSubSelect = (e) => {
-      const targetId = e.detail;
-      if (targetId === "HOME" || targetId === "SUB00") {
-        setRouteState((prev) => ({ ...prev, id: "SUB00", isHome: true }));
-        navigate("/home");
-      } else if (targetId && String(targetId).startsWith("SUB")) {
-        setRouteState((prev) => ({ ...prev, id: targetId, isHome: false }));
-      }
-    };
+  // 🛡️ MODAL SYSTÉMOVÉHO LOGU: ZÁSADNE ZAČÍNA ZATVORENÝ (ŽIADNE SKÁKANIE)
+  const [isSystemLogOpen, setIsSystemLogOpen] = useState(false);
 
-    window.addEventListener("nexus_select_subdomain", handleSubSelect);
-    return () => {
-      window.removeEventListener("nexus_select_subdomain", handleSubSelect);
-    };
-  }, [navigate]);
+  const handleCloseSystemLog = () => {
+    setIsSystemLogOpen(false);
+  };
 
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
   const cleanSubNum = String(activeSubId).replace(/\D/g, "").padStart(2, "0");
@@ -207,12 +197,29 @@ export const App = () => {
     ? SUBDOMAINS_ARRAY
     : Object.values(SUBDOMAINS_MATRIX || {});
 
-  // Hľadáme v Matrixe priamo cez kľúč "SUB 09" alebo v poli podľa čísla
+  // 🛡️ MULTI-KLÚČOVÝ V20 SKENER: prehľadá maticu aj pole podľa všetkých možných tvarov ID
+  const foundInMatrix =
+    typeof SUBDOMAINS_MATRIX !== "undefined"
+      ? SUBDOMAINS_MATRIX[`SUB ${cleanSubNum}`] ||
+        SUBDOMAINS_MATRIX[`SUB${cleanSubNum}`] ||
+        SUBDOMAINS_MATRIX[`ID${cleanSubNum}`] ||
+        SUBDOMAINS_MATRIX[cleanSubNum] ||
+        SUBDOMAINS_MATRIX[Number(cleanSubNum)]
+      : null;
+
+  const foundInList = subList.find((item) => {
+    const rawId = String(item?.id || item?.subId || item?.dimId || "").replace(
+      /\D/g,
+      "",
+    );
+    return rawId.padStart(2, "0") === cleanSubNum;
+  });
+
+  // Priradíme nájdenú subdoménu; fallback na prvý prvok len ak sme fyzicky na Home
   const currentSub =
-    (typeof SUBDOMAINS_MATRIX !== "undefined" &&
-      SUBDOMAINS_MATRIX[`SUB ${cleanSubNum}`]) ||
-    subList.find((item) => String(item?.id || "").includes(cleanSubNum)) ||
-    (isDefaultHome ? subList : {}) ||
+    foundInMatrix ||
+    foundInList ||
+    (isDefaultHome ? subList.at(0) || {} : {}) ||
     {};
 
   // 🎨 CHAMELEON FARBA: Ak sme na SUB 09, okamžite svieti #FF003C (červená)
@@ -306,27 +313,6 @@ export const App = () => {
 
   // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
   const NEXUS_GIT_PUSH_ID = "nexus_build_push_2026_11_12_v7_3_02";
-
-  // 🛡️ REZERVÁCIA: Otvoriť len ak je nový Git Push ALEBO v novom okne, kde ešte nebol v tejto relácii potvrdený
-  const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
-    if (typeof window === "undefined") return false;
-    try {
-      const sessionDismissed = sessionStorage.getItem(
-        "nexus_session_log_dismissed",
-      );
-      const lastAckPush = localStorage.getItem("nexus_last_acknowledged_push");
-
-      // Ak je nový Git push, má prednosť a otvorí sa aj v existujúcej session
-      if (lastAckPush !== NEXUS_GIT_PUSH_ID) {
-        return true;
-      }
-
-      // Ak ide o nové okno a push nebol v tejto session potvrdený
-      return !sessionDismissed;
-    } catch {
-      return false;
-    }
-  });
 
   // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PUSH AJ RELÁCIU)
   const handleAcknowledgeSystemLog = () => {
