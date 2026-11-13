@@ -192,19 +192,19 @@ export const App = () => {
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
   const cleanSubNum = String(activeSubId).replace(/\D/g, "").padStart(2, "0");
 
-  // 🧭 2. REAKTÍVNE DÁTA Z MATRICE PRE AKTÍVNY UZOL
+  // 🧭 1. REAKTÍVNE DÁTA Z MATRICE PRE AKTÍVNY UZOL
   const subList = Array.isArray(SUBDOMAINS_ARRAY)
     ? SUBDOMAINS_ARRAY
     : Object.values(SUBDOMAINS_MATRIX || {});
 
-  // 🛡️ MULTI-KLÚČOVÝ V20 SKENER: prehľadá maticu aj pole podľa všetkých možných tvarov ID
+  // 🛡️ MULTI-KĽÚČOVÝ V20 SKENER (nájde objekt v SUBDOMAINS_MATRIX bez ohľadu na formát kľúča)
   const foundInMatrix =
-    typeof SUBDOMAINS_MATRIX !== "undefined"
+    typeof SUBDOMAINS_MATRIX !== "undefined" && SUBDOMAINS_MATRIX
       ? SUBDOMAINS_MATRIX[`SUB ${cleanSubNum}`] ||
         SUBDOMAINS_MATRIX[`SUB${cleanSubNum}`] ||
+        SUBDOMAINS_MATRIX[`ID ${cleanSubNum}`] ||
         SUBDOMAINS_MATRIX[`ID${cleanSubNum}`] ||
-        SUBDOMAINS_MATRIX[cleanSubNum] ||
-        SUBDOMAINS_MATRIX[Number(cleanSubNum)]
+        SUBDOMAINS_MATRIX[cleanSubNum]
       : null;
 
   const foundInList = subList.find((item) => {
@@ -215,43 +215,49 @@ export const App = () => {
     return rawId.padStart(2, "0") === cleanSubNum;
   });
 
-  // Priradíme nájdenú subdoménu; fallback na prvý prvok len ak sme fyzicky na Home
+  // Skutočný objekt subdomény (priorita: matica > zoznam > prvý prvok ak sme na home)
   const currentSub =
     foundInMatrix ||
     foundInList ||
-    (isDefaultHome ? subList.at(0) || {} : {}) ||
+    (cleanSubNum === "00" ? subList.at(0) || {} : {}) ||
     {};
 
-  // 🎨 CHAMELEON FARBA: Ak sme na SUB 09, okamžite svieti #FF003C (červená)
+  // 🎨 CHAMELEON FARBA: Ak má subdoména definovanú farbu, použije sa; inak fallback
   const themeColor = String(
     currentSub?.color ||
-      (cleanSubNum === "09"
-        ? "#FF003C"
-        : isDefaultHome
-          ? "#FFFFFF"
-          : "#00F3FF"),
+      currentSub?.themeColor ||
+      (cleanSubNum === "09" ? "#FF003C" : "#00F3FF"),
   );
 
-  // Ak je default štart -> "home", ak sa klikne na SUB 00 -> "sub00", inak "sub01" - "sub15"
-  const currentSector = isDefaultHome ? "home" : `sub${cleanSubNum}`;
   const operatorTier = "QUEST";
+  const currentTier = operatorTier;
 
-  // 🛡️ DEFENZÍVNY SSOT OBJEKT PRE HLAVIČKU A VŠETKY KOMPONENTY
+  // 🧭 PRESNÉ ROZHODNUTIE SEKTORU: Ak je čisté číslo "00" a sme na koreni -> "home", inak ostrý sektor `sub01` až `sub15`
+  const isReallyHome =
+    (location.pathname === "/" ||
+      location.pathname === "" ||
+      location.pathname === "/home") &&
+    cleanSubNum === "00";
+  const currentSector = isReallyHome ? "home" : `sub${cleanSubNum}`;
+
+  // 🛡️ DEFENZÍVNY SSOT OBJEKT PRE HLAVIČKU A SUBDOMENSPAGE
   const currentSubData = {
+    ...currentSub,
     id: `SUB ${cleanSubNum}`,
+    subId: `SUB ${cleanSubNum}`,
     dimId: currentSub?.dimId || `ID ${cleanSubNum}`,
     title:
-      currentSub?.name ||
       currentSub?.title ||
-      (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
+      currentSub?.name ||
+      (cleanSubNum === "09" ? "SERGEANT-CORE" : `SUBDOMÉNA ${cleanSubNum}`),
     name:
       currentSub?.name ||
-      (cleanSubNum === "09" ? "SERGEANT-CORE" : "MENTOR-HUB"),
+      currentSub?.title ||
+      (cleanSubNum === "09" ? "SERGEANT-CORE" : `SUBDOMÉNA ${cleanSubNum}`),
     themeColor: themeColor,
     color: themeColor,
     tier: currentSub?.tier || operatorTier,
   };
-  const currentTier = operatorTier;
 
   // 🔄 REAKTÍVNE POČÚVANIE NA HISTÓRIU PREHLIADAČA (POPSTATE)
   useEffect(() => {
@@ -708,12 +714,16 @@ export const App = () => {
           <div className="flex flex-col gap-6 animate-fadeIn">
             {/* 🛑 CHYBA BOLA: nodeTitle={currentSubData?.title} alebo podobne */}
             <SubdomensPage
-              activeSubId={activeSubId}
-              subId={activeSubId}
+              activeSubId={`SUB ${cleanSubNum}`}
+              subId={`SUB ${cleanSubNum}`}
+              rawSubId={`SUB${cleanSubNum}`}
+              subNum={cleanSubNum}
+              isHome={isDefaultHome}
               themeColor={themeColor}
               activeColor={themeColor}
               currentSub={currentSubData}
-              currentSector={currentSector}
+              subData={currentSubData}
+              currentSector={isDefaultHome ? "home" : `sub${cleanSubNum}`}
               onSelectSub={handleSelectSub}
               onHomeClick={handleHomeClick}
             />
