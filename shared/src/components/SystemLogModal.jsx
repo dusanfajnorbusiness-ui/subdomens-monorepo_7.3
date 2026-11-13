@@ -24,9 +24,10 @@ import { NexusDB } from "@shared/services/NexusDB_Core.js";
 import { useNexusThemeProps } from "@shared/components/NexusThemePropsContext.jsx";
 
 export const SubdomainStandbyPage = () => {
-     const { activeSubId, themeColor, currentSector, currentSub, setSubdomain } = useNexusThemeProps();
-     // Všetko je okamžite prepojené a podriadené aktívnej subdoméne!
-   };
+  const { activeSubId, themeColor, currentSector, currentSub, setSubdomain } =
+    useNexusThemeProps();
+  // Všetko je okamžite prepojené a podriadené aktívnej subdoméne!
+};
 
 // ⚡⚡⚡ V20 CYBER MARKDOWN PARSER PRE RELEASE NOTES A CHANGELOGY ⚡⚡⚡
 const renderCyberMarkdown = (text) => {
@@ -43,15 +44,22 @@ const renderCyberMarkdown = (text) => {
     // 2. Hlavné H1 / H2 Nadpisy (# alebo ##)
     if (trimmed.startsWith("# ") || trimmed.startsWith("## ")) {
       return (
-        <h3 key={i} className="text-sm font-bold text-amber-400 mt-3 mb-1 tracking-wider flex items-center gap-2">
-          <span className="text-cyan-400">⚡</span> {trimmed.replace(/^#+\s*/, "")}
+        <h3
+          key={i}
+          className="text-sm font-bold text-amber-400 mt-3 mb-1 tracking-wider flex items-center gap-2"
+        >
+          <span className="text-cyan-400">⚡</span>{" "}
+          {trimmed.replace(/^#+\s*/, "")}
         </h3>
       );
     }
     // 3. Sekčné H3 Nadpisy (###)
     if (trimmed.startsWith("### ")) {
       return (
-        <h4 key={i} className="text-xs font-semibold text-cyan-300 mt-2 mb-1 tracking-wide uppercase">
+        <h4
+          key={i}
+          className="text-xs font-semibold text-cyan-300 mt-2 mb-1 tracking-wide uppercase"
+        >
           {trimmed.replace(/^###\s*/, "")}
         </h4>
       );
@@ -61,13 +69,19 @@ const renderCyberMarkdown = (text) => {
       const content = trimmed.substring(2);
       const parts = content.split(/(\*\*.*?\*\*)/g);
       return (
-        <div key={i} className="pl-3 py-0.5 text-xs font-mono text-gray-300 flex items-start gap-2 border-l border-cyan-500/20 my-1">
+        <div
+          key={i}
+          className="pl-3 py-0.5 text-xs font-mono text-gray-300 flex items-start gap-2 border-l border-cyan-500/20 my-1"
+        >
           <span className="text-emerald-400 font-bold">•</span>
           <span>
             {parts.map((part, pIdx) => {
               if (part.startsWith("**") && part.endsWith("**")) {
                 return (
-                  <strong key={pIdx} className="text-cyan-200 font-semibold bg-cyan-950/40 px-1 py-0.5 rounded border border-cyan-500/30">
+                  <strong
+                    key={pIdx}
+                    className="text-cyan-200 font-semibold bg-cyan-950/40 px-1 py-0.5 rounded border border-cyan-500/30"
+                  >
                     {part.slice(2, -2)}
                   </strong>
                 );
@@ -80,7 +94,10 @@ const renderCyberMarkdown = (text) => {
     }
     // 5. Bežné textové riadky
     return (
-      <p key={i} className="text-xs font-mono text-gray-300 leading-relaxed min-h-[1.25rem] whitespace-pre-wrap">
+      <p
+        key={i}
+        className="text-xs font-mono text-gray-300 leading-relaxed min-h-[1.25rem] whitespace-pre-wrap"
+      >
         {line}
       </p>
     );
@@ -102,7 +119,8 @@ const defaultChangelog = [
     id: "LOG-2095-02",
     tag: "UI_V20_NAV",
     title: "Responsive Collision Shield pre Peňaženku a Chronometer",
-    summary: "Kompaktný ikonový režim pre stredné monitory s instantnými hover tooltipmi.",
+    summary:
+      "Kompaktný ikonový režim pre stredné monitory s instantnými hover tooltipmi.",
     desc: "Upravené z-index hranice pre mobilné viewporty. Pridané defenzívne ošetrenie String(val || '') na zabránenie TypeError pri rýchlom prepínaní dimenzií.",
     date: "05.11.2026",
     color: "#10B981",
@@ -110,10 +128,11 @@ const defaultChangelog = [
 ];
 
 export const SystemLogModal = ({
-  isOpen = false,
-  onClose = () => {},
-  themeColor = "#00f3ff",
-  customLogs = null,
+  isOpen,
+  onClose,
+  onAcknowledge, // ⚡ Prijímame z App.jsx
+  themeColor = "#00F3FF",
+  buildPushId,
 }) => {
   const currentGitHash =
     (typeof import.meta !== "undefined" &&
@@ -124,16 +143,17 @@ export const SystemLogModal = ({
   const [isLoading, setIsLoading] = useState(false);
   const [expandedLogId, setExpandedLogId] = useState(null);
 
-
-
-
   // ⚡ AUTOMATICKÉ NAČÍTANIE ŽIVÝCH GITHUB LOGOV PRI OTVORENÍ
   useEffect(() => {
     if (isOpen) {
       setIsLoading(true);
       NexusDB.getSystemLogs(15)
         .then((fetchedLogs) => {
-          if (fetchedLogs && Array.isArray(fetchedLogs) && fetchedLogs.length > 0) {
+          if (
+            fetchedLogs &&
+            Array.isArray(fetchedLogs) &&
+            fetchedLogs.length > 0
+          ) {
             setGitLogs(fetchedLogs);
           }
         })
@@ -142,7 +162,8 @@ export const SystemLogModal = ({
   }, [isOpen]);
 
   // 🎯 PRIORITY MATRIX: ŽIVÉ GITHUB LOGY > CUSTOMLOGS > DEFAULT
-  const displayLogs = (gitLogs && gitLogs.length > 0) ? gitLogs : (customLogs || defaultChangelog);
+  const displayLogs =
+    gitLogs && gitLogs.length > 0 ? gitLogs : customLogs || defaultChangelog;
 
   useEffect(() => {
     if (isOpen) {
@@ -157,13 +178,17 @@ export const SystemLogModal = ({
   if (!isOpen) return null;
 
   const handleAcknowledge = () => {
-    try {
-      SoundFX?.playClick?.();
-      localStorage.setItem("nexus_last_seen_git_commit", currentGitHash);
-    } catch (err) {
-      console.warn("⚠️ [NEXUS STORAGE] LocalStorage write skipped:", err);
+    if (typeof onAcknowledge === "function") {
+      onAcknowledge();
+    } else {
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("nexus_session_log_dismissed", "true");
+        if (buildPushId) {
+          localStorage.setItem("nexus_last_acknowledged_push", buildPushId);
+        }
+      }
+      if (typeof onClose === "function") onClose();
     }
-    if (typeof onClose === "function") onClose();
   };
 
   const toggleExpandLog = (id) => {
@@ -241,7 +266,8 @@ export const SystemLogModal = ({
           <div className="p-3 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center gap-3 text-xs text-cyan-300">
             <Zap className="w-5 h-5 text-cyan-400 shrink-0 animate-pulse" />
             <span>
-              Boli detegované nové systémové aktualizácie. Matrix bol úspešne prelinkovaný na najnovší commit.
+              Boli detegované nové systémové aktualizácie. Matrix bol úspešne
+              prelinkovaný na najnovší commit.
             </span>
           </div>
 
@@ -275,7 +301,9 @@ export const SystemLogModal = ({
                   onClick={() => toggleExpandLog(log.id)}
                   className="p-3.5 rounded-xl bg-[#080E14] border transition-all text-left cursor-pointer group hover:bg-[#0c151f]"
                   style={{
-                    borderColor: isExpanded ? `${cardColor}80` : "rgba(31, 41, 55, 0.8)",
+                    borderColor: isExpanded
+                      ? `${cardColor}80`
+                      : "rgba(31, 41, 55, 0.8)",
                     boxShadow: isExpanded ? `0 0 15px ${cardColor}20` : "none",
                   }}
                 >

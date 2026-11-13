@@ -83,16 +83,20 @@ export const App = () => {
     "work.": "SUB 02",
     "finance.": "SUB 03",
     "business.": "SUB 04",
-    "health.": "SUB 05",
-    "relationships.": "SUB 06",
-    "spirituality.": "SUB 07",
-    "creativity.": "SUB 08",
-    "technology.": "SUB 09",
-    "nature.": "SUB 10",
-    "travel.": "SUB 11",
-    "education.": "SUB 12",
-    "entertainment.": "SUB 13",
-    "community.": "SUB 14",
+    "investments.": "SUB 05",
+    "assets.": "SUB 05",
+    "study.": "SUB 06",
+    "maps.": "SUB 06",
+    "professional.": "SUB 07",
+    "skills.": "SUB 07",
+    "reader.": "SUB 08",
+    "player.": "SUB 09",
+    "music.": "SUB 09",
+    "home.": "SUB 10",
+    "recovery.": "SUB 11",
+    "codex.": "SUB 12",
+    "habits.": "SUB 13",
+    "blog.": "SUB 14",
     "death.": "SUB 15",
   };
 
@@ -255,13 +259,20 @@ export const App = () => {
   const handleSelectSub = (newSubId) => {
     if (SoundFX?.click) SoundFX.click();
 
+    const rawStr = String(newSubId || "SUB 00");
+    const match = rawStr.match(/\d{1,2}/);
+    const cleanNum =
+      match && match.at(0) ? String(match.at(0)).padStart(2, "0") : "00";
+    const targetId = `SUB ${cleanNum}`;
+    const targetPath = cleanNum === "00" ? "/home" : `/sub${cleanNum}`;
+
     // Ak sme na akejkoľvek autonómnej subdoméne (mentor, personal, atď.), opúšťame ju na centrálu
     if (isDirectAutonomousSub) {
       console.log(
         "🔄 [NEXUS RESET] Opúšťam subdoménu -> smerujem na centrálu:",
         HUB_URL,
       );
-      window.location.href = `${HUB_URL}/home`;
+      window.location.href = `${HUB_URL}${targetPath}`;
       return;
     }
 
@@ -296,30 +307,38 @@ export const App = () => {
   // 🏷️ UNIKÁTNA ZNAČKA TOHTO GIT PUSHU (zmeň pri novom ostrom pushi)
   const NEXUS_GIT_PUSH_ID = "nexus_build_push_2026_11_12_v7_3_02";
 
-  // 1. Zistíme, či bol tento konkrétny Git Push už zobrazený
+  // 🛡️ REZERVÁCIA: Otvoriť len ak je nový Git Push ALEBO v novom okne, kde ešte nebol v tejto relácii potvrdený
   const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
     if (typeof window === "undefined") return false;
     try {
-      const lastSeenPush = localStorage.getItem("nexus_last_seen_deploy_push");
-      return lastSeenPush !== NEXUS_GIT_PUSH_ID; // true len pri prvom štarte nového pushu
+      const sessionDismissed = sessionStorage.getItem(
+        "nexus_session_log_dismissed",
+      );
+      const lastAckPush = localStorage.getItem("nexus_last_acknowledged_push");
+
+      // Ak je nový Git push, má prednosť a otvorí sa aj v existujúcej session
+      if (lastAckPush !== NEXUS_GIT_PUSH_ID) {
+        return true;
+      }
+
+      // Ak ide o nové okno a push nebol v tejto session potvrdený
+      return !sessionDismissed;
     } catch {
       return false;
     }
   });
 
-  // 2. Po prvom zobrazení zapíšeme pečiatku, aby už pri zmenách URL nevyskakoval
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        localStorage.setItem("nexus_last_seen_deploy_push", NEXUS_GIT_PUSH_ID);
-      } catch (err) {
-        console.warn("Storage write error", err);
+  // 🎯 HANDLER: SYNCHRONIZOVAŤ A ZAVRIEŤ (ZAPÍŠE PUSH AJ RELÁCIU)
+  const handleAcknowledgeSystemLog = () => {
+    if (SoundFX?.click) SoundFX.click();
+    try {
+      if (typeof window !== "undefined") {
+        localStorage.setItem("nexus_last_acknowledged_push", NEXUS_GIT_PUSH_ID);
+        sessionStorage.setItem("nexus_session_log_dismissed", "true");
       }
+    } catch (err) {
+      console.warn("Storage sync error", err);
     }
-  }, [NEXUS_GIT_PUSH_ID]);
-
-  // 3. Obsluha zatvorenia
-  const handleCloseSystemLog = () => {
     setIsSystemLogOpen(false);
   };
 
@@ -733,7 +752,9 @@ export const App = () => {
           <SystemLogModal
             isOpen={isSystemLogOpen}
             onClose={() => setIsSystemLogOpen(false)}
+            onAcknowledge={handleAcknowledgeSystemLog}
             themeColor={themeColor}
+            buildPushId={NEXUS_GIT_PUSH_ID}
           />
         )}
 
