@@ -40,6 +40,7 @@ import PrivacyPage from "@shared/pages/PrivacyPage.jsx";
 import VopPage from "@shared/pages/VopPage.jsx";
 import { useLocation, useNavigate, Routes, Route } from "react-router-dom";
 import { MediaDropdownMenu } from "@shared/components/MediaDropdownMenu.jsx";
+import { GlobalSystemsAudioPlayer } from "@shared/components/GlobalSystemsAudioPlayer.jsx";
 
 // 🛡️ PROTOKOL V20: Zaručí, že akýkoľvek onClick volajúci SoundFX nikdy nespadne
 if (typeof window !== "undefined") {
@@ -93,7 +94,8 @@ export const App = () => {
 
       // A) Kontrola okna a session: Ak už toto okno daný push videlo, NIKDY neotvárať
       if (window.__NEXUS_MODAL_SHOWN__ === NEXUS_GIT_PUSH_ID) return false;
-      if (sessionStorage.getItem("nexus_win_push_seen") === NEXUS_GIT_PUSH_ID) return false;
+      if (sessionStorage.getItem("nexus_win_push_seen") === NEXUS_GIT_PUSH_ID)
+        return false;
 
       // B) Kontrola trvalého úložiska
       const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
@@ -128,7 +130,10 @@ export const App = () => {
       console.warn("Storage sync error", err);
     }
     setIsSystemLogOpen(false);
-    console.log("⚡ [NEXUS SYSTEM LOG] ZATVÁRAM A ZAPISUJEM PUSH:", NEXUS_GIT_PUSH_ID);
+    console.log(
+      "⚡ [NEXUS SYSTEM LOG] ZATVÁRAM A ZAPISUJEM PUSH:",
+      NEXUS_GIT_PUSH_ID,
+    );
   };
 
   // 4. Manuálne vyvolanie z Footera kedykoľvek (reaguje len na kliknutie)
@@ -276,8 +281,6 @@ export const App = () => {
       }
     },
   };
-
-  
 
   // Čisté dvojmiestne číslo aktívneho uzla (napr. "09")
   const cleanSubNum = String(activeSubId).replace(/\D/g, "").padStart(2, "0");
@@ -789,6 +792,11 @@ export const App = () => {
           themeColor={themeColor}
           activeSubId={activeSubId}
           currentSector={currentSector}
+        />
+
+        <GlobalSystemsAudioPlayer
+          themeColor={themeColor}
+          autoPromptDelay={10000}
         />
 
         {/* 🚨 GLOBÁLNY MODAL PRE SYSTÉMOVÝ LOG */}
