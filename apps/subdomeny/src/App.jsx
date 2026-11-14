@@ -85,21 +85,24 @@ export const App = () => {
   const navigate = useNavigate();
 
   // 1. ZÁRUKA V20: V rámci jedného okna vyskočí iba raz pri štarte ak je nový push
+  // 1. ZÁRUKA V20: V rámci jedného okna vyskočí iba raz pri štarte ak je nový push
   const [isSystemLogOpen, setIsSystemLogOpen] = useState(() => {
     try {
       if (typeof window === "undefined") return false;
 
-      // A) Kontrola okna: Ak už toto konkrétne okno potvrdilo daný push, NIKDY neotvárať
+      // A) Kontrola okna a session: Ak už toto okno daný push videlo, NIKDY neotvárať
       if (window.__NEXUS_MODAL_SHOWN__ === NEXUS_GIT_PUSH_ID) return false;
       if (sessionStorage.getItem("nexus_win_push_seen") === NEXUS_GIT_PUSH_ID) return false;
 
-      // B) Kontrola trvalého úložiska: Bol už tento push vôbec niekedy potvrdený?
+      // B) Kontrola trvalého úložiska
       const lastAck = localStorage.getItem("nexus_last_acknowledged_push");
       const isNewPush = lastAck !== NEXUS_GIT_PUSH_ID;
 
-      // Ak je to nový push a v tomto okne ešte nebol, označíme okno a otvoríme ho
       if (isNewPush) {
+        // 🔒 ZÁMOK OKAMŽITE: Zapečatíme okno aj session HNEĎ pri vyvolaní,
+        // aby ani okamžitý skok na HOME / reload modal nezobudil druhýkrát!
         window.__NEXUS_MODAL_SHOWN__ = NEXUS_GIT_PUSH_ID;
+        sessionStorage.setItem("nexus_win_push_seen", NEXUS_GIT_PUSH_ID);
         return true;
       }
 

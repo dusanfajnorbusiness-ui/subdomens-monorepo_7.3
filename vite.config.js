@@ -19,6 +19,7 @@
 // Status: 100% GROUNDED // PORT 51800 // AUTO-OPEN ENABLED
 // ============================================================================
 
+import { fileURLToPath } from "url"; const __dirname = path.dirname(fileURLToPath(import.meta.url));
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
@@ -37,10 +38,10 @@ export default defineConfig({
   resolve: {
     dedupe: ["react", "react-dom", "react-router-dom"],
     alias: {
-      "@": path.resolve(__dirname, "./apps/subdomeny/src"),
-      "@subdomeny": path.resolve(__dirname, "./apps/subdomeny/src"),
-      "@shared": path.resolve(__dirname, "./shared/src"),
-      "@mentor": path.resolve(__dirname, "./apps/subdomeny/mentor/src"),
+      "@": path.resolve(import.meta.dirname, "./apps/subdomeny/src"),
+      "@subdomeny": path.resolve(import.meta.dirname, "./apps/subdomeny/src"),
+      "@shared": path.resolve(import.meta.dirname, "./shared/src"),
+      "@mentor": path.resolve(import.meta.dirname, "./apps/subdomeny/mentor/src"),
     },
   },
   build: {
