@@ -39,6 +39,7 @@ export const CORE_VERSION = "SUBDOMAINS-APP V20.95_STABLE";
 import PrivacyPage from "@shared/pages/PrivacyPage.jsx";
 import VopPage from "@shared/pages/VopPage.jsx";
 import { useLocation, useNavigate, Routes, Route } from "react-router-dom";
+import { MediaDropdownMenu } from "@shared/components/MediaDropdownMenu.jsx";
 
 // 🛡️ PROTOKOL V20: Zaručí, že akýkoľvek onClick volajúci SoundFX nikdy nespadne
 if (typeof window !== "undefined") {
@@ -614,6 +615,11 @@ export const App = () => {
               color={themeColor}
               onSelectSub={handleSelectSub}
             />
+          </div>
+
+          {/* 🎧 MULTIMEDIÁLNY HUD PREHRÁVAČ S FARBOU STRÁNKY */}
+          <div className="shrink-0">
+            <MediaDropdownMenu themeColor={themeColor} />
           </div>
 
           {/* OPERÁTOR STATUS BADGE */}

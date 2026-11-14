@@ -12,7 +12,9 @@ import { useLocation } from "react-router-dom";
 import { Globe, Key, Lock, Radio, ShieldAlert, Terminal, Zap } from "lucide-react";
 
 import { SoundFX } from "@shared/utils/SoundEngine.js";
-import { GlobalMediaPlayer } from "@shared/components/GlobalMediaPlayer.jsx";
+import { GlobalMediaPlayer as GlobalMediaPlayerBRAND } from "@shared/components/GlobalMediaPlayerBRAND.jsx";
+// (alebo ak tam komponent voláš ako <GlobalMediaPlayer />, daj:)
+// import { GlobalMediaPlayer } from "@shared/components/GlobalMediaPlayerBRAND.jsx";
 
 // Ostré SSOT dátové a komponentové importy
 import { SUBDOMAINS_MATRIX, SUBDOMAINS_ARRAY as SUBDOMAINS_LIST, } from "@subdomeny/data/SubdomainsMasterData.js";
@@ -108,8 +110,8 @@ export function SubdomainStandbyPage({ subId: propSubId = "SUB 00", themeColor: 
 
         {/* 🎬 MASTER MEDIA PLAYER INTEGRÁCIA S CHAMELEON FARBOU */}
         <div className="w-full max-w-4xl mx-auto my-6 animate-in fade-in duration-700">
-          {typeof GlobalMediaPlayer === "function" ? (
-            <GlobalMediaPlayer
+          {typeof GlobalMediaPlayerBRAND === "function" ? (
+            <GlobalMediaPlayerBRAND
               mediaId="MANIFESTO_GENESIS"
               dimColor={activeColor}
             />
