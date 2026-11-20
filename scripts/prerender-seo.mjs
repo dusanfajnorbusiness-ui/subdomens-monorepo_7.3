@@ -105,13 +105,15 @@ async function executeSubdomainsPrerender() {
     const image = seo.ogImage || "";
 
     const ogTags = `
-    <!-- ⚡ V20 PRERENDER OPEN GRAPH & SEO -->
+    <!-- ⚡ V20 CANONICAL OPEN GRAPH & SEO -->
     <link rel="canonical" href="${ogUrl}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${ogUrl}" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${desc}" />
     <meta property="og:image" content="${image}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="${ogUrl}" />
     <meta name="twitter:title" content="${title}" />
@@ -119,6 +121,11 @@ async function executeSubdomainsPrerender() {
     <meta name="twitter:image" content="${image}" />`;
 
     let customHtml = templateHtml
+      // 1. Vyčistenie starých duplicitných og:* a twitter:* tagov z predchádzajúceho behu alebo šablóny
+      .replace(/<meta\s+property=["']og:[^"']+["']\s+content=["'][^"']*["']\s*\/?>/gi, "")
+      .replace(/<meta\s+name=["']twitter:[^"']+["']\s+content=["'][^"']*["']\s*\/?>/gi, "")
+      .replace(/<link\s+rel=["']canonical["']\s+href=["'][^"']*["']\s*\/?>/gi, "")
+      // 2. Nahradenie základných systémových tagov
       .replace(/<title>.*?<\/title>/i, `<title>${title}</title>`)
       .replace(
         /<meta\s+name=["']description["']\s+content=["'].*?["']\s*\/?>/i,
@@ -129,7 +136,7 @@ async function executeSubdomainsPrerender() {
         `<meta name="theme-color" content="${themeColor}" />`,
       );
 
-    // Injekcia tagov pred uzatvárací </head>
+    // 3. Čistá injekcia presne jednej sady pred </head>
     customHtml = customHtml.replace("</head>", `${ogTags}\n</head>`);
 
     if (route === "/") {
