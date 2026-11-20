@@ -1,9 +1,12 @@
+
 /* eslint-disable no-undef */
 
 // ============================================================================
-// 👑 PROJECT NEXUS — OS GENESIS EDITION (SYS03 MASTER DATASET V20.95)
+// 👑 PROJECT NEXUS — OS GENESIS EDITION (SUBDOMAINS MASTER V20.95)
 // Súbor: scripts/prerender-seo.mjs
-// Status: 100% GROUNDED // MASTER GLOBAL SEO PRERENDER ENGINE (ROOT V20)
+// Status: 100% GROUNDED // SUBDOMAINS PRERENDER & SITEMAP ENGINE
+// Core Version: PRERENDER-V20.95_SUBDOMAINS_CANONICAL
+// Autor: Dušan Fajnor @nexus-core2Mb (CyberTech Architect)
 // ============================================================================
 
 import fs from "fs";
@@ -14,26 +17,49 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, "..");
 
-// 🗺️ MAPOVANIE APPLIKÁCIÍ A ICH PRODUKČNÝCH DIST ADRESÁROV
-const APP_TARGETS = {
-  "main-web": path.join(ROOT_DIR, "apps/main-web/dist"),
-  agency: path.join(ROOT_DIR, "apps/agency/dist"),
-  shop: path.join(ROOT_DIR, "apps/shop/dist"),
-  operators: path.join(ROOT_DIR, "apps/operators/dist"),
-  settings: path.join(ROOT_DIR, "apps/settings/dist"),
-  admin: path.join(ROOT_DIR, "apps/admin/dist"),
-  blog: path.join(ROOT_DIR, "apps/blog/dist"),
-  uplink: path.join(ROOT_DIR, "apps/uplink/dist"),
-};
+// 🗺️ DEFENZÍVNA DETEKCIA DIST ADRESÁRA (ROOT DIST PRE SUBDOMÉNY)
+const DIST_DIR = fs.existsSync(path.join(ROOT_DIR, "dist/index.html"))
+  ? path.join(ROOT_DIR, "dist")
+  : fs.existsSync(path.join(ROOT_DIR, "apps/main-web/dist/index.html"))
+  ? path.join(ROOT_DIR, "apps/main-web/dist")
+  : path.join(ROOT_DIR, "dist");
 
-const baseUrl = "https://projekt-nexus.sk";
+const BASE_URL = "https://subdomens.projekt-nexus.sk";
 
-async function executeGlobalPrerender() {
+// Kánonický zoznam všetkých trás pre vygenerovanie statických HTML snapshotov
+const SUBDOMAIN_ROUTES = [
+  "/",
+  "/home",
+  "/blog",
+  "/operators",
+  "/settings",
+  "/vop",
+  "/privacy",
+  // 16 Kognitívnych subdoménových uzlov (ID00 – ID15)
+  "/sub00",
+  "/sub01",
+  "/sub02",
+  "/sub03",
+  "/sub04",
+  "/sub05",
+  "/sub06",
+  "/sub07",
+  "/sub08",
+  "/sub09",
+  "/sub10",
+  "/sub11",
+  "/sub12",
+  "/sub13",
+  "/sub14",
+  "/sub15",
+];
+
+async function executeSubdomainsPrerender() {
   console.log(
-    "⚡ [NEXUS MASTER SEO V20]: Spúšťam globálny SEO Snapshot & Prerender pre celé monorepo...",
+    "⚡ [NEXUS MASTER SEO V20]: Spúšťam prerender pre subdoménovú matricu (OS Genesis)...",
   );
 
-  // 1. NAČÍTANIE ZDIELANÉHO SEO REGISTRA ZO SHARED
+  // 1. NAČÍTANIE CENTRÁLNEHO SEO REGISTRA ZO SHARED
   let SEO_REGISTRY = {};
   try {
     const registryPath = path.join(ROOT_DIR, "shared/src/data/seoRegistry.js");
@@ -42,171 +68,129 @@ async function executeGlobalPrerender() {
       const mod = await import(fileUrl);
       SEO_REGISTRY = mod.SEO_REGISTRY || mod.default || {};
       console.log(
-        "  🟢 [SEO REGISTRY]: Zbernica /shared/src/data/seoRegistry.js úspešne načítaná.",
+        "  🟢 [SEO REGISTRY]: shared/src/data/seoRegistry.js úspešne načítaný.",
       );
+    } else {
+      console.warn("  ⚠️ [SEO REGISTRY]: Súbor seoRegistry.js nebol nájdený!");
     }
   } catch (e) {
     console.warn(
-      "  ⚠️ [SEO REGISTRY WARNING]: Zlyhal import shared/src/data/seoRegistry.js:",
+      "  ⚠️ [SEO REGISTRY ERROR]: Zlyhal import seoRegistry.js:",
       e.message,
     );
   }
 
+  const rootIndexPath = path.join(DIST_DIR, "index.html");
+  if (!fs.existsSync(rootIndexPath)) {
+    console.error(
+      `  ❌ [FATAL]: Dist index.html neexistuje na ceste: ${rootIndexPath}. Najprv spusti build!`,
+    );
+    process.exit(1);
+  }
+
+  const templateHtml = fs.readFileSync(rootIndexPath, "utf8");
   let totalProcessed = 0;
-  const globalSitemapRoutes = new Set();
+  const sitemapUrls = [];
 
-  // 2. EXEKÚCIA PRE KAŽDÚ APLIKÁCIU V MONOREPE
-  for (const [appName, distPath] of Object.entries(APP_TARGETS)) {
-    const indexPath = path.join(distPath, "index.html");
+  // 2. GENEROVANIE PRE JEDNOTLIVÉ SUBDOMÉNOVÉ TRASY
+  for (const route of SUBDOMAIN_ROUTES) {
+    const seo = SEO_REGISTRY[route] || SEO_REGISTRY["/"] || {};
 
-    if (!fs.existsSync(indexPath)) {
-      console.log(
-        `  ⏩ [SKIP APP]: ${appName} nemá vygenerovaný dist/index.html (presakujem).`,
-      );
-      continue;
-    }
-
-    const templateHtml = fs.readFileSync(indexPath, "utf8");
-    const appRoute = appName === "main-web" ? "/" : `/${appName}`;
-    const seo = SEO_REGISTRY[appRoute] || {};
-
-    const title =
-      seo.ogTitle || seo.title || `PROJEKT NEXUS | ${appName.toUpperCase()}`;
+    const title = seo.title || "[ PROJEKT NEXUS OS | GENESIS EDITION ]";
     const desc =
-      seo.ogDescription ||
       seo.description ||
-      `Oficiálny uzol ${appName} v Sieti OS Genesis.`;
-    const ogUrl = seo.ogUrl || `${baseUrl}${appRoute}`;
-    const canonicalUrl = seo.fallbackUrl || ogUrl;
+      "Unikátny operačný systém (OS Genesis) integrujúci osobný rozvoj, hlbokú prácu a IT zručnosti.";
+    const ogUrl = seo.ogUrl || `${BASE_URL}${route === "/" ? "" : route}`;
     const themeColor = seo.themeColor || "#39FF14";
-    const image =
-      seo.ogImage || seo.image || `${baseUrl}/img-nexus/pages/homePage.jpg`;
+    const image = seo.ogImage || "";
 
     const ogTags = `
-    <link rel="canonical" href="${canonicalUrl}" />
+    <!-- ⚡ V20 PRERENDER OPEN GRAPH & SEO -->
+    <link rel="canonical" href="${ogUrl}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${ogUrl}" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${desc}" />
     <meta property="og:image" content="${image}" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="${ogUrl}" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${desc}" />
-    <meta name="twitter:image" content="${image}" />
-    `;
+    <meta name="twitter:image" content="${image}" />`;
 
     let customHtml = templateHtml
       .replace(/<title>.*?<\/title>/i, `<title>${title}</title>`)
       .replace(
-        /<meta name="description" content=".*?"\s*\/?>/i,
+        /<meta\s+name=["']description["']\s+content=["'].*?["']\s*\/?>/i,
         `<meta name="description" content="${desc}" />`,
       )
       .replace(
-        /<meta name="theme-color" content=".*?"\s*\/?>/i,
+        /<meta\s+name=["']theme-color["']\s+content=["'].*?["']\s*\/?>/i,
         `<meta name="theme-color" content="${themeColor}" />`,
       );
 
+    // Injekcia tagov pred uzatvárací </head>
     customHtml = customHtml.replace("</head>", `${ogTags}\n</head>`);
-    fs.writeFileSync(indexPath, customHtml, "utf8");
-    totalProcessed++;
-    globalSitemapRoutes.add(appRoute);
 
-    // Dynamic generation for 16 Cognitive Dimensions inside main-web
-    if (appName === "main-web") {
-      for (let i = 0; i <= 15; i++) {
-        const dimId = `ID${i.toString().padStart(2, "0")}`;
-        const dimRoute = `/${dimId}`;
-        const dimTargetDir = path.join(distPath, dimId);
-        fs.mkdirSync(dimTargetDir, { recursive: true });
-
-        const dimSeo = SEO_REGISTRY[dimRoute] || {};
-        const dimTitle = dimSeo.title || `PROJEKT NEXUS | Dimenzia ${dimId}`;
-        const dimDesc =
-          dimSeo.description ||
-          `Sémantická matrica a dátový uzol ${dimId} pre OS Genesis.`;
-        const dimCanonical =
-          dimSeo.fallbackUrl || dimSeo.ogUrl || `${baseUrl}${dimRoute}`;
-
-        const dimOgTags = `
-        <link rel="canonical" href="${dimCanonical}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="${dimSeo.ogUrl || dimCanonical}" />
-        <meta property="og:title" content="${dimTitle}" />
-        <meta property="og:description" content="${dimDesc}" />
-        `;
-
-        let dimHtml = templateHtml
-          .replace(/<title>.*?<\/title>/i, `<title>${dimTitle}</title>`)
-          .replace(
-            /<meta name="description" content=".*?"\s*\/?>/i,
-            `<meta name="description" content="${dimDesc}" />`,
-          );
-
-        dimHtml = dimHtml.replace("</head>", `${dimOgTags}\n</head>`);
-        fs.writeFileSync(
-          path.join(dimTargetDir, "index.html"),
-          dimHtml,
-          "utf8",
-        );
-        totalProcessed++;
-        globalSitemapRoutes.add(dimRoute);
-      }
+    if (route === "/") {
+      fs.writeFileSync(rootIndexPath, customHtml, "utf8");
+    } else {
+      const routeDir = path.join(DIST_DIR, route.replace(/^\//, ""));
+      fs.mkdirSync(routeDir, { recursive: true });
+      fs.writeFileSync(path.join(routeDir, "index.html"), customHtml, "utf8");
     }
 
-    console.log(`  🟢 [SEO SNAPSHOT GENERATED] ➔ App: ${appName}`);
+    sitemapUrls.push({
+      loc: ogUrl,
+      priority: route === "/" ? "1.0" : route.startsWith("/sub") ? "0.9" : "0.8",
+    });
+
+    totalProcessed++;
   }
 
-  // 3. GENERISANIE GLOBÁLNEJ SITEMAP.XML IN ROOT & DIST
+  console.log(
+    `  🟢 [PRERENDER COMPLETE]: Úspešne vygenerovaných ${totalProcessed} statických HTML snapshotov.`,
+  );
+
+  // 3. GENEROVANIE KÁNONICKEJ SITEMAP.XML PRE SUBDOMÉNY
   const today = new Date().toISOString().split("T");
   let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   sitemapXml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
-  Array.from(globalSitemapRoutes)
-    .sort()
-    .forEach((route) => {
-      const fullUrl = route === "/" ? baseUrl : `${baseUrl}${route}`;
-      sitemapXml += `  <url>\n`;
-      sitemapXml += `    <loc>${fullUrl}</loc>\n`;
-      sitemapXml += `    <lastmod>${today}</lastmod>\n`;
-      sitemapXml += `    <changefreq>weekly</changefreq>\n`;
-      sitemapXml += `    <priority>${route === "/" ? "1.0" : "0.8"}</priority>\n`;
-      sitemapXml += `  </url>\n`;
-    });
+  for (const item of sitemapUrls) {
+    sitemapXml += `  <url>\n`;
+    sitemapXml += `    <loc>${item.loc}</loc>\n`;
+    sitemapXml += `    <lastmod>${today}</lastmod>\n`;
+    sitemapXml += `    <changefreq>weekly</changefreq>\n`;
+    sitemapXml += `    <priority>${item.priority}</priority>\n`;
+    sitemapXml += `  </url>\n`;
+  }
   sitemapXml += `</urlset>\n`;
 
-  const publicSitemapPath = path.join(ROOT_DIR, "public/sitemap.xml");
-  const mainWebDistSitemapPath = path.join(
-    ROOT_DIR,
-    "apps/main-web/dist/sitemap.xml",
-  );
+  // Zápis sitemap.xml do distu
+  const sitemapDistPath = path.join(DIST_DIR, "sitemap.xml");
+  fs.writeFileSync(sitemapDistPath, sitemapXml, "utf8");
+  console.log(`  🟢 [SITEMAP DIST]: Uložená v ${sitemapDistPath}`);
 
-  if (fs.existsSync(path.join(ROOT_DIR, "public"))) {
-    fs.writeFileSync(publicSitemapPath, sitemapXml, "utf8");
+  // Zápis do priečinka public (ak existuje v root alebo v apps/main-web)
+  const publicDir = path.join(ROOT_DIR, "public");
+  if (fs.existsSync(publicDir)) {
+    fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemapXml, "utf8");
+    console.log(`  🟢 [SITEMAP PUBLIC]: Uložená v ${path.join(publicDir, "sitemap.xml")}`);
   }
-  if (fs.existsSync(path.join(ROOT_DIR, "apps/main-web/dist"))) {
-    fs.writeFileSync(mainWebDistSitemapPath, sitemapXml, "utf8");
-  }
 
-const mainDist = path.join(ROOT_DIR, "apps/main-web/dist");
-  const subApps = ["agency", "shop", "blog", "operators", "settings", "admin", "uplink"];
-
-  if (fs.existsSync(mainDist)) {
-    subApps.forEach((subApp) => {
-      const srcDist = path.join(ROOT_DIR, `apps/${subApp}/dist`);
-      const targetDist = path.join(mainDist, subApp);
-      if (fs.existsSync(srcDist)) {
-        fs.cpSync(srcDist, targetDist, { recursive: true });
-        console.log(`📦 [V20 DIST SYNC]: apps/${subApp}/dist ➔ main-web/dist/${subApp}`);
-      }
-    });
+  const mainWebPublicDir = path.join(ROOT_DIR, "apps/main-web/public");
+  if (fs.existsSync(mainWebPublicDir)) {
+    fs.writeFileSync(path.join(mainWebPublicDir, "sitemap.xml"), sitemapXml, "utf8");
+    console.log(`  🟢 [SITEMAP MAIN-WEB PUBLIC]: Uložená v ${path.join(mainWebPublicDir, "sitemap.xml")}`);
   }
 
   console.log(
-    `✅ [NEXUS MASTER SEO V20]: Úspešne vygenerovaných ${totalProcessed} statických uzlov a sitemap.xml!`,
+    `✅ [NEXUS MASTER SEO V20]: Hotovo. Všetkých ${totalProcessed} uzlov a sitemap sú synchronizované bez starého balastu!`,
   );
 }
 
-executeGlobalPrerender().catch((err) => {
-  console.error("🔴 [GLOBAL SEO FATAL ERROR]:", err);
+executeSubdomainsPrerender().catch((err) => {
+  console.error("🔴 [SUBDOMAINS PRERENDER FATAL ERROR]:", err);
   process.exit(1);
 });

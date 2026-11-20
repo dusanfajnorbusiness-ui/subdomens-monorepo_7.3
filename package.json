@@ -4,9 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "clean": "node -e \"const fs=require('fs'); fs.existsSync('dist') && fs.rmSync('dist', {recursive:true, force:true});\"",
-    "build": "vite build",
+    "clean": "node -e \"import('fs').then(fs => fs.existsSync('dist') && fs.rmSync('dist', { recursive: true, force: true }));\"",
     "dev": "vite",
+    "build": "vite build",
+    "postbuild": "node scripts/prerender-seo.mjs",
+    "snap": "node scripts/prerender-seo.mjs",
+    "scan": "node scripts/scan-nexus-urls.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

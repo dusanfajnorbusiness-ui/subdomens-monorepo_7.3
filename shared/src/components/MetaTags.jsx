@@ -22,48 +22,50 @@ export const MetaTags = ({
   const location = useLocation();
   const currentPath = location.pathname;
 
-  // ⚡ SÉMANTICKÉ DEDENIE SEO DÁT
+  // ⚡ SÉMANTICKÉ DEDENIE SEO DÁT (V20 SUBDOMAINS PROTOKOL)
   const getActiveSeo = (path) => {
-    // 1. Záchranná brzda, ak by zlyhal import
     if (!SEO_REGISTRY) return {};
 
-    // 2. Presná zhoda (napr. "/", "/shop", "/operators")
+    // 1. Presná zhoda cesty v registri (napr. "/", "/home", "/blog", "/sub00")
     if (SEO_REGISTRY[path]) return SEO_REGISTRY[path];
 
-    // 3. Extrakcia materskej dimenzie (napr. z "/shop/protocols" vyreže iba "shop")
-    // Rozbijeme URL a odstránime všetky prázdne znaky
-    // Z adresy "/shop/cashflow" vznikne čisté pole: ["shop", "cashflow"]
-    const pathParts = path.split("/").filter(Boolean);
+    // 2. Kontrola cez hostname prehliadača (pre priame subdomény napr. mentor.projekt-nexus.sk)
+    if (typeof window !== "undefined" && window.location?.hostname) {
+      const host = window.location.hostname;
+      if (SEO_REGISTRY[host]) return SEO_REGISTRY[host];
+    }
 
-    // 🛑 KĽÚČOVÁ OPRAVA: Vyberáme výhradne prvý prvok poľa (index 0 -> napr. "shop")
+    // 3. Extrakcia materskej cesty (index 0 namiesto celého poľa)
+    const pathParts = String(path || "")
+      .split("/")
+      .filter(Boolean);
     const parentPath = pathParts.length > 0 ? `/${pathParts}` : "/";
 
-    // 4. Špecifická výnimka pre operátorov (ak URL je /operator/... -> dedí z /operators)
     if (parentPath === "/operator" && SEO_REGISTRY["/operators"]) {
       return SEO_REGISTRY["/operators"];
     }
 
-    // 5. Dedenie z Materskej kategórie (ak existuje)
     if (SEO_REGISTRY[parentPath]) return SEO_REGISTRY[parentPath];
 
-    // 6. Ultimátny Fallback na Home Page pre absolútne neznáme uzly
+    // 4. Globálny fallback na koreň matrice
     return SEO_REGISTRY["/"] || {};
   };
 
   const inheritedSeo = getActiveSeo(currentPath);
 
-  // 🛑 PRIORITIZAČNÝ PROTOKOL: Ak komponent nedostane prop, potiahne si dáta z Registra
+  // 🛑 PRIORITIZAČNÝ PROTOKOL: Prop -> Register -> Default
   const finalTitle =
-    title || inheritedSeo.title || "Projekt Nexus OS: Genesis Edition";
+    title || inheritedSeo.title || "[ PROJEKT NEXUS OS | GENESIS EDITION ]";
   const finalDesc =
     description ||
     inheritedSeo.description ||
-    "Digitálny operačný systém pre ľudské vedomie. Odinštaluj chaos, nasadzujeme čistý kód.";
+    "Unikátny operačný systém (OS Genesis) integrujúci osobný rozvoj, hlbokú prácu (Deep Work) a IT zručnosti.";
   const finalImage =
     image ||
     inheritedSeo.ogImage ||
     inheritedSeo.image ||
-    "/img-nexus/pages/homePage.jpg";
+    (SEO_REGISTRY["/"] && SEO_REGISTRY["/"].ogImage) ||
+    "";
   const finalColor = color || inheritedSeo.themeColor || "#39FF14";
 
   const finalOgTitle = ogTitle || inheritedSeo.ogTitle || finalTitle;
@@ -73,22 +75,22 @@ export const MetaTags = ({
   const finalTwitterDesc =
     twitterDescription || inheritedSeo.twitterDescription || finalOgDesc;
 
-  // 🛑 KĽÚČOVÁ OPRAVA: Doména musí byť natvrdo s "www", inak Facebook robí 307 slučku!
-  const baseUrl = "https://www.projekt-nexus.sk";
+  // 🛑 KÁNONICKÁ DOMÉNA: Žiadny hardcoded www prepis, rešpektujeme subdoménový register!
+  const defaultBaseUrl =
+    inheritedSeo.ogUrl || "https://subdomens.projekt-nexus.sk";
 
-  const fullImageUrl = finalImage.startsWith("http")
-    ? finalImage
-    : `${baseUrl}${finalImage}`;
+  const fullImageUrl = finalImage;
 
   const fullUrl = url
     ? url.startsWith("http")
       ? url
-      : `${baseUrl}${url}`
-    : `${baseUrl}${currentPath}`;
+      : `${defaultBaseUrl}${url}`
+    : inheritedSeo.ogUrl || `${defaultBaseUrl}${currentPath}`;
 
   return (
     <Helmet>
       {/* 🔮 ZÁKLADNÉ SEO A IDENTIFIKÁCIA UZLA */}
+
       <title>{finalTitle}</title>
       <meta name="description" content={finalDesc} />
       <meta name="theme-color" content={finalColor} />

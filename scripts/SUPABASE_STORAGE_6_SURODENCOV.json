@@ -1,13 +1,13 @@
 {
   "cdn_base": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public",
-  "total_files": 1313,
-  "total_size_mb": 18483.03,
+  "total_files": 1482,
+  "total_size_mb": 18878.34,
   "counts": {
-    "documents": 583,
-    "audios": 238,
-    "videos": 1,
-    "images": 269,
-    "apps": 65,
+    "documents": 589,
+    "audios": 249,
+    "videos": 4,
+    "images": 412,
+    "apps": 71,
     "shopMembershipFx": 157
   },
   "siblings": {
@@ -3205,6 +3205,18 @@
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-agency_Master/zip-all-formaty/Sidlo-Architekta_all-formats.zip"
       },
       {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/SHA256_SUBDOMAINS_MANIFEST.md",
+        "name": "SHA256_SUBDOMAINS_MANIFEST.md",
+        "size_mb": 0.01,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/SHA256_SUBDOMAINS_MANIFEST.md"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/SHA256_MANIFEST_NEXUS_PROTOCOL.md",
+        "name": "SHA256_MANIFEST_NEXUS_PROTOCOL.md",
+        "size_mb": 0.0,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/SHA256_MANIFEST_NEXUS_PROTOCOL.md"
+      },
+      {
         "path": "shop/images/operatorsBotMaster/zip-all-formaty/ID00_MENTOR-BOT_all-formats.zip",
         "name": "ID00_MENTOR-BOT_all-formats.zip",
         "size_mb": 6.55,
@@ -3327,7 +3339,7 @@
       {
         "path": "shop/images/operatorsBotMaster/zip-all-formaty/ID20_SETTINGS-BOT_all-formats.zip",
         "name": "ID20_SETTINGS-BOT_all-formats.zip",
-        "size_mb": 6.57,
+        "size_mb": 7.06,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/operatorsBotMaster/zip-all-formaty/ID20_SETTINGS-BOT_all-formats.zip"
       },
       {
@@ -3403,6 +3415,24 @@
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/sergeantCoreMaster/zip-all-formaty/TaktickyOperator-zombieSergeant_all-formats.zip"
       },
       {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_desktop-16x9-clean.jpg",
+        "name": "INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_desktop-16x9-clean.jpg",
+        "size_mb": 3.1,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_feed-1x1-clean.jpg",
+        "name": "INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_feed-1x1-clean.jpg",
+        "size_mb": 3.02,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_short-9x16-clean.jpg",
+        "name": "INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_short-9x16-clean.jpg",
+        "size_mb": 2.95,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-17_DOCUMENTS-MEDIA-A-INZINIERSKE-REPORTY_short-9x16-clean.jpg"
+      },
+      {
         "path": "shop/images/servicesMaster/zip-all-formaty/01-uiux-diagnostika-a-audit-webu_all-formats.zip",
         "name": "01-uiux-diagnostika-a-audit-webu_all-formats.zip",
         "size_mb": 6.12,
@@ -3473,6 +3503,12 @@
         "name": "13-nexus-franchise-license-b2b-enterprise_all-formats.zip",
         "size_mb": 4.61,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/zip-all-formaty/13-nexus-franchise-license-b2b-enterprise_all-formats.zip"
+      },
+      {
+        "path": "shop/images/servicesMaster/zip-all-formaty_JS-SK.zip",
+        "name": "zip-all-formaty_JS-SK.zip",
+        "size_mb": 163.16,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/zip-all-formaty_JS-SK.zip"
       },
       {
         "path": "shop/images/sys01-05_modulMaster/zip-all-formaty/SYS01_VIDEO-NODES_all-formats.zip",
@@ -4939,9 +4975,93 @@
         "name": "LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.zip",
         "size_mb": 11.7,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/audios/codm-zombies-are-back-32x_music/zip-assets/codmZ-pro_single-zip/LV-04D_ENDLESS_EXFIL_SHI_NO_NUMA_HARD-TECHNO-Swamp_Perimeter.zip"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_desktop-16x9-clean.jpg",
+        "name": "INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_desktop-16x9-clean.jpg",
+        "size_mb": 2.92,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_feed-1x1-clean.jpg",
+        "name": "INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_feed-1x1-clean.jpg",
+        "size_mb": 2.99,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_short-9x16-clean.jpg",
+        "name": "INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_short-9x16-clean.jpg",
+        "size_mb": 2.88,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-15_AUDIOS-MEDIA-A-AI-AUDIO-TRACKS_short-9x16-clean.jpg"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-AP-DW-52-DIM02_Optimal_Load_feed-1x1_ai-watermark.mp3",
+        "name": "IN-AP-DW-52-DIM02_Optimal_Load_feed-1x1_ai-watermark.mp3",
+        "size_mb": 3.94,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-AP-DW-52-DIM02_Optimal_Load_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S03_Calculated_Alignment_feed-1x1_ai-watermark.mp3",
+        "name": "IN-DW-S03_Calculated_Alignment_feed-1x1_ai-watermark.mp3",
+        "size_mb": 3.89,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S03_Calculated_Alignment_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S07_The_Unwritten_Page_feed-1x1_ai-watermark.mp3",
+        "name": "IN-DW-S07_The_Unwritten_Page_feed-1x1_ai-watermark.mp3",
+        "size_mb": 3.96,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S07_The_Unwritten_Page_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S11_The_Steady_Hand_feed-1x1_ai-watermark.mp3",
+        "name": "IN-DW-S11_The_Steady_Hand_feed-1x1_ai-watermark.mp3",
+        "size_mb": 3.94,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-DW-S11_The_Steady_Hand_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-35-DIM01_The_Clockwork_Horizon_feed-1x1_ai-watermark.mp3",
+        "name": "IN-VP-DW-35-DIM01_The_Clockwork_Horizon_feed-1x1_ai-watermark.mp3",
+        "size_mb": 4.12,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-35-DIM01_The_Clockwork_Horizon_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-39-DIM05_Strategic_Stillness_feed-1x1_ai-watermark.mp3",
+        "name": "IN-VP-DW-39-DIM05_Strategic_Stillness_feed-1x1_ai-watermark.mp3",
+        "size_mb": 4.05,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-39-DIM05_Strategic_Stillness_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-43-DIM09_The_Immaculate_Core_feed-1x1_ai-watermark.mp3",
+        "name": "IN-VP-DW-43-DIM09_The_Immaculate_Core_feed-1x1_ai-watermark.mp3",
+        "size_mb": 4.13,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-43-DIM09_The_Immaculate_Core_feed-1x1_ai-watermark.mp3"
+      },
+      {
+        "path": "GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-44-DIM10_Architecture_of_Clarity_feed-1x1_ai-watermark.mp3",
+        "name": "IN-VP-DW-44-DIM10_Architecture_of_Clarity_feed-1x1_ai-watermark.mp3",
+        "size_mb": 3.95,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/GlobalSystems/GlobalAudioPlayerForSystems/IN-VP-DW-44-DIM10_Architecture_of_Clarity_feed-1x1_ai-watermark.mp3"
       }
     ],
     "videos": [
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_desktop-16x9-clean.jpg",
+        "name": "INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_desktop-16x9-clean.jpg",
+        "size_mb": 2.82,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_feed-1x1-clean.jpg",
+        "name": "INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_feed-1x1-clean.jpg",
+        "size_mb": 2.66,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_short-9x16-clean.jpg",
+        "name": "INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_short-9x16-clean.jpg",
+        "size_mb": 2.79,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-14_VIDEOS-MEDIA-EXPLAINER-A-SHORTS_short-9x16-clean.jpg"
+      },
       {
         "path": "shop/videos/.emptyFolderPlaceholder",
         "name": ".emptyFolderPlaceholder",
@@ -5617,6 +5737,588 @@
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-core2Mb_Master/nexus-core2Mb.jpg"
       },
       {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/blog_16x9.png",
+        "name": "blog_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/blog_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/business_16x9.png",
+        "name": "business_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/business_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/codex_16x9.png",
+        "name": "codex_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/codex_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/death_16x9.png",
+        "name": "death_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/death_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/finance_16x9.png",
+        "name": "finance_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/finance_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/habits_16x9.png",
+        "name": "habits_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/habits_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/home_16x9.png",
+        "name": "home_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/home_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/hub_16x9.png",
+        "name": "hub_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/hub_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/investments_16x9.png",
+        "name": "investments_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/investments_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/mentor_16x9.png",
+        "name": "mentor_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/mentor_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/personal_16x9.png",
+        "name": "personal_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/personal_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/player_16x9.png",
+        "name": "player_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/player_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/professional_16x9.png",
+        "name": "professional_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/professional_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/reader_16x9.png",
+        "name": "reader_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/reader_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/recovery_16x9.png",
+        "name": "recovery_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/recovery_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/study_16x9.png",
+        "name": "study_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/study_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/work_16x9.png",
+        "name": "work_16x9.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/01_16x9_Landscape/work_16x9.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/blog_9x16.png",
+        "name": "blog_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/blog_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/business_9x16.png",
+        "name": "business_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/business_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/codex_9x16.png",
+        "name": "codex_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/codex_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/death_9x16.png",
+        "name": "death_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/death_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/finance_9x16.png",
+        "name": "finance_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/finance_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/habits_9x16.png",
+        "name": "habits_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/habits_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/home_9x16.png",
+        "name": "home_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/home_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/hub_9x16.png",
+        "name": "hub_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/hub_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/investments_9x16.png",
+        "name": "investments_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/investments_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/mentor_9x16.png",
+        "name": "mentor_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/mentor_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/personal_9x16.png",
+        "name": "personal_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/personal_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/player_9x16.png",
+        "name": "player_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/player_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/professional_9x16.png",
+        "name": "professional_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/professional_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/reader_9x16.png",
+        "name": "reader_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/reader_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/recovery_9x16.png",
+        "name": "recovery_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/recovery_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/study_9x16.png",
+        "name": "study_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/study_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/work_9x16.png",
+        "name": "work_9x16.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/02_9x16_Stories/work_9x16.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/blog_1x1.png",
+        "name": "blog_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/blog_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/business_1x1.png",
+        "name": "business_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/business_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/codex_1x1.png",
+        "name": "codex_1x1.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/codex_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/death_1x1.png",
+        "name": "death_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/death_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/finance_1x1.png",
+        "name": "finance_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/finance_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/habits_1x1.png",
+        "name": "habits_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/habits_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/home_1x1.png",
+        "name": "home_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/home_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/hub_1x1.png",
+        "name": "hub_1x1.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/hub_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/investments_1x1.png",
+        "name": "investments_1x1.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/investments_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/mentor_1x1.png",
+        "name": "mentor_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/mentor_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/personal_1x1.png",
+        "name": "personal_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/personal_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/player_1x1.png",
+        "name": "player_1x1.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/player_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/professional_1x1.png",
+        "name": "professional_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/professional_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/reader_1x1.png",
+        "name": "reader_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/reader_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/recovery_1x1.png",
+        "name": "recovery_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/recovery_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/study_1x1.png",
+        "name": "study_1x1.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/study_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/work_1x1.png",
+        "name": "work_1x1.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/03_1x1_Square/work_1x1.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/blog_4x3.png",
+        "name": "blog_4x3.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/blog_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/business_4x3.png",
+        "name": "business_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/business_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/codex_4x3.png",
+        "name": "codex_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/codex_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/death_4x3.png",
+        "name": "death_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/death_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/finance_4x3.png",
+        "name": "finance_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/finance_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/habits_4x3.png",
+        "name": "habits_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/habits_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/home_4x3.png",
+        "name": "home_4x3.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/home_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/hub_4x3.png",
+        "name": "hub_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/hub_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/investments_4x3.png",
+        "name": "investments_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/investments_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/mentor_4x3.png",
+        "name": "mentor_4x3.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/mentor_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/personal_4x3.png",
+        "name": "personal_4x3.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/personal_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/player_4x3.png",
+        "name": "player_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/player_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/professional_4x3.png",
+        "name": "professional_4x3.png",
+        "size_mb": 0.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/professional_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/reader_4x3.png",
+        "name": "reader_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/reader_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/recovery_4x3.png",
+        "name": "recovery_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/recovery_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/study_4x3.png",
+        "name": "study_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/study_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/work_4x3.png",
+        "name": "work_4x3.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/04_4x3_Classic/work_4x3.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/blog_3x4.png",
+        "name": "blog_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/blog_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/business_3x4.png",
+        "name": "business_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/business_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/codex_3x4.png",
+        "name": "codex_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/codex_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/death_3x4.png",
+        "name": "death_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/death_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/finance_3x4.png",
+        "name": "finance_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/finance_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/habits_3x4.png",
+        "name": "habits_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/habits_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/home_3x4.png",
+        "name": "home_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/home_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/hub_3x4.png",
+        "name": "hub_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/hub_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/investments_3x4.png",
+        "name": "investments_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/investments_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/mentor_3x4.png",
+        "name": "mentor_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/mentor_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/personal_3x4.png",
+        "name": "personal_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/personal_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/player_3x4.png",
+        "name": "player_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/player_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/professional_3x4.png",
+        "name": "professional_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/professional_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/reader_3x4.png",
+        "name": "reader_3x4.png",
+        "size_mb": 0.07,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/reader_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/recovery_3x4.png",
+        "name": "recovery_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/recovery_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/study_3x4.png",
+        "name": "study_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/study_3x4.png"
+      },
+      {
+        "path": "shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/work_3x4.png",
+        "name": "work_3x4.png",
+        "size_mb": 0.08,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexus-subdomains-v20-master-assets/05_3x4_Vertical/work_3x4.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/banner_yt_fb_nexus_os_16x9.png",
+        "name": "banner_yt_fb_nexus_os_16x9.png",
+        "size_mb": 1.57,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/banner_yt_fb_nexus_os_16x9.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_16x9.png",
+        "name": "nexus_agency_thumb_16x9.png",
+        "size_mb": 1.72,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_16x9.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_1x1.png",
+        "name": "nexus_agency_thumb_1x1.png",
+        "size_mb": 1.72,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_1x1.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_3x4.png",
+        "name": "nexus_agency_thumb_3x4.png",
+        "size_mb": 1.71,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_3x4.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_4x3.png",
+        "name": "nexus_agency_thumb_4x3.png",
+        "size_mb": 1.75,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_4x3.png"
+      },
+      {
+        "path": "shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_9x16.png",
+        "name": "nexus_agency_thumb_9x16.png",
+        "size_mb": 1.7,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusAgency_BrandManifesto/nexus_agency_thumb_9x16.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/banner_yt_fb_sergeant_core_16x9.png",
+        "name": "banner_yt_fb_sergeant_core_16x9.png",
+        "size_mb": 1.62,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/banner_yt_fb_sergeant_core_16x9.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_16x9.png",
+        "name": "sergeant_core2Mb_thumb_16x9.png",
+        "size_mb": 1.64,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_16x9.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_1x1.png",
+        "name": "sergeant_core2Mb_thumb_1x1.png",
+        "size_mb": 1.61,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_1x1.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_3x4.png",
+        "name": "sergeant_core2Mb_thumb_3x4.png",
+        "size_mb": 1.68,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_3x4.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_4x3.png",
+        "name": "sergeant_core2Mb_thumb_4x3.png",
+        "size_mb": 1.63,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_4x3.png"
+      },
+      {
+        "path": "shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_9x16.png",
+        "name": "sergeant_core2Mb_thumb_9x16.png",
+        "size_mb": 1.52,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/nexusProtocol_BrandManifesto/sergeant_core2Mb_thumb_9x16.png"
+      },
+      {
         "path": "shop/images/nexusUniverzal_Master/banner-nexus.jpg",
         "name": "banner-nexus.jpg",
         "size_mb": 0.48,
@@ -5757,7 +6459,7 @@
       {
         "path": "shop/images/operatorsBotMaster/16x9_desktop/ID20_SETTINGS-BOT-16x9.jpg",
         "name": "ID20_SETTINGS-BOT-16x9.jpg",
-        "size_mb": 2.15,
+        "size_mb": 2.65,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/operatorsBotMaster/16x9_desktop/ID20_SETTINGS-BOT-16x9.jpg"
       },
       {
@@ -6011,6 +6713,42 @@
         "name": "ID20_SETTINGS-BOT-9x16.jpg",
         "size_mb": 1.96,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/operatorsBotMaster/9x16_shorts/ID20_SETTINGS-BOT-9x16.jpg"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/banner_yt_fb_nexus_agency_16x9.png",
+        "name": "banner_yt_fb_nexus_agency_16x9.png",
+        "size_mb": 1.48,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/banner_yt_fb_nexus_agency_16x9.png"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/nexus_os_thumb_16x9.png",
+        "name": "nexus_os_thumb_16x9.png",
+        "size_mb": 1.77,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/nexus_os_thumb_16x9.png"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/nexus_os_thumb_1x1.png",
+        "name": "nexus_os_thumb_1x1.png",
+        "size_mb": 1.59,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/nexus_os_thumb_1x1.png"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/nexus_os_thumb_3x4.png",
+        "name": "nexus_os_thumb_3x4.png",
+        "size_mb": 1.81,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/nexus_os_thumb_3x4.png"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/nexus_os_thumb_4x3.png",
+        "name": "nexus_os_thumb_4x3.png",
+        "size_mb": 1.61,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/nexus_os_thumb_4x3.png"
+      },
+      {
+        "path": "shop/images/osGenesis_BrandManifesto/nexus_os_thumb_9x16.png",
+        "name": "nexus_os_thumb_9x16.png",
+        "size_mb": 1.72,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/osGenesis_BrandManifesto/nexus_os_thumb_9x16.png"
       },
       {
         "path": "shop/images/packsMaster/16x9_desktop/17-nexus-founder-s-pack-16x9.jpg",
@@ -6455,6 +7193,246 @@
         "name": "13-nexus-franchise-license-b2b-enterprise-9x16.jpg",
         "size_mb": 0.57,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/9x16_shorts/13-nexus-franchise-license-b2b-enterprise-9x16.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_desktop-16x9-clean.jpg",
+        "name": "INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_desktop-16x9-clean.jpg",
+        "size_mb": 3.09,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_desktop-16x9-clean.jpg",
+        "name": "INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_desktop-16x9-clean.jpg",
+        "size_mb": 2.86,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_desktop-16x9-clean.jpg",
+        "name": "INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_desktop-16x9-clean.jpg",
+        "size_mb": 2.82,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_desktop-16x9-clean.jpg",
+        "name": "INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_desktop-16x9-clean.jpg",
+        "size_mb": 3.06,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_desktop-16x9-clean.jpg",
+        "name": "INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_desktop-16x9-clean.jpg",
+        "size_mb": 2.97,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_desktop-16x9-clean.jpg",
+        "name": "INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_desktop-16x9-clean.jpg",
+        "size_mb": 3.27,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_desktop-16x9-clean.jpg",
+        "name": "INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_desktop-16x9-clean.jpg",
+        "size_mb": 3.02,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_desktop-16x9-clean.jpg",
+        "name": "INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_desktop-16x9-clean.jpg",
+        "size_mb": 2.41,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_desktop-16x9-clean.jpg",
+        "name": "INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_desktop-16x9-clean.jpg",
+        "size_mb": 2.73,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg",
+        "name": "INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg",
+        "size_mb": 2.69,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg",
+        "name": "INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg",
+        "size_mb": 3.22,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_desktop-16x9-clean.jpg",
+        "name": "INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_desktop-16x9-clean.jpg",
+        "size_mb": 3.6,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_desktop-16x9-clean.jpg",
+        "name": "INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_desktop-16x9-clean.jpg",
+        "size_mb": 3.14,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/DigitalnyChirurg_feed-1x1-clean.jpg",
+        "name": "DigitalnyChirurg_feed-1x1-clean.jpg",
+        "size_mb": 3.28,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/DigitalnyChirurg_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_feed-1x1-clean.jpg",
+        "name": "INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_feed-1x1-clean.jpg",
+        "size_mb": 3.22,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_feed-1x1-clean.jpg",
+        "name": "INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_feed-1x1-clean.jpg",
+        "size_mb": 2.74,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_feed-1x1-clean.jpg",
+        "name": "INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_feed-1x1-clean.jpg",
+        "size_mb": 3.12,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_feed-1x1-clean.jpg",
+        "name": "INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_feed-1x1-clean.jpg",
+        "size_mb": 3.27,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_feed-1x1-clean.jpg",
+        "name": "INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_feed-1x1-clean.jpg",
+        "size_mb": 2.49,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_feed-1x1-clean.jpg",
+        "name": "INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_feed-1x1-clean.jpg",
+        "size_mb": 3.12,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_feed-1x1-clean.jpg",
+        "name": "INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_feed-1x1-clean.jpg",
+        "size_mb": 3.15,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_feed-1x1-clean.jpg",
+        "name": "INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_feed-1x1-clean.jpg",
+        "size_mb": 2.69,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_feed-1x1-clean.jpg",
+        "name": "INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_feed-1x1-clean.jpg",
+        "size_mb": 2.93,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg",
+        "name": "INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg",
+        "size_mb": 2.74,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg",
+        "name": "INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg",
+        "size_mb": 3.36,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_feed-1x1-clean.jpg",
+        "name": "INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_feed-1x1-clean.jpg",
+        "size_mb": 3.39,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_feed-1x1-clean.jpg",
+        "name": "INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_feed-1x1-clean.jpg",
+        "size_mb": 3.1,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_short-9x16-clean.jpg",
+        "name": "INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_short-9x16-clean.jpg",
+        "size_mb": 3.05,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-01_UIUX-DIAGNOSTIKA-A-AUDIT-WEBU_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_short-9x16-clean.jpg",
+        "name": "INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_short-9x16-clean.jpg",
+        "size_mb": 2.95,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-02_FRONT-END-CHIRURGIA-A-UPRAVA-KODU_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_short-9x16-clean.jpg",
+        "name": "INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_short-9x16-clean.jpg",
+        "size_mb": 2.95,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-03_EXCEL-DIAGNOSTIKA-A-ORGANIZACIA-DAT_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_short-9x16-clean.jpg",
+        "name": "INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_short-9x16-clean.jpg",
+        "size_mb": 2.97,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-04_VIRTUALNA-ADMINISTRATIVA-A-PREPIS-DAT_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_short-9x16-clean.jpg",
+        "name": "INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_short-9x16-clean.jpg",
+        "size_mb": 2.93,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-05_UPRAVA-TEXTOV-A-SEMANTICKA-DEKOMPRESIA_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_short-9x16-clean.jpg",
+        "name": "INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_short-9x16-clean.jpg",
+        "size_mb": 3.12,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-06_PREDAJNE-SKRIPTY-A-COPYWRITING_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_short-9x16-clean.jpg",
+        "name": "INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_short-9x16-clean.jpg",
+        "size_mb": 2.76,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-07_GHOSTWRITING-E-BOOKOV-A-PDF-MANUALOV_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_short-9x16-clean.jpg",
+        "name": "INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_short-9x16-clean.jpg",
+        "size_mb": 2.52,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-08_DYNAMICKY-STRIH-KRATKYCH-VIDEI_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_short-9x16-clean.jpg",
+        "name": "INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_short-9x16-clean.jpg",
+        "size_mb": 2.76,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-09_CODM-ZOMBIES-TAKTICKY-MANUAL_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg",
+        "name": "INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg",
+        "size_mb": 2.83,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-10_FFVII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg",
+        "name": "INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg",
+        "size_mb": 3.1,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-11_FFVIII-B2B-LICENCIA-A-SPRIEVODCA_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_short-9x16-clean.jpg",
+        "name": "INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_short-9x16-clean.jpg",
+        "size_mb": 3.3,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-13_NEXUS-FRANCHISE-B2B-ENTERPRISE_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_short-9x16-clean.jpg",
+        "name": "INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_short-9x16-clean.jpg",
+        "size_mb": 2.99,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-16_IMAGES-MEDIA-A-20X-BOT-AVATARS_short-9x16-clean.jpg"
       },
       {
         "path": "shop/images/sys01-05_modulMaster/16x9_desktop/SYS01_VIDEO-NODES-16x9.jpg",
@@ -6949,6 +7927,42 @@
         "name": "12-trinity-apps-rezervacia-kapacity-9x16.jpg",
         "size_mb": 0.48,
         "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/9x16_shorts/12-trinity-apps-rezervacia-kapacity-9x16.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_desktop-16x9-clean.jpg",
+        "name": "INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_desktop-16x9-clean.jpg",
+        "size_mb": 2.76,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_desktop-16x9-clean.jpg",
+        "name": "INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_desktop-16x9-clean.jpg",
+        "size_mb": 3.05,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-desktop-16x9-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_desktop-16x9-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_feed-1x1-clean.jpg",
+        "name": "INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_feed-1x1-clean.jpg",
+        "size_mb": 2.91,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_feed-1x1-clean.jpg",
+        "name": "INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_feed-1x1-clean.jpg",
+        "size_mb": 2.93,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-feed-1x1-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_feed-1x1-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_short-9x16-clean.jpg",
+        "name": "INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_short-9x16-clean.jpg",
+        "size_mb": 2.65,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-12_TRINITY-APPS-VYVOJOVA-KAPACITA_short-9x16-clean.jpg"
+      },
+      {
+        "path": "shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_short-9x16-clean.jpg",
+        "name": "INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_short-9x16-clean.jpg",
+        "size_mb": 3.13,
+        "url": "https://ljyvsolsgliephsfkfgx.supabase.co/storage/v1/object/public/shop/images/servicesMaster/JS-SK_img-short-9x16-clean/INZERAT-18_APPS-MEDIA-A-WAITLIST-ALOKACIA_short-9x16-clean.jpg"
       },
       {
         "path": "shop/images/servicesMaster/zip-all-formaty/12-trinity-apps-rezervacia-kapacity_all-formats.zip",
